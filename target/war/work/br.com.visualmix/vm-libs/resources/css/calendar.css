@@ -1,0 +1,71 @@
+#vmxcalendar_calendario {
+  background-color:#f0f0f0;
+  border:2px solid #32597A;
+  width:200px;
+  font-family: arial, verdana, sans-serif;  
+  font-size: 10px;
+}
+.vmxcalendar_button {
+   color:white;
+   border-right: 1px solid #000000;
+   border-bottom: 1px solid #000000;
+   border-left: 1px solid #cccccc;
+   border-top: 1px solid #cccccc;
+   background-color:#32597A;	
+   font-family: arial, verdana, sans-serif;
+   width:24px;
+   font-size: 10px;
+   text-align: center;
+   cursor:pointer;
+}
+.vmxcalendar_mes {
+	width:80px;
+    font-family: arial, verdana, sans-serif;  
+    font-size: 10px;
+    font-weight: bold;
+}
+.vmxcalendar_button_rodape {
+   color:white;
+   border-right: 1px solid #000000;
+   border-bottom: 1px solid #000000;
+   border-left: 1px solid #cccccc;
+   border-top: 1px solid #cccccc;
+   background-color:#32597A;	
+   width:60px;
+  font-family: arial, verdana, sans-serif;  
+  font-size: 10px;
+  text-align: center;
+   cursor:pointer;
+}
+.vmxcalendar_table {
+}
+.vmxcalendar_header {
+   color:white;
+   border-right: 1px solid #000000;
+   border-bottom: 1px solid #000000;
+   border-left: 1px solid #cccccc;
+   border-top: 1px solid #cccccc;
+   background-color:#32597A;	
+   width:40px;
+   font-family: arial, verdana, sans-serif;  
+   font-size: 10px;
+   text-align: center;
+}
+.vmxcalendar_corpo {
+  border: 1px solid #FFFFFF;
+  color:black;
+  font-family: arial, verdana, sans-serif;  
+  font-size: 10px;
+  background-color:#FFFFFF;
+  width:40px;
+   cursor:pointer;
+}
+.vmxcalendar_corpo_hoje {
+  color:black;
+  border: 1px solid #000000;
+  font-family: arial, verdana, sans-serif;  
+  font-size: 10px;
+  background-color:#FFFFFF;
+  width:60px;
+   cursor:pointer;
+}

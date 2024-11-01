@@ -1,0 +1,79 @@
+#vmxcalendar_calendario {
+  background-color:#f0f0f0;
+  border:1px solid #bbbbbb;
+  width:200px;
+  font-family: arial, verdana, sans-serif;  
+  font-size: 10px;
+  box-shadow: 3px 3px 3px #888888;
+}
+.vmxcalendar_button {
+   color:white;
+   border-right: 1px solid #32597A;
+   border-bottom: 1px solid #32597A;
+   border-left: 1px solid #32597A;
+   border-top: 1px solid #32597A;
+   background-color:#32597A;	
+   font-family: arial, verdana, sans-serif;
+   width:24px;
+   font-size: 10px;
+   text-align: center;
+   cursor:pointer;
+   border-radius: 2px;
+   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);   
+   filter: progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=145,strength=2);
+   
+}
+.vmxcalendar_mes {
+	width:80px;
+    font-family: arial, verdana, sans-serif;  
+    font-size: 10px;
+    font-weight: bold;
+}
+.vmxcalendar_button_rodape {
+   color:white;
+   border-right: 1px solid #32597A;
+   border-bottom: 1px solid #32597A;
+   border-left: 1px solid #32597A;
+   border-top: 1px solid #32597A;
+   background-color:#32597A;	
+   width:60px;
+  font-family: arial, verdana, sans-serif;  
+  font-size: 10px;
+  text-align: center;
+   cursor:pointer;
+   border-radius: 2px;
+   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);   
+   filter: progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=145,strength=2);
+}
+.vmxcalendar_table {
+}
+.vmxcalendar_header {
+   color:white;
+   border-right: 1px solid #32597A;
+   border-bottom: 1px solid #32597A;
+   border-left: 1px solid #32597A;
+   border-top: 1px solid #32597A;
+   background-color:#32597A;	
+   width:40px;
+   font-family: arial, verdana, sans-serif;  
+   font-size: 10px;
+   text-align: center;
+}
+.vmxcalendar_corpo {
+  border: 1px solid #FFFFFF;
+  color:black;
+  font-family: arial, verdana, sans-serif;  
+  font-size: 10px;
+  background-color:#FFFFFF;
+  width:40px;
+   cursor:pointer;
+}
+.vmxcalendar_corpo_hoje {
+  color:black;
+  border: 1px solid #000000;
+  font-family: arial, verdana, sans-serif;  
+  font-size: 10px;
+  background-color:#FFFFFF;
+  width:60px;
+   cursor:pointer;
+}

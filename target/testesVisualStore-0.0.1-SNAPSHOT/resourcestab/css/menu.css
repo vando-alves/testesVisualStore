@@ -1,0 +1,167 @@
+/* --- menu styles ---
+note:
+	not all browsers render styles the same way so try out your style sheet
+	on different browsers before publishing;
+*/
+
+   Table.Principal {font-family:arial,verdana,sans-serif;
+                    border:0;
+                    background-color:#4682B4;
+		    background-color:#32597A;
+                    border-right: 1px solid #000000;
+                    border-bottom: 1px solid #000000;
+                    border-left: 1px solid #FFFFFF;
+                    border-top: 1px solid #FFFFFF;
+                    font-size:12px;
+                    width:100%}
+
+
+   td.PrincipalCab {font-size:12px;
+					text-align:center;
+					font-weight:bold;
+                    color:#FFFF66;
+                    background-color:#4682B4;
+					background-color:#32597A;
+                    width:100%}
+
+/* level 0 inner */
+.m0l0iout {
+	text-decoration : none;
+	font-family: sans-serif, Tahoma, Verdana, Geneva, Arial, Helvetica;
+	font-size: 12px;
+	text-decoration: none;
+	margin: 3px 0 0 8px;
+	color: #FFFFFF;
+
+}
+.m0l0iover {
+	text-decoration : none;
+	font-family: sans-serif, Tahoma, Verdana, Geneva, Arial, Helvetica;
+	font-size: 12px;
+	margin: 3px 0 0 8px;
+	color: #FFFFFF;
+}
+
+/* level 0 outer */
+.m0l0oout {
+	text-decoration : none;
+	border: 1px solid #336699;
+	background-color: #2C5F93;
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 2px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #32887a; eeight: 18px;
+	BACKGROUND-COLOR:#3F6788;
+	background-image: url("../images/menu_seta.jpg"); background-repeat: no-repeat; background-position: bottom right; 
+}
+.m0l0oover {
+	text-decoration : none;
+	background-color: #2C5F93;
+	border: 1px solid #336699;
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 2px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #000000 1px solid; 
+	BACKGROUND-COLOR: #7197b0; eeight: 22px;
+	background-repeat: no-repeat; background-position: bottom right; 
+}
+
+/* level 0 inner */
+.m0l0iout_nochild {
+	text-decoration : none;
+	font-family: sans-serif, Tahoma, Verdana, Geneva, Arial, Helvetica;
+	font-size: 12px;
+	text-decoration: none;
+	margin: 3px 0 0 8px;
+	color: #FFFFFF;
+
+}
+.m0l0iover_nochild {
+	text-decoration : none;
+	font-family: sans-serif, Tahoma, Verdana, Geneva, Arial, Helvetica;
+	font-size: 12px;
+	margin: 3px 0 0 8px;
+	color: #FFFFFF;
+}
+
+/* level 0 outer */
+.m0l0oout_nochild {
+	text-decoration : none;
+/*	background-image: url(img/lev0_bg1.gif); */
+	border: 1px solid #336699;
+	background-color: #2C5F93;	
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 2px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #32887a; eeight: 18px;
+	BACKGROUND-COLOR:#3F6788;
+}
+.m0l0oover_nochild {
+	text-decoration : none;
+/*	background-image: url(img/lev0_bg1.gif); */
+	background-color: #2C5F93;
+	border: 1px solid #336699;
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 2px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #7197b0; eeight: 22px;
+}
+
+/* level 1 inner */
+.m0l1iout {
+	text-decoration : none;
+	font-family: sans-serif, Tahoma, Verdana, Geneva, Arial, Helvetica;
+	font-size: 12px;
+	margin: 3px 0 0 17px;
+	color: #FFFFFF;
+}
+.m0l1iover {
+	text-decoration : none;
+	font-family: sans-serif, Tahoma, Verdana, Geneva, Arial, Helvetica;
+	font-size: 12px;
+	margin: 3px 0 0 17px;
+	color: #FFFFFF;
+}
+
+/* level 1 outer */
+.m0l1oout {
+	text-decoration : none;
+	background-color: #5286BB;
+	border: 1px solid #336699;
+	padding: 0;
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 2px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #32887a; eeight: 18px;	
+	background-image: url("../images/menu_seta.jpg"); background-repeat: no-repeat; background-position: bottom right; 
+	BACKGROUND-COLOR:#3F6788;
+}
+
+.m0l1oover {
+	text-decoration : none;
+	background-color: #1A4D81;
+/*	background-image: url(img/lev1_arrow.gif);
+	background-repeat: no-repeat; */
+	border: 1px solid #336699;
+	padding: 0;
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 2px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #7197b0; eeight: 22px;
+	background-repeat: no-repeat; background-position: bottom right; 
+}
+
+/* level 1 inner */
+.m0l1iout_nochild {
+	text-decoration : none;
+	font-family: sans-serif, Tahoma, Verdana, Geneva, Arial, Helvetica;
+	font-size: 12px;
+	margin: 3px 0 0 17px;
+	color: #FFFFFF;
+}
+.m0l1iover_nochild {
+	text-decoration : none;
+	font-family: sans-serif, Tahoma, Verdana, Geneva, Arial, Helvetica;
+	font-size: 12px;
+	margin: 3px 0 0 17px;
+	color: #FFFFFF;
+}
+
+/* level 1 outer */
+.m0l1oout_nochild {
+	text-decoration : none;
+	background-color: #5286BB;
+	border: 1px solid #336699;
+	padding: 0;
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 2px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #32887a; eeight: 18px;	
+	BACKGROUND-COLOR:#3F6788;
+}
+.m0l1oover_nochild {
+	text-decoration : none;
+	background-color: #1A4D81;
+	border: 1px solid #336699;
+	padding: 0;
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 2px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #7197b0; eeight: 22px;
+}

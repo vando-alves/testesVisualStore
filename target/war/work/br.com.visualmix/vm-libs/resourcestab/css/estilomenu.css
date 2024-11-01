@@ -1,0 +1,57 @@
+UNKNOWN {
+	BACKGROUND-COLOR: #4682b4
+}
+BODY {
+	FONT-SIZE: 12px; COLOR: white; FONT-FAMILY: Arial,verdana,sans-serif; BACKGROUND-COLOR: #327769;
+    background-repeat: no-repeat;BACKGROUND-COLOR: #FFFFFF;
+
+}
+A {
+	COLOR: white; TEXT-DECORATION: none;
+}
+A.item1 {
+	COLOR: white; TEXT-DECORATION: none;
+}
+A.item1:hover {
+	COLOR: yellow; TEXT-DECORATION: none;
+}
+
+DIV.item1Son {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 2px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #7197b0; BACKGROUND-COLOR:#3F6788;
+}
+
+DIV.item1N {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 2px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #32887a; BACKGROUND-COLOR:#3F6788;
+}
+DIV.item1Non {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 2px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #7197b0; BACKGROUND-COLOR:#3F6788;
+}
+
+DIV.item1 {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 2px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #32887a; BACKGROUND-COLOR:#3F6788;
+	background-image: url("imagens/menu_seta.jpg"); background-repeat: no-repeat; background-position: bottom right; 
+}
+DIV.item1on {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #aaaaaa 1px solid; PADDING-LEFT: 2px; BORDER-LEFT: #aaaaaa 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #7197b0; BACKGROUND-COLOR:#3F6788; 
+	background-repeat: no-repeat; background-position: bottom right; 
+}
+A.item {
+	COLOR: white; TEXT-DECORATION: none;width:100px;
+}
+A.item:hover {
+	COLOR: yellow; TEXT-DECORATION: none;width:100px;
+}
+DIV.item {
+	BORDER: #32998b 1px solid;  BACKGROUND-COLOR: #32998b;
+	BORDER: #32998b 0px solid;BORDER-RIGHT: #AAAAAA 1px solid;BORDER-LEFT: #000000 1px solid; BACKGROUND-COLOR: #32998b;
+}
+DIV.itemon {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #7197b0;
+	BORDER:0px solid;BORDER-RIGHT: #AAAAAA 1px solid;BORDER-LEFT: #000000 1px solid;BACKGROUND-COLOR: #7197b0;
+}
+DIV.menu {
+	FONT-SIZE: 12px; COLOR: white; FONT-FAMILY: arial,verdana,sans-serif; TEXT-DECORATION: none
+}
+DIV.Cabecalho {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #aaaaaa 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: #aaaaaa 1px solid; COLOR: #ffff66; BORDER-BOTTOM: #000000 1px solid; FONT-FAMILY: arial,verdana,sans-serif; HEIGHT: 30px; BACKGROUND-COLOR: #32597a; TEXT-ALIGN: center
+}

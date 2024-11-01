@@ -1,0 +1,302 @@
+@charset "UTF-8";
+
+body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5; /* Cor de fundo suave */
+        }
+               header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0d0d0d; /* Preto escuro */
+            padding: 10px 50px;
+        }
+
+        .logo {
+            margin-right: auto; /* Mantꭠo logo ࡥsquerda */
+        }
+
+        .logo img {
+            height: 60px; /* Ajuste a altura do logo conforme necess⳩o */
+        }
+
+         .menu a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            background-color: #444; /* Fundo cinza escuro para os itens do menu */
+            padding: 10px 15px; /* Espa袭ento interno nos links */
+            border-radius: 8px; /* Bordas arredondadas */
+            transition: background-color 0.3s, transform 0.3s; /* Suaviza as transi趥s */
+        }
+
+        .menu a:hover {
+            background-color: #add8e6; /* Cor azul clara ao passar o mouse */
+            color: black; /* Cor do texto ao passar o mouse */
+            transform: scale(1.05); /* Leve aumento ao passar o mouse */
+        }
+
+		.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('banner.jpg') no-repeat center center/cover;
+    height: 150px; /* Reduz a altura da seção */
+    color: white;
+    text-align: center;
+    position: relative;
+}
+        .hero h1 {
+            font-size: 48px;
+			margin-bottom: 10px;
+			color: white; /* Altera a cor do texto para branco */
+			 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adiciona uma sombra ao texto para melhorar a legibilidade */
+        }
+		
+		
+		
+        .hero p {
+            font-size: 18px;
+			 color: white; /* Altera a cor do texto para branco */
+			  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adiciona uma sombra ao texto para melhorar a legibilidade */
+        }
+
+		
+        .cta {
+            margin-top: 20px;
+			text-align: center;
+        }
+        .cta a {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .cta a:hover {
+            background-color: #0056b3;
+        }
+         .content {
+            padding: 50px;
+            text-align: center;
+			margin-top:00px;
+        }
+        .content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+
+        }
+        .content p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #666;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+        }
+        .services div {
+            flex: 1;
+            margin: 0 10px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #0d0d0d;
+            padding: 30px;
+            color: white;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+        }
+		
+		.clients {
+            padding: 50px;
+            text-align: center;
+            background-color: #f0f0f0; /* Cor de fundo para a seção de clientes */
+        }
+        .clients h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .clients p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #666;
+        }
+        .clients-logos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .clients-logos img {
+            height: 200px; /* Ajuste a altura das logos conforme necessário */
+            margin: 0 15px; /* Espaçamento entre as logos */
+        }
+		
+		
+.about {
+    background-color: #f5f5f5; /* Fundo suave para destacar a seção */
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px 0;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    margin-top:-30px;
+}
+
+.about-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.about-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto; /* Centraliza a lista */
+    color: #555;
+    text-align: center; /* Centraliza o texto dentro da lista */
+}
+
+.about-content ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.about-content .cta a {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.about-content .cta a:hover {
+    background-color: #0056b3;
+}
+   
+     /* Contêiner flexível que coloca a imagem e o texto lado a lado */
+        .container {
+            display: flex;
+            align-items: flex-start; /* Alinha itens ao topo */
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+			
+        }
+
+        /* Estilos para a imagem */
+        .imagem {
+            flex: 1;
+            max-width: 400px;
+            margin-right: 20px; /* Espaço entre a imagem e o texto */
+        }
+
+        /* Ajusta a imagem para caber perfeitamente na área disponível */
+        .imagem img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px; /* Bordas arredondadas para um toque mais bonito */
+        }
+
+        /* Estilos para o texto */
+        .texto-descritivo {
+            flex: 1;
+          
+        }
+
+		
+		/* Estilos do contêiner do formulário */
+       /* Estilos do contêiner do formulário */
+.form-container {
+    background-color: white;
+    width: 520px; /* Largura fixa para aplicar margin auto */
+    padding: 20px 40px; /* Adiciona padding maior nas laterais */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+
+        /* Título do formulário */
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* Estilo dos inputs do formulário */
+        input[type="text"], input[type="email"], input[type="tel"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Estilo do botão de enviar */
+        .submit-btn {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+		
+
+        /* Efeito hover no botão */
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Estilo de responsividade */
+        @media (max-width: 600px) {
+            .form-container {
+                padding: 20px;
+            }
+        }
+		
+		.contato {
+
+           
+        
+		}
+		
+		.contato h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+	margin-top:-30px;
+    color: #333;
+}
+		
+		html {
+    scroll-behavior: smooth;
+}
+
+.lista-funcionalidades {
+     text-align: left; /* Centraliza o texto dentro da lista */
+}
+		

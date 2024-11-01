@@ -1,0 +1,5 @@
+dao\DatabspDao.class
+controller\LoginServlet.class
+controller\TestesServlet.class
+testeregressao\RegressaoDAL.class
+testeregressao\Regressao.class

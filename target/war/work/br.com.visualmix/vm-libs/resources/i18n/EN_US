@@ -1,0 +1,3902 @@
+#Mensagens com parâmetros
+	any.value.greater.than.other.value = {0} greater than  {1}
+
+	invalid = Invalid {0}
+	invalid.date.parameted = Invalid date {0}.
+	any.field.not.selected = Field {0} not selected
+	any.initial.invalid.value = Initial {0} invalid.
+	any.final.invalid.value = Final {0} invalid.
+	any.value.must.be.less.than.other = {0} must be less than {1}
+	any.file.not.found = File {0} not found.
+	
+#Validacoes Msgs
+    must.be.filled = Must be filled
+    must.contain.numeric.value = Must contain numerico value
+    must.contain.valid.date = Must contain a valid date
+    must.contain.item.selected = Must contain an item selected
+    must.contain.valid.hour = Must contain a valid hour
+    must.contain.number.greater.zero = Must contain a number greater than zero
+    must.contain.positive.value = Must contain a positive value
+    
+#Mensagens
+   	confirm.inclusion.msg = The application will save the data. Are you sure about it?
+    data.generic.confirm.msg = Successful operation	
+    data.updating = Updating...
+    data.processing = Processing...
+    data.confirm.conversion = Do you confirm the conversion ?
+    data.wait.file.generation = Wait for the file generation..
+    data.processes.not.found = Processes not found. 
+    confirm.selected.elements.exclusion = Do you confirm all selected elements exclusion ?
+    data.there.are.no.maps.list = There are no maps to list...
+    data.consist.log.error = Error during log consistence
+    data.deleted.msg = Data Excluded Successfully	
+    data.there.is.no.event.selected = There is no event selected
+    data.there.are.no.events.to.list = There are no events to list.
+    data.generic.msg.data.rechard = the data will be reloaded.
+    data.confirm.cancellation = Do you confirm the cancellation ?
+    data.confirm.question = Do you confirm the operation ? 
+    data.confirm.process.question = do you confirm the process?
+	data.confirm.exclusion = The application will exclude the data. Are you sure about it?
+	data.confirm.prices.updating.stores = Do you confirm the prices updating in the stores ?
+	data.confirm.stores.recharge = The application will recharge the stores. Are you sure about it?
+	data.confirm.calcellation.list =  Do you confirm the list cancellation ? 
+	data.confirm.restoration = The application will restore the data. Are you sure about it?
+	data.confirm.include.all.stores = Do you confirm include all stores ?  
+	data.confirm.all.selected.stores.exclusion = Do you confirm the exclusion of all selected stores ?
+	data.confirm.models.recharge = The application will recharge the models. Are you sure about it?
+	data.saved.msg = Data saved successfully
+	there.is.no.next.record = There is no next record
+  	there.is.no.previous.record = There is no previous record
+    there.is.no.item.selected = There is no item selected
+    there.are.no.items.list = There are no items to list 
+	there.are.no.informations = There are no Informations.
+	there.are.incosistent.days = There are inconsistent days.
+    wait.for.the.spreadsheet.generation = Wait for the spreadsheet generation...
+    wait.for.the.reports.generation = Wait for The Report Generation...
+    error.generating.report = Error generating report     
+    there.are.no.itens.registered = There are no items registered
+    data.confirm.campaign.change =  Do you want to change de current campaign situation ?
+    confirm.tickets.generation = Do you confirm the tickets generation ?
+    confirm.selected.products.exclusion = Do you confirm all selected products exclusion ?
+  	there.are.fields.with.invalid.values = There are fields with invalid values.
+	store.not.selected = Store not selected
+  	there.is.no.date.selected = There is no date selected.
+  	must.be.number = must be number
+  	initial.store.must.be.less.or.equal.than.final.store = Initial store must be less or equal than the final store
+	erro.connecting.to.the.integration.database.verify.config = Can't connect to integration database verify the configurations and try again.
+    there.is.no.sale.for.the.day = There is no sale for the day
+    there.is.no.information.to.generate.the.report = There is no information to generate the report
+    monthly.sales.evolution =  Monthy Sales Evolution
+    there.are.no.changes.to.list = There are no changes to list
+    club.end.date.greater.than.or.equal.to = Club end date greater than or equal to
+    promotion.end.date.greater.than.or.equal.to = Promotion End Date greater than or equal to
+    file.not.found = File not found
+    attachment.directory.not.found = Attachment directory not found
+    file.not.copied = File not copied
+    there.is.no.information.for.selected.store.and.or.product = There is no information for selected Store and/or Product
+    no.info.selected.for.campaign.data = No Info selected for Campaign / Data
+    taxes.total.null = Taxes total null
+    existing.column = Existing Column
+    must.be.in.the.format = Must be in the format
+    must.be.a.number = Must be a number
+    there.are.no.columns.in.the.query = There are no columns in the query
+    no.registration.for.store = No registration for store
+    log.is.not.consisted.for.the.selected.period = Log is not consisted for the selected period
+    there.is.inconsistent.day.in.the.requested.period = There is inconsistent day in the requested period
+  	invalid.interval.of.date = Invalid Date's Interval
+  	enter.type.sale = Enter type sale
+	enter.initial.store.number = Enter initial store number
+  	enter.initial.discount.value = Enter initial discount value
+	enter.final.discount.value = Enter final discount value
+  	are.not.configured = are not configured
+  	there.is.no.store.on.the.list = There is no store on the list
+  	invalid.store.range = Invalid store range
+	invalid.pos.range = Invalid POS range
+	invalid.user = Invalid User
+	invalid.date.range = Invalid date range
+	sales.log.of.this.date.is.inconsistent = Sales log of this date is inconsistent
+	do.you.want.to.keep.searching.anyway = Do you want to keep searching anyway?
+	finisher.table.is.empty.check = Finisher table is empty, check
+	component.table.is.empty.check = Component table is empty, check
+	finisher.table.not.parameterized.check = Finisher table not parameterized, check
+	enter.initial.pos.number = Enter initial POS number
+	enter.final.pos.number = Enter final POS number
+	invalid.start.date = Invalid start date
+	invalid.end.date = Invalid end date
+	invalid.layout = Invalid Layout
+	date.must.be.before.current.day = Date must be before current day
+	user.has.no.permission.to.the.registered.stores = User has no permission to the registered stores.
+	interval.must.be.less.than.31.days = Invalid period interval : Interval must be less than 31 days.
+	period.out.of.selected.month = Period out of selected month.
+	quantity.greather.than.9999 = Quantity greather than 9999
+	inexistent.product = Inexistent Product
+	invalid.initial.hour = Invalid Initial Hour
+  	invalid.final.hour = Invalid Final Hour
+  	inexistent.product = Inexistent Product
+	invalid.initial.hour = Invalid Initial Hour
+	initial.hour.out.of.interval = Initial Hour out of interval
+  	final.hour.out.of.interval = Final Hour out of interval
+  	initial.hour.must.be.less.or.equal.than.final.hour = Initial Hour must be less or equal than Final Hour
+	initial.pos.must.be.less.or.equal.than.final.pos = Intial POS must be less or equal than Final POS	
+  	invalid.initial.store = Invalid Initial Store
+  	invalid.final.store = Invalid Final Store
+  	invalid.initial.pos = Invalid Initial Pos
+  	invalid.final.pos = Invalid FInal Pos
+  	invalid.couponing = Invalid Couponing
+  	no.permission.to.store = No permission to store
+  	description.unregistered.product = Description Unregistered Product
+  	invalid.initial.product = Invalid Initial Product
+  	invalid.final.product = Invalid Final Produto
+  	invalid.product.range = Invalid Product Range
+  	invalid.period = Invalid Period
+	invalid.description = Invalid Description
+	confirm.selected.filters.exclusion = Do you confirm selected filters exclusion?
+	confirm.clear.filters = Do you confirm to clean the filters ?	
+	enter.number.itens.to.print = Enter the number of items to print.
+	confirm.statistic.exclusion.msg = Do you confirm statistic exclusion ?
+	confirm.update = Do you confirm the update ?
+	do.you.want.to.continue = Do you want to continue ?
+	there.is.no.file.selected = There is no file selected.
+	error.loading.registered.researches = Erro loading registered researches.
+	cannot.connect.to.the.webservice = Can't connect to the web service.
+	user.has.no.permission.to.modify.language = User has no permission to modify the language
+	user.has.to.enter.by.biometry = User has to enter by biometry.	
+	biometry.was.not.found.to.the.operator = Biometry was not found to the operator
+	load.carried.out.with.errors = Load carried out with errors
+	the.system.will.clear.the.temporary.directory.continue = The system will clear the temporary directory, continue?
+	prices.successfully.canceled = Prices sucessfully canceled
+	promotion.not.registred = Promotion not registred
+	there.is.no.product.in.the.list = There is no product in the list
+	cadastro.produto.remove.tag = Remove TAG
+	prices.successfully.applied = Prices successfully applied
+	file.promotion.does.not.exist = File promotion does not exist
+	invalid.promotion.file = Invalid promotion file
+	invalid.format = Invalid format
+	invalid.price = Invalid Price
+	price.less.than = Price less than
+	store.does.not.exist = Store does not exist
+	product.does.not.exist.in.this.store = Product does not exist in this store
+	kit.does.not.exist.in.this.store = Kit does not exist in this store
+	invalid.kit = Invalid kit
+	load.carried.out.with.errors = Load carried out with errors
+	promotion.loaded.successfully = Promotion loaded successfully
+	line.error = Line error
+	different.number.of.columns.than.expected = Different number of columns than expected
+	invalid.type = Invalid tipo
+	rows.imported.from = Rows imported from
+	all.coupon.items.have.already.been.returned = All coupon items have already been returned
+	invalid.promotion.price = Invalid promotion price
+	invalid.club.price = Invalid club price
+	invalid.promotion.start.date = Invalid promotion start date
+	promotion.start.date.greater.than.end.date = Promotion start date greater than end date
+	club.start.date.greater.than.end.date = Club start date greater than end date
+	date.period.cannot.be.longer.than.15.days = Date period cannot be longer than 15 days
+	date.period.cannot.be.longer.than.7.days = Date period cannot be longer than 7 days
+	date.period.cannot.be.longer.than.7.days = Date period cannot be longer than 60 days
+	promotion.generated.successfully = Promotion generated successfully
+	invalid.sale.price = Invalid sale price
+	possible.generation.on.the.day.after.the.movement = Possible generation on the day after the movement
+	check.with.store.what.happened = Check with store what happened
+	casadinha.there.is.not.exist = Casadinha não cadastrada
+	there_is_not_casadinha_on_list = Não há casadinha na lista
+	at.least.one.discount.amount.must.be.greater.than = At least one discount amount must be greater than
+	at.least.an.amount.of.the.discount.must.be.greater.than = At least an amount of the discount must be greater than
+	error.printing = Erro printing
+	invalid.origin.product.factor = Invalid origin product factor
+	quantity.of.invalid.origin.product = Quantity of invalid origin product
+	packaging.cannot.be.empty = Packaging cannot be empty
+	product.not.registered = Product not registered
+	quantity.of.invalid.promoted.product = Quantity of invalid promoted product
+	invalid.promoted.quantity = Invalid promoted quantity
+	quantity.less.than.promoted.quantity = Quantity less than promoted quantity
+	//C76134-daniella.bianchi-08/07/2021-Tratamento para crítica do novo campo Tipo Campanha.
+	invalid.campaign.type = Invalid campaign type
+	//FIM
+	confirm.save.origin = Confirm save origin?	
+	confirm.save.promoted = Confirm save promoted?
+	do.you.confirm.exporting.to.promoted = Do you confirm exporting to promoted?
+	do.you.confirm.replicating.rules = Do you confirm replicating rules?
+	product.with.wholesale.price.for.the.store = Product with wholesale price for the store
+	invalid.quantity.for.selected.origin.type = Invalid quantity for selected origin type
+	invalid.discount.type = Invalid discount type
+	invalid.value = Invalid value
+	invalid.quantity = Invalid quantity
+	there.are.no.items.to.save = There are no items to save
+	track.inconsistency = Track inconsistency
+	return.already.tied.to.a.coupon.or.already.contains.loose.products = Return already tied to a coupon or already contains loose products
+	cpf.invalid = CPF inválido
+	confirm.copy = Confirm Copy?
+	it.is.necessary.to.select.a.record = It is necessary to select a record.
+			
+#Sistema Processos
+    sistema.store.process = Store Process
+    sistema.log.conversion = Log Conversion  
+    sistema.statistic.conversion = Statistic Conversion
+    sistema.parameters.exportation = Parameters Exports
+    sistema.cat52.generation = Cat52 Generation
+    sistema.integracao = Integration
+    sistema.sped.generation= Sped Generation
+    sistema.fiscal.ticket.integration = Fiscal Ticket Integration
+    sistema.digger.sales.generation = Digger Sales Generation
+    sistema.price.adm = Price Administration 
+    sistema.tickets.generation = Tickets Generation
+    sistema.cotepe.generation  = COTEPE Conversion
+    
+    
+#EstatisticaFlash msgs
+   estatistica.flash.do.not.appear.dates.projection = do not appear in the dates projection   
+    
+#Comum labels
+    confirm = Confirm
+    undo = Undo
+    ticket.quantity = Tickets Quantity
+    ticket.number = Ticket Number
+    cleared = Cleared 
+    requested = Requested
+    process = Process
+    caption = Caption :
+    sales = Sales
+    payment.receipt = Payment/Receipt
+    finishers = Payments
+    incosistent.pdv = Inconsistent PDV
+    closing.z =  Z closing
+    values.divergence = Values divergence
+    informed.sale = Informed Sale
+    consisted = Consisted
+    statistic = Statistic
+    not.identified = Not identified
+    operator.name = Operator name
+    consist = Consist
+    gross.sale = Gross sale
+    cancellations = Cancellations
+    payments = Payments
+    action = Action
+    not.found = Not found
+    must.be.greather = must be greather
+    initial.date.greater.than.final.date = Initial date greater than final date.
+    invalid.interval.of.stores = Invalid interval of stores.
+    invalid.interval.of.pos = Invalid interval of POS
+    invalid.initial.date = Invalid initial date
+ 	invalid.final.date = Invalid final date
+    invalid.bottle.code = Invalid Bottle code
+    invalid.interval.of.users = Invalid interval of users.
+    receipts = Receipts
+    store.filter = Store filter
+    ignore = Ignore
+    meaning = Meaning
+    status = Status
+    sale.item = Sale Item
+    pending = Pending
+    sale.ticket = Sale ticket
+    sale.operator = Sale Operator
+    sale.finisher = Sale Payment
+    sale.tax = Sale tax
+    sale.day = Sale day
+    pdv.number = PDV number
+    receipt.payment.item =  Recp/Paym Item
+    receipt.payment.operator = Recp/Paym Operador
+    receipt.payment.finisher =  Recp/Paym  Payment.
+   	next.day = Next day
+    imported = Imported
+    receipt.payment.day = Recp/Paym Day
+    nfce.ticket = NFCE Cupom
+    product.uf = Product UF
+    products.list = Products list
+    without.fz = Without Fz
+    or = or
+	integrate = Integrate
+	invalid.pos = Invalid POS
+    updated.in = Updated In
+    broken = Broken
+    packing = Packing
+    seconds = Seconds
+    without.sale = Without sale
+    not.launched = Not launched
+    z.reduction.reclaimed = Z Reduction Reclaimed
+    uf = UF
+    actions = Actions
+    inexistent = Inexistent
+    voucher = Voucher
+    exchange.voucher = exchange voucher
+    ticket.value = Ticket value
+    own.production = Own Production
+    exportation.terminated = Exportation Terminated
+    origin.store = Origin Store
+    cpf.cnpj.client = Client CPF/CNPJ
+    destination.store = Destination Store
+    ticket.cancelled = Ticket cancelled
+    nfce.item = NFCE Item
+    convert = Convert
+    fz.cancellation = Fz Cancell.
+	separate = Separate
+    item.cancellation = Item Cancell.
+    messages = Messages
+    ticket.cancellation = Ticket Cancell. 
+    combo = Combo
+    price.range = Prince Range
+    payment.total = Payment total
+    total.solidaritychange.againstvoucher.payment =  Total-(SolidatiryChange+AgainstVoucher+Payment)
+    inconsistent.statistic = Inconsistent Statistic
+    erp.cap = ERP (CAP)
+    erp.det = ERP (DET)
+    erp.p1.t1 = ERP(P1-T1)
+    erp.iope = ERP (IOPE)
+    erp.pdvop = ERP (PDVOP)
+    erp.pdvrc = ERP (PDVRC)
+    erp.pdvtb = ERP (PDVTB)
+    erp.vsang = ERP (VSANG)
+    ticket.finis.exit.oper.finis = Ticket Finis.| Oper exit/Finis.
+    entry.movement = Entry Movement
+    exit.movement = Exit Movement
+    sending = Sending
+    sent = Sent
+    username = Username
+    completed = Completed
+    taxation.z= Taxation Z
+    bloodletting = Bloodletting
+    pos.md5 = MD5 POS
+    issue = Issue
+    issued.id = Issued Id
+    decreases.taxes = (Taxes Decrease)
+    error = Error
+    reference.date = Reference Date
+    finish.ticket.change.payment.change = (Finish-TicketChange-PaymentChange) 
+    net.sale.z = Net sale Z
+    sale.itens = Sale Itens
+    sales.per.store = Sale per store
+    panel = Panel
+    structures = Structures
+    release = Release
+    loaded = Loaded
+    load.options = Load Options
+    ticket.item = Ticket item
+    errors.log = Errors log
+    users = Users
+    store.tax = Store tax
+    store.packing = Store packing
+    ticket.cover = Ticket cover
+    sales.plus.receipts = (Sales+Receipts) 
+    invalid.provider = Invalid Provider
+    current = Current
+    terminated = Terminated
+    processing = Processing
+    begin = Begin
+    step = Step
+    active.tasks = Active Tasks :
+    verify = Verify
+    maximum = Maximum : 
+    closure = Closure
+    new.item = New Item
+    final.grand.total = GT.Final
+    gt = GT
+    provider = Provider
+    general = General
+    invalid.filter = Invalid filter
+    tax = Tax
+    md5 = MD5
+    peripherals = Peripherals
+    pos.state = POS State
+    opening = Opening
+    operational.system = Operational System
+    disk.used.space = Disk used space
+    disk.used.percentage = Disk used perc.
+    processor = Processor
+    default.group = Default group
+    ecf.type = ECF Type
+    keyboard.type = Keyboard type
+    printer.number = Printer number
+    printer.serial.number = Printer serial number
+    balance.serial.number = Balance serial
+    initial = Initial
+    final = Final
+    minimum.time = Minimum time
+    scanner.serial.number = Scanner serial number
+    pin.pad.serial.number = Pin Pad serial number
+    printer.model = Printer model
+    printer.manofacturer = Printer manofacturer
+    printer.date = Printer Date
+    mfd.memmory.total.space = MFD memory total space
+    mfd.memory.left.space = MFD memory left space
+    mfd.memory.used.percentage = MFD memory used percentage
+    client.nfce.version = Client NFC-e version
+    vmx.sat.version = VMX SAT version
+    pooling = Pooling
+    last.process = Last process
+    processing.store = Processing store
+    processing.file = Processing file
+    alert.value = Alert value
+    bloodletting.value = Bloodletting value
+    xml.backup = XML backup
+    dll.cfe.version = DLL CFE version
+    connected = Connected
+    total.disk.space = Disk total space
+    used.disk = Used Disk
+	log.consistence.general = Log's state(General)
+	log.consistence.store = Log's state(Store)
+    log.consistence.pos = Log's state(POS)
+    operator.consistence = Operator's state 
+    consult.tickets = Consult Tickets
+    ram = RAM
+    post.sales.day = Post day's sales
+    convert.log = Convert Log
+    convert.cotepe = Convert Cotepe
+    convert.statistic = Convert Statistic
+    release.log = Release Log
+    map = Map
+    prices.list = Prices List
+    not.tax.coupon.adjustment = Not tax coupon fix
+    message.id.issued = Message id Issued
+    issued.lan.type = Issued Lan type
+    sat.lan.ip = SAT Lan IP
+    last.communication = Last communication
+    parameters.date = Parameters date
+    pictures.date = Pictures date
+    clients.date = Clients date
+    sat.lan.mask = SAT Lan Mask
+    opening.date = Opening date
+    current.function = Current function
+    ignore.gateway = Ignore Gateway
+    released.loads = Released loads
+    sat.gateway.lan = SAT GW lan 
+    sat.dn1.lan = SAT DNS1 Lan
+    sat.dns.two.lan.address = SAT DNS 2 Lan address
+    sat.dns.two.lan = SAT DNS 2 Lan
+    sat.lan.status = SAT Lan status
+    sat.dh.cfe = SAT Cfe DH
+    sat.last.dh = SAT Last DH
+    gateway.lan.address = Gateway lan Address
+    lan.mask.address = Mask Lan address
+    comp.formated.porcent = Comp%
+    html = HTML
+    html.code = HTML code
+    time = Time
+    lan.dns.one.address = Lan DNS 1 Address
+    tef.version = TEF Versionz
+    enable.full.screen = To enable full screen(f9)
+    above.target = Above the target
+    real = Real
+    invalid.action = Invalid action
+    grouping = Grouping
+    pos.qtds = POS qtts.
+    total.value = Total value
+    average.sale = Average sale
+    md5.file = MD5 File
+    thread.working = Thread working
+    thread.not.working = Thread not working
+    verified.stores = Verified stores
+    sale.date = Sale date
+    zip = Zip
+    date.filter = Date filter
+    file.filter = File filter
+    disabled.store = Disabled store
+    printer.version = Printer Version
+    realx = Realx
+    disk.space = Disk Space
+    budgeted = Budgeted
+    achievement = Achievement
+    stop = Stop
+    month.closure.tendency = Month closure tendency
+    invalid.store = Invalid store
+    requests = Requests
+    bloodlettings = Bloodlettings
+    bloodlettings.alerts = Bloodlettings/Alerts
+    mfd.memory = MFD Memory
+    printer.status = Printer Status
+    balance.status = Balance Status
+    pin.pad.status = Pin Pad Status
+    scanner.status = Scanner Status
+    store.files = Store files
+    files = Files
+    sat = SAT
+    configuration = Configuration
+    offline.pos = Off-Line POS
+    outdated.products = Outdated Products
+    outdated.parameters = Outdated Parameters
+    outdated.pictures = Outdated Pictures
+    outdated.clients = Outdated Clients
+    pos.md5 = POS MD5
+    sat.communication.fail = SAT Communication Fail
+    sat.operation.state = SAT Operation State
+    sat.battery.level = SAT Battery Level
+    sat.used.memory = SAT Used Memory
+    sat.base.version = SAT Base Version
+    groups= Groups
+    pooling.type = Pooling type
+    sat.layout.version = SAT Layout Version
+    sat.expiration.cert = SAT Expiration Certif.
+    sat.last.cfe = SAT LAST Cfe
+    sat.lan.type = SAT Lan Type
+    sat.ip.address = SAT IP Address
+    sat.mac.address = SAT Mac Address
+    sat.mask.address = SAT Mask Address
+    sat.gateway.address = SAT Gateway Address
+    last.execution = Last execution
+    next.execution = Next execution
+    step.date = Step date
+    sat.dns.one.address = SAT DNS 1 Address
+    sat.dns.two.address = SAT DNS 2 Address
+    sat.network.status = SAT Network status
+    hardware = Hardware
+    sat.current.date = SAT Current Date
+    sat.initial.list = SAT Initial List
+    sat.final.list = SAT Final List
+    sat.cfe.date = SAT Cfe Date
+    sat.last.date = SAT Last Date
+    sat.id = SAT Id
+    initial.store = Initial store
+    final.store = Final store
+    selected.stores = Selected stores
+    not.used = Not used
+    sb.version = SB version
+    totem.version = Totem version
+    parameters.pos = POS parameters 
+    mfd.percentage = MFD percentage
+    hd.percentage = HD percentage
+    gateway.version = Gateway version
+    sat.id.message = SAT Message Id
+    sat.sefaz.id = SAT SEFAZ Id
+    sat.sefaz.message = SAT SEFAZ Message
+    sat.serial.number = SAT Serial Number
+    check.all = Check All
+    view.type = View Type
+    summarized = Summarized
+    detailed = Detailed
+    divergent = Divergent
+    sat.issue.certificate = SAT Issue Certif.
+    not.fiscal.ticket = Not Fiscal Ticket
+    price.range = Price Range
+    begin.grand.total = GT.Inicial
+    subsidized = Subsidized
+    component.type = Component Type
+    pictures = Pictures
+    day.sales = Day's sales
+    month.comulative = Month comulative
+    month.goal = Month goal
+    days.goal = Days goal
+    sale.days = Sale days
+    total = Total
+    of = of
+    sale.of.the.day = Day's sale
+    field = Field
+    user.disabled = User disabled 
+	//C70652-daniella.bianchi-22/02/2022-Bloqueio do usuário após um determinado nro de tentativas com senha inválida e renovação periódica.
+	user.exceeded.password = Number of attempts exceeded
+	expired.password = Expired password
+	//FIM    
+    beginning = Beginning
+    delete.filters = Delete filters
+    clean.filter = Clean filter
+    message.id = Message Id
+    sefaz.id = SEFAZ Id
+    sefaz.message = SEFAZ Message
+    lan.type = Lan Type
+    ip.address = IP Address
+    mac.address = Mac Address
+    mask.address = Mask Address
+    gateway.address = Gateway Address
+    operation.state = Operation State
+    certificate.expiration = Certif. Expiration
+    certificate.issue = Certif. Issue
+    last.date = Last Date
+    cfe.date = CFE Date
+    network.status = Network Status
+    battery.level = Battery Level
+    used.memory = Used Memory
+    total.memory = Total Memory
+    current.date = Current Date
+    base.version = Base Version
+    layout.version = Layout Version
+    last.cfe = Last Cfe
+    initial.list = Initial List
+    unlocked = Unlocked
+    reference.day = Ref. Day : 
+    medium = Medium
+    high = High
+    sefaz.block = SEFAZ Block
+    taxpayer.block = Taxpayer Block
+    autonomous.block = Autonomous Block
+    block.to.deactivation = Block To Deactivation
+    final.list = Final list
+    dns.one.address = DNS 1 Address
+    dns.two.address = DNS 2 Address
+    communication = Communication
+    authorize = Authorize
+    visual.store = Visual Store
+    list.all.stores = List all stores
+    item.value = Item value
+    consult = Consult
+    internal = Interno
+    stock.consultation = Stock Consultation
+    undefined = Undefined
+    not.registred = Not Registred
+    in.progress = In Progress
+    uf.destination = UF Destination
+    generate.spreadsheet = Generate Spreadsheet
+    automation = Automation
+    none = None
+    maintenance.return = Maintenace Return 
+    broken.pdv = Broken POS
+    loads = Loads
+    download = Download 
+    downloads = Downloads
+    without.sale = Without Sale
+    new = New
+    open = Open
+    applied = Applied
+    reduced.description = Reduced Description
+    not.genetared = Not Generated
+    in.generation = In Generation
+    show.result = Show Result
+    updater.id = Update Id
+    version.date = Version Date
+    compilation.date = Compilation Date
+    process.service = Process/Service
+    path = Path
+    application.path = Application Path
+    file.type = File Type
+    application.date = Application Date
+    port = Port
+    consult.date = Consult Date
+    update.status = Update Status
+    terminals.number = Terminals Nº  
+    comunication.status = Comunication Status
+    genereted = Generated
+    invalid.campaign = Invalid Campaign
+    list = List
+    manager = Manager
+    section.description = Section Description
+    system.message = System Message
+    club = Club
+    send.out = Send Out
+    final.ticket = Final ticket
+    begin.ticket = Begin ticket
+    pdf = PDF
+    normal = Normal
+    invalid.period = Invalid Period
+    release.load = Release Load
+    expiration = Expiration
+    store.list = Store list
+    covenant = Covenant
+    seconds.formated = (sec)
+    composed = Composed
+    importation.per.spreasheet = Importation per Spreadsheet
+    company.name = Company Name
+    reduction = Reduction
+    invalid.biometry = Invalid Biometry
+    discounts = Discounts
+    office = Office 
+    renew = Renew
+    with.error = (W/Error)
+    wholesale = Wholesale
+    ok = Ok
+    all.right = (All Right)
+    without.log = Without log
+    retail = Retail
+    factory = Factory
+    percentage = Percentage
+    size = Size
+    ticket_id = Ticket Id
+    cd = CD
+    normal = Normal
+    van = VAN
+    all = All
+    invalid.parameter = Invalid Parameter
+    landspace = Landscape
+    portrait = Portrait
+    password.point = Password Point
+    columns = Columns
+    invalid.parameters = Invalid parameters
+    title = Title
+    mask = Mask
+    label = Label
+    pattern = Pattern
+    editable = Editable 
+    validate = Validate
+    ordination = Ordination
+    no.ordenation = No Ordenation
+    increasing = Increasing 
+	decreasing = Decreasing
+	user.serach = User Search
+	pesquisa.merc = Market Search
+	selection = Selection 
+	product.search = Product Search
+	store.search = Store Search
+    numeric = Numeric
+    text = Text
+    text.in = Text (in)
+    numeric.in = Numeric (in)
+    not = Not
+    sum = Sum
+    counter = Counter
+    average = Average 
+    call = Call
+    totals = Totals
+    filters = Filters
+    sub.group = Sub-Group
+    informed = Informed
+    not.informed = Not Informed
+    both = Both
+    login = Login
+    log.date = Log Date
+    all.integrations = All Integrations    
+    result = Result
+    notification = Notification
+    recipient = Recipient
+    standard.local = Standard Local
+    loans = Loans
+    principal = Principal 
+    days.formated = (days)
+    printer.in = Printer in
+    voucher.expiration = Voucher Expiration
+    ticket.expiration = Ticket Expiration
+    orientation = Orientation
+    printer = Printer
+    ticket.layout = Ticket Layout
+    restore = Restore
+    invalid.code = Invalid Code
+    sheet = Sheet
+    return.code = Return Code
+    stantard.way = Standard Way
+    control.way = Control Way
+    client.way = Client Way
+    logo = Logo
+    continuous.paper = Continuous Papel
+    monitoring = Monitoring
+    send = Send
+    send.date = Send Date
+    subject = Subject
+    file = File
+    modification.date = Modification Date
+    attachment = Attachment
+    search.type = Search Type 
+    network = Network
+    function = Function 
+    addition = Addition
+    entry = Entry
+    exit = Exit
+    local = Local
+    manual = Manual
+    deleted = Deleted
+    internal.use = Internal Use
+    discontinued = Discontinued
+    note.value = Note Value
+    additional.data = Additional Data
+    nat.operation = NAT. Operation
+    option = Option
+    note.datas = Note Datas
+    recipient.sender = Recipient/Sender
+    note.type  = Note Type
+    products.value = Products Value
+    options = Options
+    identification = Identification
+    identification.cpf = Identification
+    donation = Donation
+    integration = Integration
+    state.registration = State Registration
+    used = Used
+    store.price = Store Price
+    with = With
+    immediate.price = Immediate Price
+    credit = Credit
+    all.stores = All Stores
+    automation.id = Automation Id
+    credits = Credits
+	close.current.window = Close Current Window
+	fast.access.options = Fast Access Options	
+	system.menu.options = System's Menu of Options
+	window.menu.option = Window's Menu of Options
+	window.menu.option.letter = W
+	system.menu.options.letter = M
+	enter.desired.option = Enter the desired option
+    movement.type = Movement Type
+    number.installment= Installment Nº
+    installment = Installment 
+    installments = Installments
+    plan = Plan
+    description.type = Description Type
+    store.product = Store Product
+    range = Range
+    exclude.credits = Exclude Credits
+    without = Without 
+    interest = Interest
+    released = Released
+    installment = Installment
+    in.use = In Use
+    note = Note
+    calculate = Calculate
+    ticket.use = Ticket Use
+    condition = Condition
+    receive = Receive
+    logical.market.level = Logical market level
+    logical.markets = Logical markets
+    market.manofacturers = Mark./Manufacturer
+    campaign = Campaign
+    multiple = Multiple
+    generation.date = Generation Date
+    generation.hour = Generation Hour
+    inactive = Inactive
+    price.type = Price Type
+    key = key
+    single.product = Single Product
+    log = Log
+    affiliated.company = Affiliated Company
+    finisher = Payment
+    cancelled = Cancelled
+    all.products = All Products
+    level = Level
+    mercadologico = Logical Market
+    mercadologico.merc1 = Logical Market 01
+    mercadologico.merc2 = Logical Market 02
+    mercadologico.merc3 = Logical Market 03
+    mercadologico.merc4 = Logical Market 04
+    mercadologico.merc5 = Logical Market 05
+    domain.dom1 = Domain 01
+    domain.dom2 = Domain 02
+    domain.dom3 = Domain 03
+    domain.dom4 = Domain 04
+    domain.dom5 = Domain 05
+    cover = Cover
+    discount = Discount 
+    covers = Covers 
+    creation = Creation
+    cancellation = Cancellation
+    generation = Generation
+    creation.date = Creation Date
+    cancellation.date = Cancellation Date
+    days.of.week = Days Of The Week
+    days.of.month = Days Of Month
+    promotion.id = Promotion Id
+    manufacturer = Manufacturer
+    manufacturers = Manufacturers
+    cuponagem = Cuponagem 
+    finisher = Payment
+    export = Export
+    month = Month
+    return.value = Return Value
+    use.value = Use Value
+    exclusive.partner = Exclusive Partner
+    type = Type
+    casadinha = Virtual packing promotion
+    promoted = Promoted
+    promoted.type = Promoted Type
+    promoted.quantity = Promoted Quantity
+    discount.type = Discount Type
+    authorization = Authorization
+    credit.type = Credit Type
+    weight = Weight(Kg)
+    image = Image
+    message = Message 
+    origin.type = Origin Type
+    receipt.type = Receipt Type
+	//C76134-daniella.bianchi-08/07/2021-Tratamento para os novos campos Situação e Tipo Campanha.
+	campaign.situation = Situation
+	campaign.type = Campaign Type
+	//FIM    
+    Pesquisar = Search
+    Ver = Go
+    categories = Categories
+    storesearch = Stores' Search
+    productsearch = Products' Search
+    history = History
+    packaging = Packaging
+    categorie = Category
+    pagination = Pagination
+    clientid = Client Id
+    observation = Observation
+    refresh = Refresh
+    max.quantity = Max. Qntt
+    section = Section
+    group = Group
+    notloaded = Not loaded
+    cadastro = Registration
+    reason = Reason
+    flags = Flags
+    descount = Descount
+    location = Location
+    password = Password
+	//C70652-daniella.bianchi-19/08/2021-Isolamento senhas de acesso ao PDV (operadores) das senhas de acesso ao Visual Store e demais Sistemas (usuários). 
+	password.pos = Password POS
+	//FIM    
+    product = Product
+    products = Products
+    product.quantity = Product Qntt
+    min.max = Minimum/Maximum
+    factor = Factor
+    max.value = Max. Value
+    min.value = Min. Value
+    minimum.value = Minimum Value
+    product.type = Product Type
+    accumulated.type = Accumulated Type 
+    discount.formated = %Discount
+    component = Component 
+    images = Images
+    update.date = Update Date
+    exclude.installment = Exclude Installment
+    components = Components 
+    generate = Generate
+    visible = Visible
+    cpf.cnpj = CPF/CNPJ
+    filter01 = Filter 01
+    filter02 = Filter 02
+    filter03 = Filter 03
+    filter04 = Filter 04
+    filter05 = Filter 05
+	store= Store
+	loadfiles = Load Files
+    promotionstart = Promotion Begin
+	promotionend =  Promotion End
+	promotionprice = Promotion Price
+	stores = Stores
+	upp = UPP
+	included.when = Include When
+	pdv.version = POS Version
+	subtype = Subtype
+	ecf =  ECF
+    aliquot = Aliquot
+ 	version = Version
+	parameter = Parameter
+	parameters = Parameters
+	model = Model
+	brand = Brand
+	origin = Origin
+	ip = IP
+    timeout = Timeout
+    destination = Destination
+    priority = Priority 
+	company.1 = Company 01
+	company.2 = Company 02
+	company.3 = Company 03
+	company.4 = Company 04
+	company.5 = Company 05
+	structure = Structure
+	integration.a = Integration A
+	integration.b = Integration B
+	finaldate = Final Date
+	day.sunday = 01-Sunday
+	day.monday = 02-Monday
+	day.tuesday = 03-Tuesday
+    day.wednesday =	04-Wednesday
+	day.thursday = 05-Thursday
+	day.friday = 06-Friday
+	day.saturday = 07-Saturday
+	default.time.to.all.days = 00-Default Time To All Days
+	different.hour.for.one.day.week = 10-Different Hour For One Day of The Week
+	special.hour.for.specific.date = 20-Special Hour For Specific Date
+	integration.hour.charge.parameters.a = Integration Hour With Products Charge and Parameters A
+	integration.hour.charge.parameters.b = Integration Hour With Products Charge and Parameters B
+	centralip = Central IP
+	compilation = Compilation
+	environment = Environment
+	products.date = Products Date
+	productsnew.date = ProdNovo Date
+	paramsnew.date = ParamNovo Date
+	pdv= POS
+	pdvs = Pdvs
+	everyone = All
+	standard.price = 0-Standard Price
+	card.price = Card Price
+	club.price = Club Price
+	discount.percent = Discount Percentage
+	discount.value = Discount Value
+	cx.sale.price = Cx Sale Price
+	cx.bonus = Cx Bonus
+	cx.value.discount = Cx Value Discount
+	clubstart = Begin Club
+	clubend =  End Club
+	logs = Logs
+	update = Update
+	clistef.version = Clistef Version
+	//C76499-daniella.bianchi-27/10/2021-Nova coluna "Versão LibVmix".
+	libvmix.version = LibVmix Version
+	//FIM
+	config = Configurations
+	Data= Date
+	beginday = Begin Day
+	finalday = Final Day
+	nfce = NFC-e
+	day = Day
+	clear = Clear
+	id= ID
+	product.id = Product ID
+	agent = Agent
+	region = Region
+	print.price.tag = Print Price Tag 
+	gateway = Gateway
+	bill.of.sale = Bill of Sale
+	saleprice = Sale Price
+	sale = Sale
+	wholesale.value = Wholesale Value 
+	disabled = Disable
+	enable = Enable
+	disable = Disable
+	dontupgrade = Don't Upgrade
+	totem = Totem
+    view = View
+	lblBranco= 
+	user = User
+	name = Name
+	permissions = Permissions
+	situation = Status
+	use = Use
+	confirmpass = Confirm Password
+	//C70652-daniella.bianchi-19/08/2021-Isolamento senhas de acesso ao PDV (operadores) das senhas de acesso ao Visual Store e demais Sistemas (usuários). 
+	confirmpass.pos = Confirm Password POS
+	//FIM
+	idintegration = Integration ID
+	idintegration.aux = Auxiliary Integration ID
+	cpf = Unique Register
+	birthday = Birthday
+	language = Lang
+	selected = Selected
+	description = Description
+	yes = Yes
+	no = No
+	profile = Profile
+	activated = Activated
+	deactivated = Deactivated
+	operatornormal = Normal Operator
+	operatorapoio = Help Operator
+	operatortype = Type of the Operator
+	module= Modules
+	last = Last
+	first = First
+	neighborhood = Neighborhood
+	city = City
+	zipcode = Zip Code
+	citycode = City Code
+	state = State
+	commission = Commission
+	eni = ENI
+	telephone = Telephone
+	opendate = Open Date
+	selldate = Sell Date
+	begindate = Begin Date
+	date = Date
+	apply = Apply
+	sequence = Sequence
+	exclude.product = Exclude Product
+	exclude.store = Exclude Store
+	exclude.stores = Exclude Stores
+	add.all = Add All
+	sequential = Sequential
+	dotz.type = Dotz Type
+	dotz = Dotz
+	hour = Hour
+	hours = Hours
+	integration.description = Integration's Description
+	integration.hour = Integration Hour
+	products.hour = Products Hour
+	opening.hour = Opening Hour
+	consist.hour = Consist Hour
+	email = E-mail
+	country = country
+	employee = Employee
+	startday = Start Day
+	beginhourday = Begin Hour
+	page = Page
+	period = Period
+	until = Until
+	invalid.date = Invalid Date
+	users.store = User's Store(s)
+	there.is.inconsistent.day = There is inconsistent days in the period
+	sell.qtd = Sells Quant.
+    store.description = Store Description
+	sell.val = Sells Value
+	expiration.date = Expiration Date
+	currency = Currency
+	institution = Institution  
+	discount.val = Discount Value
+	sells.evento.rel = Sell Report
+	cupom.ciente.rel = Client's Sells Report
+	currency.var = {0, number, currency}
+	events.all = Events: All
+	event = Event 
+	with.divergence = (W/Divergence)
+	sale.log = Sale log
+    success = Success
+	dll.version = DLL Version
+    returns.total = Returns total
+    net.sale =  Net sale
+    general.total = General total
+    note.total = Note total
+	salesperson = SalesPerson
+	receipts.total = Receipts total
+	sales.total = Sales total
+	nonexistent = (Non Existent)
+	invalid = Invalid
+	order = Order
+	prod.desc = Product's Description 
+	quantity = Qntt
+    quantity.abbreviation = Qntt	
+	client = Client
+	price = Price
+	<b>Nivel 5</b>= <b>Level 5</b>
+	<b>Nivel 4</b>= <b>Level 4</b>
+	<b>Nivel 3</b>= <b>Level 3</b>
+	<b>Nivel 2</b>= <b>Level 2</b>
+	<b>Nivel 1</b>= <b>Level 1</b>
+	total.price = Total Price
+	dav = ASD
+	unit.price = Unitary Price
+	cask = Cask
+	value = Value
+	space = Space
+	unique = Unique
+	operator = Operator
+	//C75499-daniella.bianchi-18/08/2021-Impressão das informações de passagem de caixa no relatório de eventos.
+	operator.substitute = Substitute Operator
+	entry.operator.substitute = Substitute Operator Entry
+	exit.operator.substitute = Substitute Operator Exit
+	operator.official = Official Operator	
+	entry.operator.official = Official Operator Entry
+	exit.operator.official = Official Operator Exit
+	//FIM	
+	fund.change = Fund's Change
+	Troco = Change
+	gross.sale = Gross Sale
+	Descontos = Discounts
+	Cancelamentos = Cancellations
+	liquid.sale = Liquid Sale
+	Pagamentos = Payments
+	Recebimentos = Receipts
+	Acrescimo = Addition
+	Acréscimo = Addition
+	total_finalizers = Total Finalizers 
+	Retiradas = Withdrawals
+	initial.ip = IP Inicial
+    final.ip = IP Final
+    store.number = Número Loja (EN)
+    pis = PIS (EN)
+    confins = CONFINS (EN)
+    cae = CAE (EN)
+    balance.type = Tipo balança (EN)
+	area = Área (EN)
+	last.sequence = Última sequência (EN)
+	pis.date.changed = Date modificação PIS (EN)
+	store.ip = Loja IP (EN)
+	company  = Compania (EN)
+	csc = CSC (EN)
+	pos.level = Nível PDV (EN)
+	force.drawer = Forçar Gaveta (EN)
+	max.perc.descount = Perc Desconto Máximo (EN)
+	date.pass = Data PASS (EN)
+	when.user.included = Data de Inclusão (EN)
+	finalizers.balance = Finalizers' Balance
+	responsible = Responsible
+	cask.not.found = Cask not found
+	process.hour = Process Hour
+	Isento = Free
+	Fonte = Source
+    in.use = In 
+	launching = Launching
+	authorized = Authorized
+	Tributado = Taxed
+	reduction.z.number = Reduction Number
+	initial.gt = Initial GT
+	final.gt = Final GT
+	#unit.of.measure = Un. of Measure
+	unit.of.measure = Un. Measure
+	aliquot.base.calc = Aliquot Base Calculation
+	equals = Equals
+	initial.nsu = Initial NSU
+	Chave = Key
+	Nro.Nota = Note Number
+	SAT = SAT
+	Série = Serial
+	prod.not.registered = Product not Registered
+	IC = IC
+	CC = CC
+	ICC = ICC
+	(C) = (C)
+	n.serie.imei = Number.Serie/Imei
+	Item = Item
+	cancelled.by = Cancelled By
+	serial.number = Serial Number
+	gift.card.shopping = Gift Cards / Shopping
+	cell.recharge = Cell Recharge
+	divergent.discount = Divergent Discount
+	lottery.coupon = Lottery Coupon
+	online.course = Online Course
+	other.services = Other Services
+	extended.warranty = Extended Warranty
+	insurance = Insurance
+	exit.cd.sell = Exit CD Sell
+	anticipated.credit = Anticipated Credit
+	anticipated.credit.autoservice = Anticipated Credit Auto Service
+	payment.receipt = Payment/Receipt
+	coupon.cancelled.by = Ticket Cancelled by
+	tax.value = Tax Value
+	finalizer.not.registered = Finalizer not registered
+	addition.total.cupom = Addition (Total Cupom)
+	expiration.check = Expiration Check
+	movimentacao.entrada = Input Movement
+	movimento.saida = Output Movement
+	movimentacao.devolucao = Return Movement
+	Cliente = Client
+	clients = Clients	
+	address = Address
+	number = Number 
+	complement = Complement
+	operator.level = Operator's Level
+	Perfil = Profile
+	Senha = Password
+	Usuário = User
+    usuario = User
+	combined.sale = Combined Sale
+	start.date = Start date
+	end.date = End date
+	start.id = Start Id
+	finalizadora = Finalizadora
+	origin.product = Origin Product
+	parent.sequence = Parent Sequence
+	days.of.sales = Days of Sales
+	scheduled.price = Scheduled price
+	promotions = Promotions
+	tef.plans = TEF Plans
+	manual.note = Manual Note
+	production = Production
+	return = Return
+	report = Report
+	goal = Goal
+	kit = Kit
+	author = Author
+	buyer = Buyer
+	section.or.balance = Section/Balance
+	update.weight = Update Weight
+	import.weight = Import Weight
+	family = Family
+	services = Services
+	store.group = Store Group
+	enable.store = Enable Store
+	company.information = Company Information
+	automatic.processes = Auto Processes
+	partner.instituitions = Partner Instituitions
+	corporate.structure = Comporate Structure
+	locality = Locality
+	intervertion = Intervention
+	period.intervention = Period Intervetion
+	ecf.model = ECF Model
+	sat.redirection = SAT Redirection
+	retail.and.promotion = Retail and Promotion
+	client.promotion.price = Client Prom. Price
+	factor.uf.process = Factor UF Process
+	promotion.price.list = Promtion Price List
+	discount.level = Discount Level
+	special.discount = Special Discount
+	credit.authorization = Credit Authorization
+	dotz.menu = Dotz
+	coupon.distribution = Coupon Distribution
+	coupon.discount = Coupon Discount
+	promotion.coupon = Promotion Coupon
+	generated.coupons = Generated Coupons
+	coupons.generation = Coupons Generation
+	minimum.installment = Minimum Installment
+	table = Table
+	networks = Networks
+	delivery.tax = Delivery Tax
+	product.tag = Product Tag
+	unworked.days = Unworked Days
+	bills = Bills
+	club.group = Club Group
+	sitef.networks = SITEF Networks
+	sitef.flags = SITEF Flags
+	clisitef = Clisitef
+	donations.instituitions = Instituitions(Donation)
+	nav.pos.menu = POS Menu Nav.
+	redirect.tef.network = TEF Network Redirect.
+	financial.group.type = Financial Group Type
+	sale.price.type = Sale Price Type
+	pos.sale.type = POS Sale Type
+	promotion.coupon.type = Promotion Coupon Type
+	sale.plus.credit.type = Sale x Credit Type
+	cask.movement = Cask Movement
+	financial.plus.finisher = Financial x Finish.
+	financial.plus.credit = Financial x Credit
+	sale.plus.finisher.type = Sale x Finish. Type
+	change.finisher = Change Finisher
+	type.or.user = User/Type
+	nfce.notes = NFC-e Notes
+	initial.note.number = Initial Note Number
+	initial.coupon.number = Initial Coupon Number
+	final.coupon.number = Final Coupon Number
+	locals = Locals
+	local.products = Local products
+	reasons = Reasons
+	premium.list = Premium List
+	consist.or.issue = Consist/Issue
+	conference = Conference
+	sale.conference = Sale Conference
+	sale.conference.crm = Sale Conference CRM
+	consist.period = Consist Period
+	revert = Revert
+	use.all.stores = Use All Stores
+	products.of.the.day = Products of the day
+	previous.price = Previous Price
+	previous.promotion = Previous Promotion
+	previous.club = Previous Club
+	current.price = Current Price
+	current.promotion = Current Promotion
+	current.club = Current Club
+	store.products = Store Products
+	products.previous.of.the.day = Products previous of the day
+	view.process = View Process
+	pos.processes = POS Processes
+	export.parameters = Export Parameters
+	generate.vmest = Generate VmEst
+	generate.cat52 = Generate Cat52
+	generate.sped = Generate Sped
+	update.stock = Update Stock
+	price.exportation = Price Exportation
+	product.exportation = Product Exportation
+	load = Load
+	premium.return = Premium Return
+	cask.return = Cask Return
+	load.version = Load Version
+	improper.record = Improper Record
+	offiline.load = Offline Load
+	general.by.store = General by Store
+	general.by.component = General by Component
+	store.and.component = Store and Component
+	datalog.files = DataLog Files
+	sales.pooling = Sales Pooling
+	pos.requests = POS Requests
+	log.days = Log Days
+	day.s.begin = Day's Begin
+	nfce.situation = NFC-e Situation
+	systems.logs = Systems Logs
+	promotion = Promotion
+	pos.or.hour = POS / Hour
+	sales.day.month.year = Sales (Day Month Year)
+	sales.day.hour.location = Sales (Day Hour Local.)
+	sales.by.store = Sales by Store
+	sales.by.store.comp = Sales by Store (Comp)
+	sales.forecast = Sales Forecast
+	sales.forecast.by.store = Store Sales Forecast
+	sales.comparative = Sales Comparative
+	registred = Registered
+	search.all = Search All
+	conjugated.note = Conjugated Note
+	online.sales = Online Sales
+	digger.sales = Digger Sales
+	integrate.synchro = Integrate Synchro
+	occurrences.report = Occurrences Report
+	registers = Registers
+	sales.log.a = Sales Log A
+	sales.log.b = Sales Log B
+	sold.items = Sold Items
+	dinamics = Dinamics
+	modified.products = Modified Products
+	products.and.prices= Products and Prices
+	products.and.dotz = Products and Dotz
+	products.status = Products Status
+	prices.spreadsheet = Prices Spreadsheet
+	tax.or.ncm = Tax / NCM
+	coupon.by.campaign = Coupon by Campaign
+	total.undefined.tax = Total Undefined Tax
+	max.min.weight = Maximum/Minimum Weight
+	log.operator.process = Log Operator Process
+	wholesale.products = Wholesale Products
+	sale.or.discount = Sale / Discount
+	pis.sale = PIS Sale
+	cheque.conference = Cheque Conference
+	fiscal.informations = Fiscal Informations
+	coupon.finisher = Coupon Finisher
+	seal.tax = Seal Tax
+	foreigner.currency = Foreigner Currency
+	transactions = Transactions
+	tef.sales = TEF Sales
+	receipts.by.pos = Receipts by POS
+	reduction.z = Z Reduction 
+	short.time.promotion = Short Time Promotion
+	comparable.sales = Comparable Sales
+	weight.divergence = Weight Divergence
+	//C76869-daniella.bianchi-13/08/2021-Novo relatório financeiro (Mundial).
+	financial.report = Financial Report
+	//FIM
+	analytical.question = Questions (Analytical)
+	synthetic.questions = Questions (Synthetic)
+	detailed.questions = Questions (Detailed)
+	sale.type = Sale Type
+	products.or.movement = Products / Movement	
+	order.by = Order by
+	in.order = In Order
+	ascending = Ascending
+	descending = Descending
+	start = Start
+	end = End
+	pontos = Pontos
+	by = By
+	excluded = Excluded
+	by.operator = By Operator
+	sales.or.provider = Sales /Provider
+	sales.by.hour = Sales By Hour
+	salesperson.or.provider = Salesperson / Provider
+	sales.or.cost = Sales / Cost
+	campaigns = Campaign
+	analytical.product = Product(Analytical)
+	consolidated.product = Product(Consolidated)
+	functions.one.four.three.discount = Discount(143 Function)
+	pos.discount = Discount(POS)
+	combined.sale.discount = Discount(Comb. Sale)
+	coupon.distribuition.discount = Discount(Coupon Destrib.)
+	bags.discount = Discount(Bags)
+	fan.discount = Discount(Fan)
+	product.discount = Discount(Product)
+	finisher.discount = Discount(Finisher)
+	mix.discount = Discount(Mix)
+	wholesale.items.discount = Wholesale Items Disc.
+	geral.cancellation = Cancellation(General)
+	mod1.cancellation = Cancellation(Mod 1)
+	mod2.cancellation = Cancellation(Mod 2)
+	mod3.cancellation = Cancellation(Mod 3)
+	cancelled.coupons = Cancelled Coupons
+	tef.reversing = TEF Reversing
+	cancellation.report = Cancellation Report
+	unit.value = Unit Value
+	cancelled.total = Cancelled Total
+	total.store = Store Total
+	total.of.the.day = Day's Total	
+	cancelled.item = Cancelled Item
+	cancelled.coupon = Cancelled Coupon
+	cancelled.item.and.coupon = Cancelled Item and Coupon
+	cancelled.item.abbreviation = CI
+	cancelled.coupon.abbreviation = CC
+	cancelled.item.and.coupon.abbreaviation = CIC
+	add = Add
+	products.by.store = Products by store
+	store.by.products = Store by products
+	ncm.id = Ncm ID
+	icms = ICMS
+	federal.tax = Federal Tax
+	state.tax = State Tax
+	city.tax = City Tax
+	tax.situation = Tax Situation
+	total.tax = Total Tax
+	campaign.search = Capaign Search
+	all.campaigns = All Campaigns
+	invalid.operators.interval = Invalid Operator's Interval
+	invalid.responsible.interval = Invalid Responsible's Interval
+	users.ranking = Users Ranking
+	just.overview = Just Overview
+	coupons.quantity = Coupons Quantity
+	cancelled.items = Cancelled Items
+	total.quantity = Total Quantity
+	coupon = Coupon
+	items.quantity = Items Quantity
+	section.total = Section Total
+	captions = Legendas
+	invalid.product = Produto Inválido
+	action.type = Action Type
+	type.date = Type Date
+	movement.of.the.day = Movement of the day
+	process.execution = Process Execution
+	movement.date = Movement Date
+	date.process.execution = Date Process Execution
+	action.user = Action User
+	no.information = No Information
+	date.execution = Date Execution
+	pos.overview = POS Overview
+	show.items = Show Items
+	liquid = Liquid	
+	cancellation.total = Cancellation Total
+	cancelled.items.quantity = Cancelled Items Quantity
+	all.users = All Users
+	parent = Parent
+	parent.product = Parent Product
+	ticket.average = Ticket Average
+	cancelled.coupons.quantity = Cancelled Coupons Qntt.
+	sale.total = Sale Total
+	operator.id = Operator ID
+	store.coupons = Store Coupons
+  	empty.responsible = Empty Responsible 
+  	coupon.total = Coupon Total
+  	responsible.name = Responsible Name
+	column = Column
+	sale.quantity = Sale Quantity
+	sale.value = Sale Value
+	grand.total = Grand Total
+	coupons = Coupons
+	charges = Charges
+	no.discount = No Discount
+	type.pis = Type Pis
+	total.exempt.products = Total Exempt Products
+	total_sale = Total Sale
+	free.tax = Free Tax
+	source = Source
+	flag = Flag
+	invalid.flag.value = Invalid Flag Value
+	invalid.bin.value = Invalid BIN Value
+	bin = BIN
+	item = Item
+	fiscal.total = Fiscal Total
+	records.total = Records Total
+	discount.on.the.total = Discount on the Total
+	product.not.registered = Product not Registered
+	inform.type.sale = Inform type sale
+	normal.sale = Normal Sale
+	//C70620-daniella.bianchi-28/09/2021-Alteração no relatório de tipos de venda para demonstrar outras vendas.
+	others.sale = Others Sale
+	//FIM	
+	coupom.value = Coupom Value
+	net.value = Net Value
+	change = Change
+	net.price = Net Price
+	finalizadora.id = Finalizadora ID
+	finalizadora.description = Description Finalizadora
+	employee.discount = Employee Discount
+	invalid.interval.of.discount = Invalid Discount's Interval
+	total.of.discount = Total of Discount
+	discount.report = Discount's Report
+	and = and
+	bank = Bank
+	bank.branch = Bank branch
+	checking.account = Checking Account
+	check.number = Check Number
+	due.date = Due Date
+	lower.cash = Lower cash
+	top.cash = Top cash
+	total.cash = Total Cash
+	post.dated = Post-Dated
+	lower.post.dated = Lower Post-Dated
+	top.post.dated = Top Post-Dated
+	total.post.dated = Total Post-Dated
+	fiscal.data = Fiscal Data
+	terminal = Terminal
+	not.consisted = Not Consisted
+	sequentials.of.the.day = Sequentials of the day
+	irreducible.totals = Irreducible Totals
+	daily.gross.sale = Daily Gross Sale
+	reductions = Reductions
+	canceled.items = Canceled Items
+	sales.canceled = Sales Canceled
+	daily.net.sale = Daily Net Sale
+	exempt.tax.rate.aliquota = Exempt tax rate
+	tax.status.of.the.day = Tax Status of the day
+	icms.ranges = ICMS Ranges
+	icm = ICM
+	calculated.tax = Calculated Tax
+	subtitle = Subtitle
+	provider.search = Provider's Search
+	report.type = Report's Type
+	analytical = Analytical	
+	sythetic = Synthetic
+	provider.total = Provider Total
+	season.ticket.holder = Season Ticker Holder
+	to.separate = To Separate
+	foreign.currency.detailing = Foreign Currency Detailing
+	average.index = Average Index
+	converted.value = Converted Value
+	all.finishers = All Finishers
+	all.packing = = All Packings
+	all.providers = All Providers
+	sales.quantity = Sale's Quantity
+	item.discount.value = Item disc. Value
+	item.discounted.quantity = Item Disc. Quantity
+	total.values = Total Values
+	from = from
+	public.company = Public Company
+	all.promotions = All Promotions
+	received = Received
+	complete.description = Complete Description
+	receiving = Receiving
+	invalid.user = Invalid User
+	gondola.price = Gondola Price
+	price.difference = Price Differ.
+	total.difference = Total Differ.
+	auditor = Auditor
+	pos.price = POS Price
+	fiscal.coupon = Fiscal Coupon
+	product.ean = Product (EAN)
+	quantity.or.weight = Qntd/Peso
+	pos.price.formated.with.currency = Preço PDV (R$)
+	congola.price.formated.with.currency = Gongola Price
+	price.diference.formated.with.currency = Price Difference
+	total.price.diference.formated.with.currency = Total Price Difference
+	tax.percentage = Tax Percentage
+	value.in = Value in
+	index = Index
+	input.operator = Input Operator
+	exit.operator = Exit Operator
+	price.change = Price Change
+	drawer.opening = Drawer Opening
+	withdrawal = Withdrawal
+	cash.withdrawal = Cash Withdrawal
+	closing.withdrawa = Closing Withdrawal
+	deposit.withdrawal = Deposit Withdrawal
+	replenishment = Replenishment
+	forced.pause.exit = Forced Pause Exit
+	answer = Answer
+	total.coupons.value = Total Coupon Value
+	total.items = Total Items
+	forced.operator = Forced Operator
+	item.points = Pontos Item
+	coupon.points = Coupon Points
+	first.period = First Period
+	final.period = Final Period
+	network.nsu = Network NSU
+	nsu.sitef = NSU Sitef
+	discount.from = Discount From
+	wholesale.type = Wholesale Type
+	default.wholesale = Default Wholesale
+	own.card = Own Card
+	invalid.password = Invalid password 
+	invalid.discount = Invalid Discount
+	all.pos = All Pos
+	invalid.salesperson = Invalid Salesperson
+	cnpj = CNPJ
+	participant.id.cpf = Participant ID
+	participant.name = Participant Name
+	closing.time = Closing Time
+	final.balance = Final Balance
+	supplies = Supplies
+	accounting.value = Accounting Value
+	layout = Layout
+	forecast = Forecast
+	initial.pos = Initital Pos
+	delivery = Delivery
+	self.service = Self Service
+	profit.formated = Profit 
+	sold.quantity = Sold quantity
+	cost.value = Cost Value
+	margin = Margin
+	quantity.in.the.month = Qntt the month
+	quantidade.in.the.period = Qntt in the period
+	total.participation = Total Partic.
+	net.margin = Net Margin
+	contributor.margin = Contrib. Margin
+	normal.price = Normal Price
+	question = Question
+	operators.search = Operators Search
+	all.operators = All Operators
+	total.question = Total Question
+	total.answers = Total Answers
+	source.value = Source Value
+	product.description = Product Description
+	sold.value = Sold Value
+	commission.value = Commission Value
+	salesperson.total = Salesperson Total
+	commission = Comnission
+	commisioned.sales.total = Commissioned Sales Total
+	general.sales.total = General Sales Total
+	hour.description = Hour Description
+	day.of.the.week = Day of the week
+	taxation = Taxation
+	profitability = Profitability
+	internal.code = Internal Code
+	aliquot.percentage = Aliquot Perc.
+	just.comparables = Just Comparables
+	to.compare = To Compare
+	transactions.period  = Transactions Period
+	buy.coupon = Buy Coupon
+	buy.sell = Buy Sell
+	average.coupon = Average Coupon
+	internal.id = Internal ID
+	digit.automation = Digit Automation
+	amount.received = Amount Received
+	couponing = Couponing
+	balance = Balance
+	database = Database
+	versions = Versions
+	libraries = Libraries
+	graph = Graph
+	lines.quantity = Lines Qntt.
+	fixed = Fixed 
+	final.pos = Final POS
+	fixed.filter = Fixed Filter
+	final.hour = Final Hour
+	content = Content
+	initial.finisher = Initial Finish.
+	final.finisher = Final Finish.
+	initial.operator = Initial Operator
+	final.operator = Final Operator
+	initial.salesperson = Initial Salesperson
+	final.salesperson = Final Salesperson
+	week = Week
+	dozen = Dozen
+	fortnight = Fortnight
+	applied.filters = Applied Filters
+	buyers.search = Buyers' Search
+	report.of = Report of
+	purchases = Compras
+	initial.type= Initial Type
+	sale.day = Day's Sale
+	week.sales = Week Sales
+	week.goal = Week Goal
+	month.sales = Month Sales
+	group.total = Group Total
+	forecast.updated = Forecast Updated
+	forecast.not.updated= Forecast not updated
+	forecast.value = Forecast Value
+	week.day = Week Day
+	month.day = Month Day
+	logical.market.description = Logical Market description
+	envisaged.profit = Envisaged Profit
+	wait = Wait
+	attachments = Attachemnts
+	statistic.type = Statistic Type
+	operators = Operators
+	sellers = Sellers
+	unknown = Unknown
+	change.date = Change Date
+	container.type = Container Type
+	description.manufacturer = Description Manufacturer
+	variable.weigh = Variable Weigh
+	type.kit = Type Kit
+	buyer.name = Buyer Name
+	reference = Reference
+	name.author = Name Author
+	packing_sequence = Packing Sequence
+	packing.description = Packing Description
+	fantasy.name = Fantasy Name
+	mailbox = Mailbox
+	telex = Telex
+	fax = Fax
+	contact = Contact
+	telecontato = Telecontato
+	financial.additional = Financial Additional
+	financial.discount = Discount Financial
+	term.type = Term type
+	digit = Digit
+	toast.type = Toast Type
+	partner = Partner
+	type.use = Type Use
+	user.creation = User Creation
+	//C77418-daniella.bianchi-18/08/2021-Inclusão de join com a tabela PRECO_IMEDIATO_CAPA para retornar os campos USUARIO_INCLUSAO e USUARIO_ATUALIZACAO.
+	user.update = User Update
+	//FIM	
+	user.cancellation = User Cancellation
+	campaign.id = Campaign ID
+	creation.hour = Creation Hour
+	rate = Rate
+	plan.description = Plan Description
+	condition.description = Condition Description
+	industrialization = Industrialization
+	calculation.type = Calc. Type
+	auxiliary.description = Auxiliary Description
+	maximum.quantity.promotion = Maximum quantity promotion
+	medium.without.icms = Medium without icms
+	medium.with.icms = Medium with icms
+	percentage.expenses = Percentage expenses
+	last.entry.without.icms = Last entry without icms
+	last.entry.with.icms = last.entry.with.icms
+	icms.tax.effective = Icms tax effective
+	tax.reduction = Tax reduction
+	municipal = Municipal
+	collection = Collection
+	pis.cofins = Pis Cofins
+	base.reduction = Base reduction
+	depth = Depth
+	prices = Prices
+	costs.and.taxes = Costs and taxes
+	plans = Plans
+	points = Points
+	cost = Cost
+	tributes = Tributes
+	gondola.cfop = CFOP Gôndola
+	front = Front
+	gondola.sticker = Gôndola Sticker
+	stacking = Stacking
+	cfop.nfe = CFOP Nfe
+	quantity.label = Quant. label
+	parcels = Parcelas
+	point = Point
+	transaction.date = Transaction Date
+	transaction.nsu = Transaction NSU
+	bar.code = Bar Code
+	capture.form = Capture Form
+	form.of.payment = Form of payment
+	transaction.value = Transaction value
+	accounting.date = Accounting date
+	pos.cpfl = POS CPFL
+	qty.01 = Qty 01
+	qty.02 = Qty 02
+	qty.03 = Qty 03
+	qty.04 = Qty 04
+	qty.05 = Qty 05
+	type.01 = Type 01
+	type.02 = Type 02
+	type.03 = Type 03
+	type.04 = Type 04
+	type.05 = Type 05
+	value.01 = Value 01
+	value.02 = Value 02
+	value.03 = Value 03
+	value.04 = Value 04
+	value.05 = Value 05
+	type.reference = Type Reference
+	value.reference = Value Reference
+	gondola.tag.type = Gondola tag type
+	type.label.product = Type label product
+	changed = Changed
+	casadinha.id = Casadinha ID
+	sale.factor = Sale Factor
+	cost.factor = Cost factor
+	cover.store = Cover store
+	routine - Routine
+	number.of.errors = Number of errors
+	error.description = Error description
+	description.01 = Description 01
+	description.02 = Description 02
+	description.03 = Description 03
+	description.04 = Description 04
+	description.05 = Description 05
+	use.date = Use Date
+	use.store = Use store
+	use.pos = Use POS
+	use.coupon = Use Coupon
+	credit.description = Credit description
+	m1 = M1
+	m2 = M2
+	m3 = M3
+	m4 = M4
+	m5 = M5
+	previous.sale.price = Previous sale price
+	id.list = ID List
+	list.description = List description
+	type.points = Type points
+	creation.origin = Creation origin
+	creation.store = Creation store 
+	creation.pos = Creation POS
+	creation.coupon = Creation coupon
+	use.origin = Use origin
+	use.user = Use user
+	process.id = Process ID
+	digit.campaign = Digit campaign
+	icon = Icon
+	linux = Linux
+	windows.file = Windows file
+	file.size = File size
+	linux.file = Linux file
+	description.job = Description job
+	configuration.description = Configuration description
+	parameter.job = Parameter job
+	transaction = Transaction
+	nsu = NSU
+	series = Series
+	emission.type = Emission type
+	date.Weight = Date Weight
+	signature = Signature
+	location.id = Location ID
+	store.id = Store ID
+	customer.type = Customer type
+	country.id = Country ID
+	background.image = Background image
+	cell.phone = Cell phone
+	domain.type = Domain type
+	executable.name = Executable name
+	01 = 01
+	02 = 02
+	03 = 03
+	04 = 04
+	05 = 05
+	06 = 06
+	07 = 07
+	08 = 08
+	09 = 09
+	10 = 10
+	11 = 11
+	12 = 12
+	tef.network = TEF network
+	tef.type = TEF Type
+	maximum.change.value = Maximum change value
+	check.issue = Check issue
+	operation.id = Operation ID
+	date.inclusion = Date inclusion
+	track = Track
+	check.type = Check type
+	tef.bin = TEF Bin
+	tef.restriction = Tef restriction
+	tef.restriction.partial = Tef restriction partial
+	uses.authorization = Uses authorization
+	payment.type = Payment type
+	use.parcel = Use parcel
+	priority.description = Priority description
+	tef.banner = Tef banner
+	file.csv = File csv
+	token.id = Token ID
+	token = Token
+	radical.cnpj = Radical CNPJ
+	date.situation = Date situation
+	coupon.event = Coupon event
+	nsu.event = NSU event
+	coupon.date = Coupon Date
+	type.search = Type search
+	connection.status = Connection status
+	date.last.connection = Date last connection
+	service.type = Service type
+	number.days = Number days
+	partner.company = Partner company
+	partner.establishment = Partner establishment
+	email.01 = Email 01
+	email.02 = Email 02
+	email.03 = Email 03
+	forecast.factor = Forecast factor
+	product.value = Product value
+	final.value = Final value
+	type.aliquot = Type aliquot
+	description.box = Description box
+	quantity.box = Quantity box
+	scheduling = Scheduling
+	integration.hour.a = Integration hour A
+	integration.hour.b = Integration hour B
+	business.structure = Business structure
+	source.ip = Source IP
+	destination.ip = Destination IP
+	source.port = Source Port
+	destination.port = Destination Port
+	source.timeout = Source Timeout
+	destination.timeout = Destination Timeout
+	store.situation = Store situation
+	coo.situation = COO situation
+	inclusion.user.code = Inclusion user code
+	store.inclusion = Store inclusion
+	user.name.inclusion = User name inclusion
+	store.change = Store change
+	user.id.change = User ID change
+	user.name.change = User name change
+	operation.exe.id = Operation EXE ID
+	name.exe.id = Name EXE ID
+	version.exe.operation = Version EXE operation
+	version.data.operation = Version data operation
+	user.exe.operation = User exe operation
+	import.all = Import all
+	advanced.search = Advanced search
+	withdrawal.limit = Withdrawal limit
+	unit.price = Unit price
+	coupon.cancelled.by = Coupon cancelled by
+	cupom.type = Cupom type
+	system.default = System Default
+	active = Active
+	enable.order.item.detailing = Enable order item detailing
+	product.subject.to.industrialization.process = Product subject to industrialization process
+	convert.sales.order.to.custom = Convert sales order to custom
+	convert.stock.according.to.unit.specification = Converts stock according to Unit Specification
+	add.raw.material.stock = Add raw material stock
+	must.be.grather.than.zero = must be grather than zero
+	store.products = Store products
+	dig.aut = Dig Aut
+	country = Country
+	number.note = Number note
+	canceled = Canceled
+	mobile.recharge = Mobile recharge
+	wholesale.logical.market = Wholesale Logical Market
+	packing.quantity = Packing quantity
+	delete.product = Deletar produto
+	default = Default
+	cover.date = Cover Date
+	operatortype = Operator Type
+	operatornormal = Operator Normal
+	operatorapoio = Operator Apoio
+	reduction.remaining = Reduction Remaining
+	format = Format
+	font = Font
+	normal.footer = Normal footer
+	footer.club = Club foooter
+	generic.footer = Generic footer
+	levels.sellers = Levels of sellers
+	levels.operators = Levels of operators
+	date.club.start = Date Club Start
+	date.club.end = Data Fim Clube
+	variable.weight = Variable weight
+	printer.not.mapped.on.server = Printer not mapped on server
+	identify.seller = Identify seller
+	casadinha.description = Casadinha Description 
+	consignado = Consignado
+	replicate = Replicate
+	promoted.origin = Promoted origin (OR)
+	promoted.differently.from.the.origin = promoted differently from the origin (OR)
+	payment = Payment
+	client.code = Client code
+	group.code = Group code
+	payment.code = Payment code
+	qty = Qty
+	value.item = Item Value
+	discount.item = Discount Item
+	pagamento.menu.tef = Pagamento + Menu TEF
+	receipt.amount = Receipt Amount
+	apportionment.items = Apportionment items 
+	menu.tef = Menu TEF
+	kit.sales = Kit Sales
+	kit.code = Code Kit
+	qtd.kit = Qtd Kit
+	desc.kit = Desc. Kit
+	desc.product = Desc Product
+	domain = Domain
+	intermediaries = Intermediaries
+	confirmation = Confirmation
+	log.store.packaging = Log Store/Packaging
+	beginning.previous.term = Beginning of the Previous Term
+	end.previous.term = End of Previous Term
+	beginning.current.term = Beginning of the Current Term
+	end.current.term = End of Current Term
+	user.cod = User Code
+	user.name = User Name
+	occurrence = Occurrence
+	type.of.change = Type of Change
+	previous.prom = Previous Prom.
+	current.prom = Current Prom.
+	execute.coupon.write.off = Execute coupon write-off?
+	ccf = CCF
+	delivery.term = Delivery Term
+	type.code = Type Code
+	position = Position
+	term = Term
+	spaces = Spaces
+	trunc = Trunc
+	voucher.code = Voucher Code
+	copy.term = Copy Term
+	code.bin = BIN Code
+	nt1601 = NT 1601
+	reference.month = Reference Month
+	stamps = Stamps
+	stamps.redemption = Stamps Redemption
+
+#Combo Opções da tela de pesquisa
+	
+	different = Different
+	greater.than = Greater Than
+	less.than = Less Than
+	greater.equals.than = Greater/Equals Than
+	less.equals.than = Less/Equals Than
+	starts.with = Starts With
+	ends.with = Ends With
+	contains = Contains
+	valid.until = Valid Until
+	inclusion = Inclusion
+	not.taxed = Not Taxed
+	ticket =  Ticket
+	total.cupom.nonexistent = Total Ticket Nonexistent
+	cupom.type = Ticket Type
+   	Entrar = Login
+	Limpar = Clear
+	PDF= PDF
+	delete= Delete
+	Fechar= Close
+	save= Save
+	next= Next
+	previous= Previous
+	stock = Stock
+	cancel = Cancel
+	import = Import
+	importation = Importation
+	exportation = Exportation
+	query = Query
+	counter.z = Counter Z
+	cro = CRO
+	total.initial.gt = Total Initial GT
+	total.final.gt = Total Final GT
+	total.gross.sale = Total Gross Sale
+	total.cancellations = Total Cancellations
+	total.discounts = Total Discounts
+	total.net.sales = Total Net Sales
+	total.aliquots = Total Aliquots
+	total.base = Total Base
+	total.finishers = Total finishers
+	finishers.balance = Finishers balance
+	
+#Tela de pesquisa Headers
+	go = Go
+	search = Search
+	close= Close
+	edit= Edit
+	csv= CSV
+	print= Print
+	fields= Fields
+	spreadsheet = Spreadsheet
+	filter= Filter
+	include= New
+	pesquisa.option.title = Search Options
+	fields.selection.title = Fields Selection
+	export.detailed = Export Detailed
+
+#MenuPadrao
+	acesso = Security
+	cadastro = Register
+	logvendas = Sales log
+	processos = Processes
+	paineis = Panels
+	estatisticas = Statistics
+	integracao = Integration
+    relatorios = Reports 
+	alterarsenha = Change Password
+	versao = Version
+	janelas = Windows 
+	
+	
+#Erro Mensagem
+	erro.precomenor= {0} Field Price of Sell is less or equals 0 {1}  {2}.
+	invalid.field= Field {0} is invalid, the value {1} {1,choice, -2# are | -1# is | 1< are  } invalid
+	title.autor= Author
+
+
+#-------------------------------------------------------------
+
+#Tela Pesquisa Usuario
+	user.title.search = User's Search
+	
+#Tela Manuntenção Usuario
+	user.title.maintain = User's Maintenance
+	user.tab.history = History
+	user.lbl.included = Included When
+	user.lbl.adminlogin = Admin Login
+	user.lbl.datapass = Date password
+	//C70652-daniella.bianchi-19/08/2021-Isolamento senhas de acesso ao PDV (operadores) das senhas de acesso ao Visual Store e demais Sistemas (usuários). 
+	user.lbl.datapass.pos = Date password POS
+	//FIM	
+	user.lbl.convenedcompany = Convened Company
+	user.lbl.convenedestablishment = Convened Establishment
+	user.lbl.pdvlogin = PDV Login
+	user.lbl.forcedrawer = Force Drawer
+	user.lbl.salesman = Salesman
+	user.lbl.ignoredigital = Ignore Digital
+	user.lbl.levelpdv = PDV Level
+	user.lbl.operatortype = Operator Type
+	user.lbl.email1 = Email 1
+	user.lbl.email2 = Email 2
+	user.lbl.email3 = Email 3
+	user.lbl.comission = Commission
+	user.lbl.maxpercdescount = Max Percentual of Descount
+	user.lbl.typesalesman = Type of Salesman
+	user.lbl.pricetable = Price Table
+	user.lbl.lastpersoncharge = Last Person In Charge
+	user.lbl.cleandigital = Clean Digital
+	user.dtgheader.field = Field
+	user.dtgheader.nochanges = No Changes
+	user.lbl.rg = RG
+	
+#Tela Pesquisa Perfil
+	profile.title.search = Profile's Search
+	
+#Tela Manutenção Perfil
+	profile.title.maintenance = Profile's Maintenance
+	profile.all.permissions = 0 - All
+	profile.not.permitted = 1 - Permitted
+	profile.is.permitted = 2 - Is Not Permitted
+	
+	module.pontosenha.register = Visual Store - Register
+	module.pontosenha.access = VisualStore - Access
+
+	ponto.senha.visualizar.profile = Profile - Visualize
+	ponto.senha.visualizar.user = User - Visualize
+	
+	
+#Tela de Manutenção de Nivel de Operador
+	niveloper.title.maintenance = Operator's Level Register
+	
+#Tela de Pesquisa da Loja
+	cadastro.lojas.jsppesquisa.title = Store's Search
+
+#Tela de Manutenção de Loja
+
+	cadastro.lojas.jsptela.title = Store's Maintenance
+	cadastro.lojas.jsptela.tab_principal = Principal 
+	cadastro.lojas.jsptela.tab_ip = IP's Addresses
+	cadastro.lojas.jsptela.tab_company_structure = Company's Structure
+	cadastro.lojas.jsptela.tab_integration = Integration
+	cadastro.lojas.jsptela.tab_nfce = NFCE
+	cadastro.lojas.jsptela.tab_sw_express= Software Express
+	cadastro.lojas.jsptela.lbl_csc = CSC
+	cadastro.lojas.jsptela.lbl_online_authorization = Online Authorization
+	cadastro.lojas.jsptela.lbl_contigency_authorization = Contigency Authorization
+	cadastro.lojas.jsptela.lbl_inutilization = Inutilization
+	cadastro.lojas.jsptela.lbl_events = Events
+	cadastro.lojas.jsptela.lbl_service_status = Service Status
+	cadastro.lojas.jsptela.lbl_cancelled_inutilizated = Cancelled/Inutilizated
+	cadastro.lojas.jsptela.lbl_nfce = NFC-e
+	cadastro.lojas.jsptela.lbl_store_number = Store Number
+	cadastro.lojas.jsptela.lbl_social_reason = Social Reason
+	cadastro.lojas.jsptela.lbl_cnae = CNAE
+	cadastro.lojas.jsptela.lbl_crt = CRT
+	cadastro.lojas.jsptela.lbl_timezone = Time Zone
+	cadastro.lojas.jsptela.lbl_state_subscription = State Subscription
+	cadastro.lojas.jsptela.lbl_city_subscription = City Subscription
+	cadastro.lojas.jsptela.lbl_num_employees = Number of Employees
+	cadastro.lojas.jsptela.lbl_aream2 = Area (m²)
+	cadastro.lojas.jsptela.lbl_cae = CAE
+	cadastro.lojas.jsptela.lbl_scale_a = Scale A
+	cadastro.lojas.jsptela.lbl_scale_b = Scale B
+	cadastro.lojas.jsptela.lbl_pis = PIS
+	cadastro.lojas.jsptela.lbl_store_integration = Store Integration
+	cadastro.lojas.jsptela.lbl_pis_date_changed = PIS date changed
+	cadastro.lojas.jsptela.lbl_icms_section = ICMS Section
+	cadastro.lojas.jsptela.lbl_activate_store = Activate Store
+	cadastro.lojas.jsptela.lbl_groups = Groups
+	cadastro.lojas.jsptela.lbl_store_type = Store's Type
+	cadastro.lojas.jsptela.lbl_manager = Manager
+	cadastro.lojas.jsptela.lbl_company = Company
+	cadastro.lojas.jsptela.lbl_ip = IP
+	cadastro.lojas.jsptela.lbl_central_tef_ip = TEF's Central IP
+	cadastro.lojas.jsptela.lbl_store_tef_ip = Store TEF IP
+	cadastro.lojas.jsptela.lbl_tef_ip = TEF's IP
+	cadastro.lojas.jsptela.lbl_store_ip = Store IPs
+	cadastro.lojas.jsptela.lbl_company1 = Company 1
+	cadastro.lojas.jsptela.lbl_company2 = Company 2
+	cadastro.lojas.jsptela.lbl_company3 = Company 3
+	cadastro.lojas.jsptela.lbl_company4 = Company 4
+	cadastro.lojas.jsptela.lbl_company5 = Company 5
+	cadastro.lojas.jsptela.lbl_integration_cost_center = Integration's Cost Center
+	cadastro.lojas.jsptela.lbl_last_lost = Last Lot
+	cadastro.lojas.jsptela.lbl_authorized_ip = Authorized IP
+	cadastro.lojas.jsptela.lbl_gate = Gate
+	cadastro.lojas.jsptela.lbl_cons_hour = Cons Hour
+	cadastro.lojas.jsptela.lbl_receipt_header = Receipt Header
+	cadastro.lojas.jsptela.lbl_max_perc_discount = Max Perc Discount
+	cadastro.lojas.jsptela.lbl_fantasy_name = Fantasy Name
+	cadastro.lojas.jsptela.lbl_soft_decriptor = Soft Decriptor
+	cadastro.lojas.jsptela.lbl_mcc = MCC
+	cadastro.lojas.jsptela.lbl_confins = Confins
+	cadastro.lojas.jsptela.lbl_aliquot = Aliquot
+	cadastro.lojas.jsptela.lbl_balance_type = Balance Type
+	cadastro.lojas.jsptela.lbl_last_sequence = Last Sequence
+	cadastro.lojas.jsptela.lbl_final_ip = Final Ip
+	cadastro.lojas.jsptela.lbl_initial_ip = Initial Ip
+    cadastro.lojas.jsptela.simple.national.cmb = 1 - Simple National
+	cadastro.lojas.excesso.sublimite.receita.bruta.cmb = 2 - Simple National - Gross Revenue Subceiling Excess 
+	cadastro.lojas.jsptela.normal.regime.cmb = 3 - Normal Regime
+	cadastro.lojas.jsptela.liberado.cmb = 0- Cleared 
+	cadastro.lojas.jsptela.nao.liberado.cmb = 1- Not Cleared 
+	cadastro.lojas.jsptela.none.cmb = 00- NONE
+ 
+	
+	
+#Tela de Pesquisa de Produto
+	pesquisa.produto.title = Product's Search
+	
+#Tela de Cadastro de Produto
+	cadastro.produto.title = Product's Register
+	cadastro.produto.principal = Principal
+	cadastro.produto.combustivel = Fuel
+	cadastro.produto.specification = Specification
+	cadastro.produto.mercadologico = Logical Market
+	cadastro.produto.embalagem/automacao = Packaging/Automation
+	cadastro.produto.embalagem/loja = Packing/Store
+	cadastro.produto.atacado = Wholesale
+	cadastro.produto.relampago = Lightning
+	cadastro.produto.ind_tec = Ind. Tech
+	cadastro.produto.complete_desc = Complete Description
+	cadastro.produto.reduced_desc = Reduced Description
+	cadastro.produto.reference = Reference
+	cadastro.produto.under_measure = Under Measure
+	cadastro.produto.espessura(mm) = Thickness(mm)
+	cadastro.produto.comprimento(mm) = Length(mm)
+	cadastro.produto.largura(mm) = Width(mm)
+	cadastro.produto.mercadologico1 = Logical Market 1
+	cadastro.produto.mercadologico2 = Logical Market 2
+	cadastro.produto.mercadologico3 = Logical Market 3
+	cadastro.produto.mercadologico4 = Logical Market 4
+	cadastro.produto.mercadologico5 = Logical Market 5
+	cadastro.produto.family = Family
+	cadastro.produto.complementar = Complement
+	cadastro.produto.desc_balance = Balance Description
+	cadastro.produto.own_manafacture = Own Manufacture
+	cadastro.produto.sell_type = Sell Type
+	cadastro.produto.qtd_decimal = Decimal Quantity
+	cadastro.produto.alcholic_drink = Alcoholic Drink
+	cadastro.produto.fornecedor = Provider
+	cadastro.produto.sell_place = Sell Place
+	cadastro.produto.unit_specific = Unitary Specific
+	cadastro.produto.mercadologico = Logical Market
+	cadastro.produto.meal_agreement = Meal Agreement
+	cadastro.produto.etiqueta = Tag
+	cadastro.produto.servico = Service
+	cadastro.produto.numeroserial = Serial Nº
+	cadastro.produto.lote = Batch
+	cadastro.produto.ex.tipi = Ex. Tipi	
+	cadastro.produto.comprador = Buyer
+	cadastro.produto.automation_id = Automation ID
+    cadastro.produto.autor(a) = Author
+	cadastro.produto.origem = Origin
+	cadastro.produto.id_ncm = ID Ncm
+	cadastro.produto.repesar = Reweigh
+	cadastro.produto.kit_type = Kit Type
+	cadastro.produto.marca = Brand
+	cadastro.produto.pesovariavel = Variable Weight
+	cadastro.produto.specific_weight = Specific Weight
+	cadastro.produto.local_production = Local Production
+	cadastro.produto.nutricional = Nutritional
+    cadastro.produto.garantia = Warranty
+	cadastro.produto.kit = Kit
+	cadastro.produto.isbn = ISBN
+	cadastro.produto.pis = PIS
+	cadastro.produto.store_filter = Store Filter
+	cadastro.produto.id_spec_st = Id Specification ST
+	cadastro.produto.expiration_date = Expiration Date
+	cadastro.produto.isbn_id = ISBN ID
+	cadastro.produto.ate = until
+	cadastro.produto.max_perc_retail = % de Retalho Max
+	cadastro.produto.min_perc_retail = % de Retalho Min
+	cadastro.produto.cofins = Cofins
+    cadastro.produto.vasilhame = Bottle
+	cadastro.produto.id_anp = ANP ID
+	cadastro.propduto.packing_sell = Packing Sell
+	cadastro.produto.nao.informa.cmb = 0- Don't inform
+	cadastro.produto.informa.cmb = 1- Inform
+	cadastro.produto.informa.valida.cmb = 2- Inform and Validates
+    cadastro.produto.informa.imei.cmb = 3- Inform IMEI
+    cadastro.produto.not.kit.cmb = 00- It's Not Kit
+    cadastro.produto.default.cmb = 10- Default
+    cadastro.produto.covenant.cmb = 11- Covenant
+    cadastro.produto.composed.cmb = 12 - Composed
+    cadastro.produto.national.cmb = 0- National
+    cadastro.produto.foreigner.direct.importation.cmb = 1-Foreigner(Direct Importation)
+    cadastro.produto.foreigner.internal.market.aquis.cmb = 2- Foreigner(Internal.Markert.Aquisi)
+
+#Tela de pesquisa de fornecedor
+    pesquisa.fornecedor.title = Provider Search
+#Tela de cadastro de fornecedor
+    cadastro.fornecedor.title = Provider Register
+    cadastro.fornecedor.razaosocial = Company Name
+    cadastro.fornecedor.nomefantasia = Fantasy Name
+    cadastro.fornecedor.caixapostal = Mailbox
+    cadastro.fornecedor.telex = Telex
+    cadastro.fornecedor.contact = Phone Contact
+    cadastro.fornecedor.telefonecontato = Contact Telephone
+    cadastro.fornecedor.financialdiscount = Financ. Desc
+    cadastro.fornecedor.financialadd = Financ. Adtt
+    cadastro.fornecedor.shipping = Shipping
+    cadastro.fornecedor.deliverytime = Delivery Time
+    cadastro.fornecedor.fax = Fax
+    cadastro.fornecedor.stateregistration = State Registration
+    cadastro.fornecedor.cgccpf = CGC/CPF
+    cadastro.fornecedor.cgccnpj = CGC/CNPJ
+    cadastro.fornecedor.observation = Observation
+    cadastro.fornecedor.type = Type
+    
+#Tela de pesquisa mercadologico
+   pesquisa.mercadologico.title = Logical Market Search
+#Tela de cadastro mercadologico
+   cadastro.mercadologico.title = Logical Market Register
+#Tela de pesquisa kit
+   pesquisa.kit.title = Kits' Search
+#Tela de cadastro kit
+   maintenance.kit.title = kit maintenance
+   maintenance.kit.tipokit = Kit Type
+   maintenance.kit.baixaestoquekit = Low Stock Kit
+   maintenance.kit.produto = Product
+   maintenance.kit.embalagem = Packaging
+   maintenance.kit.tipopreco = Price Type
+   maintenance.kit.precovenda = Sale Price
+   maintenance.kit.fatorvenda = Sale Factor
+   maintenance.kit.paginacao = Pagination
+   maintenance.kit.quantidade = Quantity
+   maintenance.kit.valorcusto = Cost Value
+   maintenance.kit.fatorcusto = Cost Factor
+   maintenance.kit.excluirkit = Exclude Kit
+   maintenance.kit.kit.price = kit Price
+   maintenance.kit.register.price = Register Price
+  
+#Tela de Pesquisa Autor
+   pesquisa.autor.title = Author's Search 
+#Tela de Cadastro Autor
+   cadastro.autor.title = Author's Register
+
+#Tela de Pesquisa de Compradores
+   pesquisa.compradores.title = Buyers' Search
+#Tela de Manutenção de Compradores
+   maintenance.compradores.title = Buyers maintenance  
+ 
+#Tela de Manutenção Secão/Balança
+   maintenance.section.balance.title = Section/Balance Maintenance
+
+#Tela de Pesquisa de Familia 
+   pesquisa.produto.familia.title = Family Search
+#Tela de Cadastro de Familia 
+   cadastro.produto.familia.title = Family Register
+   
+#Tela de Manutenção de Serviços
+   maintenance.service.title = Service Maintenance
+   maintenance.service.percent = Percent
+   maintenance.service.percent.iof = Perc. IOF
+   
+#Tela de Pesquisa De Grupos
+   pesquisa.groups.title = Group Search
+  
+#Tela de Manutenção de Grupos e Lojas
+   maintenance.group.loja.title = Store Groups Maintenance
+   
+#Tela de Ativação de Loja
+   ativacao.loja.title = Stores' Activation
+   
+#Tela de Pesquisa Processos Automaticos Loja
+   pesquisa.processos.automaticos.loja = Store Automatic Processes Search
+ 
+#Tela de Cadastro de Processos Automaticos
+  store.automatic.process.register.title = Store Automatics Processes Register
+
+#Tela de Configuração de Processos Automáticos
+  automatic.process.configuration.title = Automatic Process Configuration
+  
+#Tela de Cadastro De Instituições Parceiras
+  institution.campaign.title = Institution Campaigns
+
+#Tela de Pesquisa de Estrutura Empresarial
+  pesquisa.estrutura.empresarial.title = Corporate Structure Search
+
+#Tela de Cadastro De Estrutura Empresarial
+  cadastro.estrutura.empresarial.title = Corporate Structure Register
+  
+#Tela de Pesquisa de Componente
+   pesquisa.componente.title = Component Search
+   pesquisa.componente.liberarcarga = Release Load
+   pesquisa.componente.todasinfo = All Data
+   pesquisa.componente.infocomunicacoes = Comunication Data
+   pesquisa.componente.versaoinfo = Version Data    
+
+#Tela de Cadastro de Componente 
+   cadastro.componente.title = Component Register
+   cadastro.componente.cpfl = CPFL
+   cadastro.componente.ecf = ECF
+   cadastro.componente.typefunction = Type/Function
+   cadastro.componente.operationbegindate = Operations Begin Date
+   cadastro.componente.icmsmapa = Map ICMS 
+   cadastro.componente.ecfmodel = ECF Model
+   cadastro.componente.modelvoucher = Ticket Model
+   cadastro.componente.fileload = Files Load
+   cadastro.componente.ignoregateway = Ignore Gateway
+   cadastro.componente.pdvcpfl = PDV CPFL
+   cadastro.componente.networkid = Network ID 
+   cadastro.componente.notusesispacc = Not Use SISPACC
+   cadastro.componente.macaddress = Mac Address
+   cadastro.componente.truncaicsmvalue = 0-Truncate ICMS Value
+   cadastro.componente.roundicmsvalue = 1-Round ICMS Value
+   cadastro.componente.componentgeneralload = Component's General Load
+   cadastro.componente.codtrnvalue = CodTrn Value
+   cadastro.componente.liberarcargacomponente.title =  Release Component's Load
+   
+#Tela de Manutenção de ECFs
+   maintenance.ecfs.title = ECFs Maintenance
+   maintenance.ecfs.aditionalmf = Aditional MF
+   maintenance.ecfs.user.order.number = User Order Number
+   maintenance.ecfs.app.number  = App. Number
+   maintenance.ecfs.dll.version.manufacturer  = Manufacturer's DLL Version
+   maintenance.ecfs.md5pos  = Md5 POS   
+   maintenance.ecfs.cat.type  = CAT Type
+   maintenance.ecfs.seq.impr = Seq. Impr 
+   maintenance.ecfs.sb.version = SB Version 
+   maintenance.ecfs.when.included.sb = When Included SB 
+   maintenance.ecfs.when.included.gt = GT
+   maintenance.ecfs.coo.final = COO Final
+   
+#Tela de Pesquisa de Componentes Intervenção
+   pesquisa.componentes.intervencao.title = Intervention's Components Search   
+   
+#Tela de Cadastro de Componentes em Intervenção
+   cadastro.componente.intervencao = Intervention Components Register
+   cadastro.componente.nosale =  No Sale
+   cadastro.componente.maintenance.return = Maintenance's Return
+   cadastro.componente.broken.pos = Broken Pos
+   
+#Tela de Pesquisa Intervenção de PDV por Período
+   pesquisa.intervencao.pdv.periodo.title = POS' Intervention per Period Search
+   
+#Tela de Cadastro de Componentes em Intervenção por Período
+   cadastro.componente.intervencao.periodo.title = Component's in Intervention per Period Register 
+   
+#Tela de Visualização de ECF - Modelos Usados
+   ecf.modelos.usados.title = ECF - Used Models
+   
+#Tela de Redirecionamento de SAT
+   redirecionamento.sat.title = SAT Redirection
+   
+#Tela Atualização de Preço Imediato
+   atualizacao.preco.imediato.title = Price Immediate Upgrade
+   atualizacao.preco.imediato.packaging.sequence = Packaging Sequence
+  
+#Tela de Preço Varejo e Promoção
+   preco.varejo.promocao.title = Wholesale Price And Promotion
+   
+#Tela de Preço Atacado
+   preco.atacado.title = Wholesale Price
+   value1 = Value 01
+   value2 = Value 02
+   value3 = Value 03
+   value4 = Value 04
+   value5 = Value 05
+   
+
+#Tela de Clube
+   clube.title = Club Price
+   
+#Tela de Pesquisa de Listas de Preço Imediato
+   pesquisa.listas.preco.imediato = Immediate Prices' List Search
+  
+#Tela de Cadastro de Listas de Preço Imediato 
+   cadastro.listas.preco.imediato.title = Immediate Price's List  
+   cadastro.listas.preco.imediato.title1= Promotion Price's List
+   cadastro.listas.preco.imediato.title2= Club Price's List
+   cadastro.listas.preco.imediato.title3= Price's List  
+   cadastro.listas.preco.imediato.combo00 = 00 - Immediate Price's List
+   cadastro.listas.preco.imediato.combo01 = 01 - Promotion Price's List
+   cadastro.listas.preco.imediato.combo02 = 02 - Club Price's List
+   cadastro.listas.preco.imediato.combo03 = 03 - Club Price's List (Customized)
+   cadastro.listas.preco.imediato.combo04 = 04 - Club Price's List (Massive Unidentified)
+   
+#Tela de Pesquisa de Preço Promoção Cliente
+   pesquisa.preco.promocao.cliente.title = Client Promotion Price's Search
+ 
+    
+#Tela de Preço Promoção Cliente
+   preco.promocao.cliente.title = Client Promotion's Price
+   preco.promocao.situation.inactive = 0 - Inactive
+   preco.promocao.situation.activated = 1 - Activated
+   preco.promocao.situation.executed = 2 - Executed  
+
+#Tela de Pesquisa de Cliente
+   pesquisa.cliente.title = Client's Search
+   
+#Tela de Pesquisa de Lista Preço Promoção
+   pesquisa.lista.preco.promocao.title = Promotion Price's List Search
+   
+#Tela de Pesquisa de Lista de Preço Clube
+   pesquisa.lista.preco.clube = Club Price List's Search
+   
+#Tela de Pesquisa de Casadinhas
+   pesquisa.casadinhas.title = Virtual packing promotion search
+   
+#Tela de Cadastro de Casadinhas 
+   cadastro.casadinhas.title = Virtual packing promotion register
+   cadastro.casadinhas.origin.or.origin.cmb = 1 - Origin OR Origin (OR)
+   cadastro.casadinhas.origin.and.origin.cmb = 2 - Origin AND Origin (AND)
+   cadastro.casadinhas.origin.quantity.cmb = 3 - Origin Quantity
+   cadastro.casadinhas.origin.quantity.mandatory.cmb = 4 - Origin Mandatory Quantity
+   cadastro.casadinhas.origin.discount.unique.item.cmb = 1 - Unique Item Discount (OR)
+   cadastro.casadinhas.origin.discount.all.itens.cmb = 2 - All Item Discount (AND)
+   cadastro.casadinhas.origin.discount.type.as.of.cmb = 3 - Discount Type As Of 
+   cadastro.casadinhas.origin.discount.item = 1 - Item Discount
+   cadastro.casadinhas.origin.discount.total.cupom.discount = 2 - Total Cupom Discount
+   cadastro.casadinhas.origin.discount.finisher.receipt.discount = 3 - Payment receipt
+   //C76134-daniella.bianchi-08/07/2021-Tratamento para carregamento dos novos campos Situação e Tipo Campanha.
+   cadastro.casadinhas.situation.activated.cmb = Activated
+   cadastro.casadinhas.situation.disabled.cmb = Disabled
+   cadastro.casadinhas.campaign.type.notinformed.cmb = 0 - Not Informed
+   cadastro.casadinhas.campaign.type.simple.cmb = 1 - Simple
+   cadastro.casadinhas.campaign.type.complex.cmb = 2 - Complex
+   //FIM
+   
+#Tela de Cadastro Níveis de Liberação de Desconto
+   cadastro.niveis.liberacao.desconto.title = Release Level Discount's Register
+   cadastro.niveis.liberacao.desconto.niveis = <b>Level</b>
+   cadastro.niveis.liberacao.desconto.pedido = %Request
+   cadastro.niveis.liberacao.desconto.item = %Item
+   cadastro.niveis.liberacao.desconto.negociacao = %Negotiation
+   cadastro.niveis.liberacao.desconto.discount = %Discount
+   cadastro.niveis.liberacao.desconto.request.total = %Request Total
+   cadastro.niveis.liberacao.desconto.item.total = %Item Total
+   cadastro.niveis.liberacao.desconto.negotiation.total = %Negotiation Total
+   
+#Tela de Pesquisa de Desconto Especial
+   pesquisa.desconto.especial.title = Special Discount's Search
+      
+#Tela de Manutenção de Desconto Especial
+   maintenance.desconto.especial.title = Special Discount's Maintenance
+   maintenance.desconto.especial.discount.value = 1 - Discount Value
+   maintenance.desconto.especial.discount.perc = 2 - Discount Perc.
+   maintenance.desconto.especial.discount.product.value = 3 - Product Value
+      
+    
+#Tela de Pesquisa de Autorização de Crédito
+   pesquisa.autorizacao.credito.title = Credit Authorization's Search
+   
+#Tela de Manutenção de Autorização de Crédito
+   maintenance.autorizacao.credito.title = Credit Authorization's Maintenance
+   
+#Tela de Pesquisa de Pontos de Condição
+   pesquisa.pontos.condicao.title = Condition Dotz's Search
+   
+#Tela de Manutenção de Cadastro de Pontos
+   maintenance.pontos.title = Dotz Register's Maintenance
+   maintenance.pontos.geral.dotz.cbm = 1- Dotz
+   maintenance.pontos.geral.fator.cbm = 2- Factor
+   maintenance.pontos.multicondicoes.cbm = 1 - Mult-Conditions  
+   maintenance.pontos.multproduct.cbm = 2 - Mult-Products
+   maintenance.pontos.uniconditions.cbm = 3 - Uni-Conditions
+    
+#Tela de Pesquisa de Cuponagens
+   pesquisa.cuponagens.title = Pesquisa Cuponagem
+   
+#Tela de Cadastro de Cuponagem
+   cadastro.cuponagens.title = Cadastro de Cuponagem
+   cadastro.cuponagens.min.value.cmb = 0 - Minimum Value
+   cadastro.cuponagens.min.quantity.cmb = 1 - Minimum Quantity
+   cadastro.cuponagens.max.value.cmb = 2 - Maximum Value
+   cadastro.cuponagens.max.quantity.cmb = 3 - Maximum Quantity
+   cadastro.cuponagens.all.cmb = 1 - All
+   cadastro.cuponagens.normal.price = 2 - Normal Price
+   cadastro.cuponagens.club.price = 3 - Club Price
+   cadastro.cuponagens.dont.use = 0 - Don't Use
+   cadastro.cuponagens.por.cuponagem = 1 - Por Cuponagem
+   cadastro.cuponagens.geral.accumulated = 2 - Geral Accumulated   
+   
+#Tela de Pesquisa de Atacado
+   pesquisa.atacado.title = Wholesale's Search
+   
+#Tela de Casdastro de Atacado
+   cadastro.atacado.title = Wholesale's Register
+   cadastro.atacado.associated.product = Associated Whit Produ
+  
+#Tela de Pesquisa de Campanha
+    pesquisa.campanha.title = Campaign's Search
+    
+#Tela de Cadastro de Campanha
+    cadastro.campanha.title = Campaign's Register
+    cadastro.campanha.activated = 1 - Activated
+    cadastro.campanha.cancelled = 9 - Cancelled
+    cadastro.campanha.tipodesc.cupom.geracao = 0- Ticket generation value calculation 
+    cadastro.campanha.tipodesc.cupom.utilizacao = 1- Ticket utilization value calculation
+    
+    
+#Tela de Pesquisa de Cupom de Desconto
+    pesquisa.cupom.desconto.title = Discount Ticket's Search
+   
+#Tela de Cadastro de Cupom de Desconto
+    cadastro.cupom.desconto.title = Discount Ticket's Register
+    
+#Tela de Pesquisa de geração de cupom
+    pesquisa.geracao.cupom = Ticket Generation' Search
+    
+#Tela de Geração de Cupom
+    geracao.cupom.title = Ticket's Generation
+    
+#Tela de Pesquisa Promoção de Vasilhame
+    pesquisa.promocao.vasilhame.title = Promotion bottle search
+    
+#Tela de Promoção de Vasilhame
+    cadastro.promocao.vasilhame.title = Bottle promotion
+    cadastro.promocao.vasilhame.descricao = <u><b>Descrição</u></b>
+    cadastro.promocao.vasilhame.lista = <u><b>Lista</u></b>
+    
+#Tela de Pesquisa de Cupom Promoção
+    pesquisa.cupom.promocao.title = Promotion Ticket's Search
+    
+#Tela de Cadastro de Cupom Promoção
+    cadastro.cupom.promocao.title = Promotion Ticket's Register
+    realase.question.msg = Do you really want to release ?
+	data.confirm.utilization = Do you confirm the utilization ?
+    
+#Tela de Pesquisa de Planos
+    pesquisa.planos.title = Plans' Search
+    
+#Tela de Manutenção de Planos de Parcelamento
+    manutencao.planos.parcelamento.title = Installment Plans' Maintenance
+    manutencao.planos.parcelamento.tax.month = Tax (% per Month)
+    manutencao.planos.parcelamento.priority.plan = Plan Priority
+    manutencao.planos.parcelamento.down.payment = Input Priority
+
+#Tela de Pesquisa de Condições
+    pesquisa.condicoes.title = Conditions' Search  
+  
+#Tela de Manutenção de Condições
+    manutencao.codicoes.title = Conditions' Maintenance  
+
+#Tela de Pesquisa de Parcela Minima
+   pesquisa.parcela.minima.title = Minimal Installment's Search
+   
+#Tela de Manutenção de Parcela Minima
+   manutencao.parcela.minima.title = Minimal Installment's Maintenance
+   manutencao.parcela.minima.exclusion.denied =  exclusion denied , it's necessary all installment exclusion first
+ 
+#Tela de Manutenção de Rede
+   manutencao.rede.title = Network's Maintenance
+   
+#Tela de Pesquisa de Tabelas de Condição
+   pesquisa.tabelas.condicao.title = Condition Tables' Search
+   
+#Tela de Manutenção de Tabelas de Parcelamento
+   manutencao.tabela.parcelamento.title = Installment Plan Table's Maintenance
+   manutencao.tabela.parcelamento.normal.cbm = 1-Normal
+   manutencao.tabela.parcelamento.promotion.cbm = 2-Promotion
+   
+#Tela de Pesquisa de SITEF Redes
+   pesquisa.sitef.redes.title = SITEF Netwok's Search  
+   
+#Tela de Cadastro de SITEF Redes
+   cadastro.sitef.redes.title = SITEF Network's Register 
+   
+#Tela de Pesquisa SITEF Bandeiras
+   pesquisa.sitef.bandeiras.title = SITEF Flags' Search
+   
+#Tela de Cadastro de SITEF Bandeiras
+   cadastro.sitef.bandeiras.title = SITEF Flags' Register
+   
+#Tela de Pesquisa de parâmetros Clisitef
+   pesquisa.parametros.clistef.title = Clisitef Parameters' Search
+   
+#Tela de Parâmetros Clisitef
+   parametros.clisitef.title = Clisitef's Parameters
+   
+#Tela de Cadastro de Redirecionamento de Rede - Faixa 
+   cadastro.redirecionamento.rede.faixa.title  = Network Redirection' Register - Range
+   
+#Tela de Pesquisa de Redirecionamento de Rede
+   pesquisa.redirecionamento.rede.title = Network Redirection's Search
+   
+#Tela de Cadastro de Redirecionamento de Rede
+   cadastro.redirecionamento.rede.title = Network Redirection' Register
+   
+#Tela de Pesquisa de Lista Tipo
+   pesquisa.lista.tipo.title = List Type's Search
+   
+#Tela de Cadastro de Lista Tipo
+   cadastro.lista.tipo.title = List Type's Register
+   cadastro.lista.tipo.id.cbm = 0 - Id
+   cadastro.lista.tipo.description.cbm = 1 - Description
+   cadastro.lista.tipo.launch.cbm = 2 - Launch
+   cadastro.lista.tipo.reducedescription.cbm = 0 - Reduced Description
+   cadastro.lista.tipo.completedescription.cbm = 1 - Complete Description
+   cadastro.lista.tipo.reducedescriptionprice.cbm = 2 - Reduced Description With Price
+   cadastro.lista.tipo.completedescriptionwithprice.cbm = 3 - Complete Description With Price
+   
+#Tela de Pesquisa de Taxa Entrega
+    pesquisa.taxa.entrega.title = Delivery Tax's Search
+   
+#Tela de Cadastro de Taxa Entrega
+    cadastro.taxa.entrega.title = Delivery Tax's Register
+    
+#Tela de Pesquisa de Tipo Grupo Financeiro
+    pesquisa.tipo.grupo.financeiro.title = Financial Group Type's Search
+    
+#Tela de Cadastro de Tipo Grupo Financeiro
+    cadastro.tipo.grupo.financeiro.title = Financial Group Type's Register
+    
+#Tela de Pesquisa de Tipos de Preço de Venda
+    pesquisa.tipos.preco.venda.title = Sale Price Type Search
+    
+#Tela de Cadastro de Tipos de Preço de Venda
+    cadastro.tipos.preco.venda.title = Sale Price Type Register
+    
+ #Tela de Pesquisa de Tipos de Venda PDV
+    pesquisa.tipos.venda.pdv.title = POS Sale Type  Search 
+    
+ #Tela de Cadastro de Tipos de Venda PDV 
+    cadastro.tipos.venda.pdv.title = POS Sale Type  Register
+   
+#Tela de Cadastro de Tipo Venda x Tipo Crédito
+    cadastro.tipovenda.tipocredito.title = Sale's Type x Credit Type Register
+   
+#Tela de Cadastro de Tipo Venda x Tipo Finalizadora
+    cadastro.tipovenda.tipofinalizadora.title = Sale Type x Payment Type Register 
+    
+#Tela de Cadastro de Tipo Finalizadora x Tipo Finalizadora
+    cadastro.tipofinalizadora.tipofinalizadora = Payment Type x P Type Register
+   
+#Tela de Cadastro de Tipo Grupo Financeiro x Crédito
+    cadastro.tipogrupofinanceiro.credito.title = Financial Group Type x Credit Register
+   
+#Tela de Cadastro de Tipo Grupo Financeiro x Finalizadora
+    cadastro.tipogrupofinanceiro.finalizadora.title = Financial Group Type x Payment Register
+    
+#Tela de Cadastro de Movimentação de Vasilhame
+    cadastro.movimentacao.vasilhame.title = Bottle Moviment Register
+    cadastro.movimentacao.vasilhame.movimento.entrada.cbm = Entry Movement
+    cadastro.movimentacao.vasilhame.movimento.saida.cbm = Exit Movement
+    cadastro.movimentacao.vasilhame.movimento.devolução.cbm = Return Movement
+    
+#Tela de Manutenção de Parâmetros (Generico)
+     manutencao.parametros.title = Parameters Maintenance
+     manutencao.tipos.transferencia.title = Tranference Types Maintenance
+     manutencao.tipos.promocao.title = Promotion Types Maintenance
+     manutencao.tipos.produto.title = Products Types Maintenance
+     manutencao.tipos.producao.title = Production Types Maintenance
+     manutencao.tipos.loja.title =  Store Types Maintenance
+     manutencao.tipos.caixa.entrega = Box to Delivery Maintenance
+     
+#Tela de Cadastro de Lista Produto Etiqueta
+     cadastro.lista.produto.etiqueta.title = Products's Tag List Register
+     cadastro.lista.produto.etiqueta.pesquisarproduto.cmb = 0 - Product Search
+     cadastro.lista.produto.etiqueta.pesquisarprodutointegracao.cmb = 1 - Product Integration Search
+     cadastro.lista.produto.etiqueta.mercadologico.cmb = 2 - Logical Market Search 
+     
+#Tela de Pesquisa Dias Não Trabalhados
+     pesquisa.dias.nao.trabalhados.title = Unworked Days Search
+     
+#Tela de Manutenção Dias Não Trabalhados
+     manutencao.dias.nao.trabalhos.title = Unworked Days Maintenance
+     
+#Tela de Cadastro de Cédulas
+     cadastro.cedulas.title = Bills Register
+     
+#Tela de Cadastro de Grupo Clientes
+     cadastro.grupo.clientes.title = Clients Group Register
+     
+#Tela de Cadastro Menu PDV
+     cadastro.menu.pdv.title = PDV Menu Register
+     
+#Tela de Pesquisa de notificações
+     pesquisa.notificacoes.title = Notifications Search 
+     
+#Tela de Configuração E-mail
+     configuracao.email.title = Email Configuration
+     
+#Tela de Pesquisa de Nota Fiscal Manual
+     pesquisa.nota.fiscal.manual.title = Manual Bill Of Sale Search
+     
+#Tela de Manutenção de Nota Fiscal
+     manutencao.nota.fiscal.title  = Bill of Sale Maintenance 
+     manutencao.nota.fiscal.nfeentry.cmb = NF-e Entry
+     manutencao.nota.fiscal.nfeexit.cmb = NF-e Exit
+     
+#Tela de Pesquisa de Locais
+     pesquisa.locais.title = Locals Search
+  
+#Tela de Cadastro de Locais
+     cadastro.locais.title = Locals Register
+     
+#Tela de Pesquisa de Produtos Locais
+     pesquisa.produtos.locais.title = Locals Products Search 
+     
+#Tela de Cadastro de Produtos Locais
+     cadastro.produtos.locais.title = Locals Products Register
+     
+#Tela de Pesquisa de Pooling de Vendas
+     pesquisa.pooling.vendas.title = Sales Pooling Search
+     
+#Tela de Cadastro de Pooling Vendas
+     cadastro.pooling.vendas.title = Sales Pooling Register
+     cadastro.pooling.vendas.ativar.pooling = Enable Pooling
+     
+#Tela de Pesquisa de Pooling de Estatísticas
+     pesquisa.pooling.estatistica.title = Statistics Pooling Serch
+     
+#Tela de Cadastro de Pooling Estatísticas
+     cadastro.pooling.estatistica.title = Statistics Pooling Register
+     
+#Tela de Manutenção de Motivos
+     manutencao.motivos.title = Reasons Maintenance
+     
+#Tela de Pesquisa de Lista Bonificada
+     pesquisa.lista.bonificada.title = Subsidised List Search
+    
+#Tela de Manutenção de Lista Bonificada
+     manutencao.lista.bonificada.title = Subsidised List Maintenance
+     
+ #Tela de Configurações de devolução
+     configuracoes.devolucao.title =  Return Configurations
+     configuracoes.devolucao.identifyclient = Identify Client
+     configuracoes.devolucao.filter.cnpj.cpf = Filter CPF/CNPJ
+     configuracoes.devolucao.send.out.voucher.authorize = In Authorize Send Out Voucher
+     configuracoes.devolucao.use.fast.return = Use Fast Return 
+     configuracoes.devolucao.use.store.data.client.cpf = User Store Data Client Without CPF
+     
+#Tela de Pesquisa de Relatórios Dinâmicos
+     pesquisa.relatorio.dinamico.title = Dinamic Reports Search
+     
+#Tela de Cadastro de Relatórios Dinâmicos
+     cadastro.relatorio.dinamico.title = Dinamic Reports Search
+     
+#Tela de Configurações de Relatório Dinâmico
+     configuracoes.relatorio.dinamico.title = Dinamic Reports Configuration
+     configuracoes.relatorio.dinamico.csv.type = CSV Type
+     configuracoes.relatorio.dinamico.new.backup = New Backup
+     configuracoes.relatorio.dinamico.dinamic.csv = Dinamic CSV
+     configuracoes.relatorio.dinamico.csv.capa = CSV Cover
+     configuracoes.relatorio.dinamico.csv.fields = CSV Fields
+     configuracoes.relatorio.dinamico.csv.columns = CSV Columns
+     configuracoes.relatorio.dinamico.csv.query = CSV Query
+     configuracoes.relatorio.dinamico.csv.por.relatorio.cmb = CSV Per Report
+     configuracoes.relatorio.dinamico.csv.inexistent = Inexistent CSV
+     configuracoes.relatorio.dinamico.csv.loaded.success = Loaded Successfully  
+     configuracoes.relatorio.dinamico.csv.new.reports = New Reports
+     configuracoes.relatorio.dinamico.csv.updated.reports = Updated Reports
+     configuracoes.relatorio.dinamico.reports.exported.successfully = Reports Exported Successfully
+     configuracoes.relatorio.dinamico.no.backup.found = No Backup Found
+     
+#Tela de Preço ajuste rápido
+     preco.ajuste.rapido.title = Price Fast Ajdustment
+     
+#Tela de Exportar planilha de fatores por UF
+     exportar.planilha.fatores.uf.title = Export Factors Spreadsheet per UF
+     
+#Tela de Pesquisa de Processo Fator UF
+    pesquisa.processo.fator.uf.title = Factor Process UF Search
+    
+#Tela de Cadastro de Processo Fator UF
+    cadastro.processo.fator.uf.title =  Factor UF process Register
+    
+#Tela de Cadastro de Item ComboBox
+    cadastro.item.combobox = ComboBox item Register
+    
+#Tela de Consistência de Log (Geral)
+    consistencia.log.geral.title = Log Consistency (General)
+    consistencia.log.geral.consistencia.padrao.cmb =  1- Default Consistency
+    consistencia.log.geral.considerar.pdv.log.cmb = 2-Consider POS without log OK     
+    consistencia.log.geral.msgm.espera = Consisting sale log...
+    consistencia.log.geral.confirma.cosistencia = Do you confirm the consistency initiation ?
+    consistencia.log.geral.confirma.para.consistencia = Do you confirm stop the consistence ?
+    consistencia.log.geral.msgm.parando.consistencia = Stoping sale log consistency..
+    
+   
+#Tela de Consistência de Log (Loja)
+    store.log.consistence.title = Log consistence (Store)
+    store.log.pdv.cencellations.divergence = POS cancellations divergence
+    store.log.verify.broken.pos = Verify broken POS
+    store.log.records.with.error = Records with error
+    store.log.records.changed.rms = Registros alterados/inclusos pela RMS. Changed records/Included by RMS.
+  
+
+#Tela de Consistência de Log (Pdv)
+    consistencia.log.pdv.title = Log consistence (Pdv)
+    consistencia.log.pdv.msg.espera = Consisting PDV. Wait...
+    consistencia.log.pdv.todos.eventos.cmb = 00-All Events
+    consistencia.log.pdv.processando.exclusao = Processing exclusion. Wait...
+    consistencia.log.pdv.processando.reconversao =  Processing reconversion. Wait...
+    consistencia.log.pdv.processando.cancelamento = Processing cancellation. Wait...
+    consistencia.log.pdv.processando.ativacao = Processing activation. Wait...
+    consistencia.log.pdv.processando.ajuste = Processing adjustment. Wait...
+    consistencia.log.pdv.sale.zero.without.fz = Sale equals zero and without fz
+    
+
+#Classe Desconto Cancelamento Ativa Evento
+    evento.nao.encontrado.ou.tipo.nao.desejado = Event not found or unwelcome type
+    transacao.nao.encontrada.no.log = Transaction not found in the log
+    nao.existe.informacao.pdv.log = There is no POS information in the log
+    pdv.consistido.para.data.loja = POS already consisted for this date and store.
+    total.operador.igual.total.dia = Operator total equals Day total
+    total.operator.nsuinicial.nsufinal.invalido = Operator total with initialnsu and finalnsu invalid.
+    
+
+#Opções de paginação
+    opcoes.paginacao.listar.todos = Lista all itens
+    opcoes.paginacao.listar.dez.em.dez = List 10 itens per page
+    opcoes.paginacao.listar.quinze.em.quinze = List 15 itens per page
+    opcoes.paginacao.listar.vinte.em.vinte = List 20 itens per page
+    opcoes.paginacao.listar.cinquenta.em.cinquenta = List 50 itens per page
+    
+#Eventos
+   #Eventos 
+    evento.abertura.dia = Opening day
+    evento.entrada.operador = Operator entry
+    evento.saida.operador = Operator step off
+    evento.retirada = Withdrawal
+    evento.abastecimento = Supply
+    evento.entrada.pausa = Entry in pause
+    evento.saida.pausa = Step off in pause
+    evento.venda.auto.servico = Self service sale
+    evento.venda.assistida = Sale assistance
+    evento.cancelamento.venda = Sale cancellation
+    evento.recebinemto.c.b = B.A receiving
+    evento.recarga.celular = Mobile recharge
+    evento.titulos.fiscais = Fiscal titles
+    evento.recebimento.carne = Billet receiving
+    evento.pagamento.despesa = Expenditure payment
+    evento.devolucao = Return  
+    evento.reimpressão.tef = Tef reprint
+    evento.cancelamento.tef = Tef cancellation
+    evento.ligou.pdv = Start POS
+    evento.abertura.gaveta = Drawer opening
+    evento.consulta.produtos = Products consultation
+    evento.troca.papel = Change role
+    evento.leitura.x = Reading x
+    evento.lx.por.data = Lx per date
+    evento.lx.por.reducao = Lx per reduction
+    evento.leitura.mfd = MDF Reading
+    evento.leitura.total.operador =  Total operator reading
+    evento.leitura.total.dia = Total day reading
+    evento.recebimentos.diversos = Varied receipts
+    evento.estorno.cb = B.A reverse
+    evento.resgate.carta.credit = Credit letter rescue
+    evento.garatina = Guarantee
+    evento.seguro = Insurance
+    evento.numero.da.sorte = Lucky number
+    evento.curso.on.line = On-line course
+    evento.servicos = Services 
+    evento.venda.voucher = Sale voucher 
+    evento.gift.card = Gift card
+    evento.saque = Cash withdrawal
+    evento.disconto.divergente = Divergent discount
+    evento.troca.finalizadora = Payment change
+    evento.venda.cupom = Ticket sale
+    evento.movimentacao.vasilhame = Bottle movement
+    evento.cancelamento.pagamento = Payment cancellation
+    evento.venda.nao.fiscal=  Not fiscal sale
+    evento.donation = Donation
+    evento.transferencia.caixa = Cashier transference
+    evento.preco.venda.diferenciado = Differentiated sale price
+    evento.venda.ident.pontuacao = Indent(Score) sale
+    evento.cancelamento.venda.ident.pontuacao = Ident(Score) sale cancellation
+    
+#Tela de Consistência de Operador
+    consistencia.operador.title = Operator consistence
+   
+#Tela de Consulta Cupom
+    consulta.cupom.title = Ticket Consultation
+    
+#Tela de Manutenção de Redução Z
+    manutencao.reducao.z.title  = Z Reduction Maintenance
+   
+#Tela de Conversão de Log
+    conversao.log.title = Log Conversion
+   
+#Tela de Conversão de Log - Arquivo Cotepe
+    conversao.log.arquivo.cotepe.title = Cotepe file - Log conversion
+    conversao.log.arquivo.cotepe.incluir.eventos.cmb =  1-Include lacking events
+    conversao.log.arquivo.cotepe.converter.evento.especifico.cmb =  2-Convert a specific event 
+    
+#Tela de Conversão da Estatística
+    conversao.estatistica.title = Statistic Conversion
+    conversao.estatistica.msg.espera = Converting statistica. Wait...
+    
+#Tela Força liberação do Log para manutenção
+    forca.liberacao.log.manutencao = Force log release for maintenance
+    
+#Tela de Relatório de Mapa Resumo
+    mapa.resumo.title = Summary Map Report
+    
+#Tela de Relatório de Conferência Mapa Resumo
+    relatorio.mapa.resumo.conferencia.title = Summary Map Conference Report
+   
+#Tela de Relatório Mapa
+    relatorio.mapa.title = Map Report
+    
+#Tela de Manutenção de Mapa Resumo
+    summary.map.maintenance.title = Summary Map Maintenance 
+    summary.map.maintenance.renew = Do you confirm the summary map renew ?
+    
+#Tela de Consistência de Mapa Resumo
+    consistenca.mapa.resumo.title = Summary Map Consistence 
+    consistenca.mapa.resumo.msg.espera = Consisting Summary Map. Wait...
+    consistenca.mapa.resumo.there.are.no.details.msg = There are no details to load...
+  
+#Tela de Consistência de Mapa Resumo Detalhado
+   consistenca.mapa.resumo.detail.title = Summary Map Detail Consistence
+   consistenca.mapa.resumo.detail.wait.msg = Consisting Detail Summary Map. Wait...
+   
+#Tela de Relatório de Listagem de Preço
+   relatorio.listagem.preco.title = Price Listing Report
+  
+#Tela de Ajustar Cupom Não Fiscal
+   ajustar.cupom.nao.fiscal.title = Not Fiscal Ticket Adjust
+   ajustar.cupom.nao.fiscal.confirmar.ajuste.msg = Do you confirm the not fiscal tickets adjust ?
+   
+#Tela de Painel de Visualização de Processos
+   painel.visualizacao.processos.title = Processes Visualization Panel
+   
+#Tela de Painel de Detalhe do Processo
+   painel.detalhe.processo.title = Process Detail Panel
+  
+#Tela de Abertura de Novo Dia
+   abertura.novo.dia.title = New Day's Opening     
+   abertura.novo.dia.abrir.novo.dia = Open a new day for the day's stores
+   abertura.novo.dia.lojas.sem.liberacao = There are stores without release of opening day
+   abertura.novo.dia.diferente.data.para.lojas = The selected stores have different dates	
+  
+#Tela de Processos de PDV 
+   processos.pdv.title = POS Processes
+   
+#PDV Tipos processos
+   gerar.produtos.para.dia.seguinte = Generate products for the following day
+   abrir.novo.dia.de.venda = Open a new sale day
+   liberar.pacotes.de.alteracoes = Release changes package
+   gerar.produtos.dia.atual = Generate products for the current day
+   gerar.arquivo.de.balanca.dia.atual = Generate balance file for the current day
+   atualizar.diretorios.imagens = Update images directory
+   atualizar.produtos.dia.atual = Update products for the current day
+   gerar.lista.clientes = Generate client list
+   codigo.desconhecido = Unknown code
+   
+#Tela de Exportação de Parâmetros
+   exportacao.parametros.title = Parameters Exportation
+   exportacao.parametros.msg.espera = Exporting parameters. Wait...
+   confirm.parameters.exportation.msg = Do you confirm the parameters exportation ?
+   
+#Tela de Geração Manual VmEst
+   geracao.manual.vmest.title = Manual VmStat Generation
+   geracao.manual.vmest.wait.msg = Generating VmEst file. Wait...
+   geracao.manual.vmest.file.confirm.msg = Do you confirm the VmEst file generation ?
+
+#Tela de Geração Cat52
+   geracao.cat52.title = Cat52 Generation
+   geracao.cat52.msg.wait = Generating CAT52 file. Wait...
+   geracao.cat52.confirm.msg = Do you confirm the cat52 file generation ?
+   
+#Tela de Geração Sped
+   geracao.sped.title = Sped Generation
+   geracao.sped.msg.wait = Generating Sped. Wait...
+   geracao.sped.msg.confirm = Do you confirm Sped Generation ?
+  
+#Tela de Calcular Estoque
+   calcular.estoque.title = Calculate Stock
+   calcular.estoque.confirm.msg = Do you confirm the stock calculation?
+   
+#Tela de Consistência de Estoque
+   consistencia.estoque.title = Stock Consistence
+   
+#Tela de Exportação de Preço
+   exportacao.preco.title = Price Exportation
+ 
+#Tela de Exportação de Produto
+   exportacao.produto.title = Product Exportation
+   
+#Tela de Pesquisa de Devoluções
+   pesquisa.devolucoes.title = Returns Search
+   pesquisa.devolucoes.registros.indevidos.title = Improper records returns Search
+   
+#Tela de Manutenção de Devolução
+   manutencao.devolucao.title = Return Maintenance
+   nao.possivel.atorizar.sem.produtos.cadastrados = It's not possible authorize without registered products
+   manutencao.devolucao.aguarde.geracao.voucher = Wait for the vouhcer generation
+   
+#Tela de Visualização de Cupom
+   visualizacao.cupom.title = Ticket Visualization
+   
+#Tela de Devolução de Vasilhames
+    devolucao.visilhame.title = Bottles return
+    
+#Tela de Pesquisa de Devolução de Vasilhames
+    pesquisa.devolucao.vasilhame.title = Bottle Return Search
+  
+#Tela de Carga Offline
+    carga.offline.title = Offline Load
+  
+#Tela de Pesquisa de Carga de Versões
+    pesquisa.carga.versoes.title = Load Version Search
+    
+#Tela de Cadastro de Carga
+    cadastro.carga.title = Load Register
+    cadastro.carga.load.confirm.sending.msg = Do you confirm send the load ?
+    
+#Tela de Painel de Situação das Lojas
+    painel.situacao.lojas.title = Stores Situation Panel
+    painel.situacao.lojas.updating.panel.msg = Wait. Updating panel... 
+    painel.situacao.lojas.last.comunication.with.sefaz = Last communication with SEFAZ
+    painel.situacao.lojas.software.basic.version = Software basic version
+    painel.situacao.lojas.information.table.layout.version = Versão do layout da tabela de informações
+    painel.situacao.lojas.installed.certificate.expiration.date = Installed certificate expiration date
+    painel.situacao.lojas.sequencial.number.of.last.cfe.issued = Sequencial number of the last Cfe issued
+    painel.situacao.lojas.sequencial.number.first.cfe.stored.memory = Sequencial number of the first CF-e Sat stored in the work memory
+    painel.situacao.lojas.date.hour.last.transmission.cf.sat.to.sefaz = Date and hour of the last transmission of CF-eSat to SEFAZ
+    painel.situacao.lojas.sequencial.number.last.cfe.stored.memory = Sequencial number of the last CF-e Sat stored in the work memory
+    painel.situacao.lojas.issue.certificate.issued = Issue certificate issued 
+    
+#Tela de Painel de Situação dos Pdv´s da Loja
+    painel.situacao.pdvs.loja.title = Store Pos Situation Panel
+    painel.situacao.pdvs.loja.verifying.pdvs.msg =  Verifying POS situation. Wait ...
+    
+#Tela de Painel de Situação do DataLog´s 
+    painel.situacao.datalogs.title = DataLogs situation panel
+    painel.situacao.datalogs.panel.msg.wait = Wait. Updating panel... 
+    painel.situacao.datalogs.list.waring.critics.cmb = List Warning/Critics
+    painel.situacao.datalogs.list.just.critics.cmb = List just the critics
+    
+#Tela de Painel de Situação dos Pooling´s
+    painel.situacao.poolings.title = Pooling situation panel
+    
+#Tela de Painel de Configurações
+    painel.configuracoes.title = Configuration panel
+    
+#Tela de Painel de Situação de Sangria dos Pdv's
+    painel.situacao.sangria.pdvs.title = POS Bloodletting situation panel
+    
+#Tela de Edição Chamado do Pdv
+    edicao.chamado.pdv.title = POS request edition
+    edicao.chamado.pdv.msg.confirm = Do you confirm the action ? 
+    
+#Tela de Painel de Chamados dos Pdvs
+    painel.chamados.pdv.title = POS request panel
+    
+#Tela de Painel de Dias Log
+    painel.dias.log.title = Days log panel 
+   
+#Tela de Verificação de Abertura das Lojas
+    verificacao.abertura.lojas.title = Opening stores verification
+    verificacao.abertura.lojas.occurrences.click.view = Occurrences. Click to view
+    
+#Tela de Gerenciamento de Logs
+    gerenciamento.logs.title = Logs management
+   
+#Tela de Processos automáticos
+    processos.automaticos.title = Automatic process
+    
+#Tela Vendas por Dia da Semana / Hora / Local
+    vendas.por.dia.semana.hora.local.title = Sales per week's day / hour / local
+    
+#Tela de Estatística de Vendas por Loja
+    estatistica.vendas.por.loja.title = Sales statistics per store
+    estatistica.vendas.por.loja.vendas.nao.consolidadas = * =  Store with no sale consolidated
+    estatistica.vendas.por.loja.between.target = between 91% and 99% of the target
+    estatistica.vendas.por.loja.under.target = under 91% of the target 
+    estatistica.vendas.loading.sales.msg = Loading sales. Wait...
+    
+#Tela de Estatística de Vendas por Loja(Comp)
+    estatistica.vendas.por.loja.comp = Sales statistics per store(Comp)
+    estatistica.vendas.por.loja.not.possible.to.copy.files = It was not possible to copy required files.
+    
+#Tela de Manutenção de HTML Vendas por Loja(Comp) 
+    manutencao.html.vendas.loja.title = Sales per store html maintenance (Comp)
+   
+#Tela de Exportação de Nota Conjugada
+	exportacao.nota.conjugada.title = Conjugated note exportation
+	conjugated.note.exported.sucessfully = Conjugated note successufully generated.
+	
+#Tela de Integração de Log de Vendas
+	integracao.log.de.vendas.title = Sales log integration
+	integracao.log.vendas.log.incosistente.data.loja =  Incosistent log for the selected store/date
+	loja.data.nao.existe.na.tabela.de.controle =  Store/Date does not exists in the control table.
+	
+#Tela de Geração de Vendas Digger
+	geracao.vendas.digger.title = Digger sales generation
+	
+#Tela de Acompanhamento de vendas
+	estatistica.acompanhamento.venda.title = Sales Monitoring
+	estatistica.acompanhamento.venda.evolucao.venda.mes = Monthly Sales Evolution
+
+#Tela de Relatórios Casadinha
+	relatorios.casadinha.title = Report - Combined Sale
+	relatorios.casadinha.cannot.be.greater.than.end = cannot be greater than end
+	relatorios.casadinha.dates.may.not.be.less.than = Dates may not be less than
+	relatorios.casadinha.cannot.be.greater.than.end.date = cannot be greater than end date
+
+#Tela de Movimentação por ECF
+    log.movimentacao.title = ECF Movement
+    log.movimentacao.print.items.r05 = Print Items(R05)
+    log.movimentacao.gerando.arquivo.vivanota.aguarde = Generating VivaNota file. Please wait...
+    
+#Tela de Integração Synchro
+	integracao.synchro.title = Synchro integration
+
+#Tela de Relatório Ocorrências na Integração
+	relatorio.ocorrencias.importacao.title = Integration occurences report
+	
+#Tela de Relatório de cancelamento
+	relatorio.cancelamento.tile = Cancellation report.
+	
+#Tela de Relatório de Produtos Alterados
+	relatorio.produtosalterados.title = Changed Products Report
+	
+#Tela de Relação de Produtos e Preços
+	relacao.produtos.precos.title = Product and Price List Report
+	relacao.produtos.store.a = Store A
+	relacao.produtos.store.b = Store B
+	relacao.produtos.store.c = Store C
+	relacao.produtos.store.d = Store D
+	relacao.produtos.store.e = Store E
+	relacao.produtos.invalid.store.a = Invalid Store A
+	relacao.produtos.invalid.store.b = Invalid Store B
+	relacao.produtos.invalid.store.c = Invalid Store C
+	relacao.produtos.invalid.store.d = Invalid Store D
+	relacao.produtos.invalid.store.e = Invalid Store E
+	
+
+#Tela de Relação de Produtos e Pontos
+	relacao.produtos.pontos.title = Product List and Points Report
+
+#Tela de Relação de Produtos Situação
+	relacao.produtos.situacao.title = Product List Report Situation
+
+#Tela de Planilha de Preços
+	planilha.precos.title  = Price Spreadsheet
+	
+#Tela de Relatório de Mercadologicos
+	relatorio.mercadologicos.title = Logical Markets Report
+	
+#Tela de Relatório de Impostos / NCM
+	relatorio.impostos.title = Taxes / NCM Report
+	
+#Tela de Relatório de Cupons em Campanha
+	relatorio.cupons.campanha.title = Campaign Coupons Report
+	
+#Tela de Relatório Cancelamento (Mod 1)
+	relatorio.cancelamento.mod1.title = Cancellation Report(Mod 1)
+	relatorio.cancelamento.mod1.app.divergence.x.printer = App. Divergence x Printer
+	relatorio.cancelamento.mod1.ranking.items.cancellations.overview = Items ranking cancellations overview
+	relatorio.cancelamento.mod1.coupons.items.cancellations.overview = Coupons ranking cancellations overview
+	relatorio.cancelamento.mod1.pos.cancellations.overview = POS Cancellations Overview
+
+#Tela de Relatório Imposto Total Indefinido
+	relatorio.imposto.total.indefinido = Report - Total Tax Undefined
+	
+#Tela de Relatório de Processos Log Operador
+	relatorio.processos.log.operador = Report - Process Log Operator
+	
+#Tela de Relatório Cancelamento (Mod 2)
+    relatorio.cancelamento.mod.two2.title = Cancellation Report(Mod 2)
+    relatorio.cancelamento.mod.two2.canc.items.valid.coup = Cancelled Items in Valid Coupons
+
+#Tela de Relatório de Componentes em Intervenção
+	relatorio.componentes.intervencao.title = Report - Intervention Components
+	
+#Tela de Relatório de Produtos Atacado
+	relatorio.produtos.atacado.title = Report - Wholesale Products
+
+#Tela de Relatório de Logs
+	relatorio.log.title = Report - Logs
+
+#Tela de Relatório Cancelamento (Mod 3)
+    relatorio.cancelamento.mod3.title = Cancellation Report (Mod 3)
+    
+#Tela de Relatório de Cupons Cancelados
+ 	relatorio.cupons.cancelados.title = Cancelled Coupons Report
+
+#Tela de Relatório de Vendas/Descontos
+	relatorio.vendas.descontos.title = Report - Sales/Discounts
+
+#Tela de Relatório de PIS
+	relatorio.pis.title = Report - PIS
+
+#Tela de Relatório de Cancelamento TEF
+	relatorio.cancelamento.tef.title = Cancellation Report - TEF 
+	
+#Tela de Relatório de Geral
+	relatorio.geral.title = General Report
+	
+#Relatório Desconto Geral
+	relatorio.geral.desconto.title = Discount's Report - General 
+
+#Tela de Tipos Vendas PDV
+	relatorio.tipos.vendas.pdv.title = Report - POS' Sales Types
+
+#Tela de Relatório de Desconto - Função 143
+	relatorio.desconto.funcao.one.two.three = Discount's Report - Function 143 
+
+#Tela de Relatorio Desconto PDV
+	relatorio.desconto.pdv.title = POS' Discount 
+	
+#Tela de Relatório de Desconto - Casadinha
+	relatorio.desconto.casadinha.title = Discount's Report - Combined Sale
+	relatorio.desconto.casadinha.on.the.item = 1-On the Item
+	relatorio.desconto.casadinha.on.the.total = 2-On the Total
+	relatorio.desconto.casadinha.on.the.finisher = 3-On the Finisher	
+
+#Tela de Relatório de Conferência de Cheque
+	relatorio.conferencia.cheque.title = Report - Check Conference
+	
+#Tela de Relatório de Dados Fiscais
+	relatorio.dados.fiscais.title = Report - Fiscal Data
+
+#Tela de Relatório de Desconto(Sacolas Plásticas)
+	relatorio.desconto.sacolas.plasticas.title = Discount's Report - Plastic Bags
+
+#Tela de Relatório de Desconto - Socio Torcedor
+	relatorio.desconto.socio.torcedor.title = Discount's Report - Season Ticket Holder
+	relatorio.desconto.socio.torcedor.finisher.subtotal = 1 - Finisher or Subtotal
+	relatorio.desconto.socio.torcedor.direct.on.the.item = 2 - Direct on the Item
+	
+#Tela de Relatório de Devolução
+	relatorio.devolucao.title = Report - Return
+	
+#Tela de Relatório de Finalizadoras
+	relatorio.finalizadoras.title = Report - Payments
+
+#Tela de Relatório de Finalizadora Cupom
+	relatorio.finalizadora.cupom.title = Report - Coupon Finisher
+
+#Tela de Relatório Financeiro
+	relatorio.financeiro.title = Report - Financial
+
+#Tela de Relatório de Desconto/Cancelamento por PDV
+	relatorio.desconto.cancelamento.pdv.title = Discount's Report/ Cancellation by PDV
+
+#Tela de Relatório de Itens de Venda com Desconto
+	relatorio.itens.venda.desconto.title = Sale's Itens With Discount Report
+	relatorio.itens.venda.desconto.invalid.interval = Invalid period interval : Interval must be less than 31 days.
+	relatorio.itens.venda.desconto.func.own.products = Func. Own Products
+	relatorio.itens.venda.desconto.func.third.party.products = Func. Third Party Products
+	
+#Tela de Relatório de Descontos(Finalizadora)
+	relatorio.descontos.finalizadora.title = Discount's Report(Finisher) 
+	
+#Tela de Relatório de Desconto(Mix)
+	relatorio.desconto.mix.title = Discount's Report (Mix)
+	
+#Tela de Relatório de Desconto Preço Divergente
+	relatorio.desconto.preco.divergente.title = Discount's Report - Divergent Price
+
+#Tela de Relatório Imposto de Selo
+	relatorio.imposto.selo.title = Report - Stamp Duty
+	
+#Tela de Relatório de Moeda Estrangeira
+	relatorio.moeda.estrangeira.title = Report - Foreign Currency
+
+#Tela de Relatório de Transações
+	relatorio.transacoes.title = Report - Transactions
+	
+#Tela de Relatório de Pontos Dotz
+	relatorio.pontos.dotz.title = Report - Dotz Points
+	
+#Tela de Relatório de Vendas TEF
+	relatorio.vendas.tef.title = Report - TEF Sales
+
+#Tela de Relatório de Desconto Itens Atacado
+	relatorio.desconto.itens.atacado.title = Discount's Report Wholesale Items
+
+#Tela de Relatório de Campanhas
+	relatorio.campanhas.title = Campaign's Report
+
+#Tela de Relatório de Vendas do Cliente
+	relatorio.vendas.cliente.title = Report - Customer Sales
+
+#Tela de Relatório de Recebimentos por PDV
+	relatorio.recebimentos.pdv.title = Report - POS Receipts
+	
+#Tela de Relatório de Redução Z
+	relatorio.reducao.z.title = Report - Reduction Z
+	note.there.are.more.than.eight.aliquots.registered = Note: There are more than 8 (eight) Aliquots registered
+
+#Tela de Relatório de Vendas/Custo
+	relatorio.vendas.custo.title = Report - Sales/Cost
+	
+#Tela de Relatório Vendas por Produtos(Consolidado)
+	relatorio.vendas.produtos.consolidado.title = Sale's Report by Product (Consolidated)
+
+#Tela de Relatório de Promoção Relâmpago
+	relatorio.promocao.relampago.title = Report - Flash Promotion
+
+Tela de Relatório de Perguntas(Sintético)
+	relatorio.perguntas.sintetico.title = Report - Questions (Synthetic)
+	
+#Tela de Relatório de Perguntas(Analítico)
+	relatorio.perguntas.analitico.title = Report - Questions (Analytical)
+	
+#Tela de Relatório de Perguntas(Detalhado)
+	relatorio.perguntas.detalhado.title = Report - Questions (Detailed)
+
+#Tela de Relatório Vendas por Produto(Analítico)
+	relatorio.vendas.por.produtos.analitico.title = Sale's Report By Product (Analytical)
+
+#Tela de Relatório de Vendas por Vendedor/Fornecedor
+	relatorio.vendas.vendedor.or.provider.title = Sale's Report by Salesperson/Provider
+	relatorio.vendas.vendedor.or.provider.vendas.nao.comissionada.total.sem.vendedor = No Commissioned Sales Total (Without Salesperson)
+	relatorio.vendas.vendedor.or.provider.no.identified.salesperson = Sale With No Identified Salesperson
+
+#Tela de Relatório de Itens Vendidos por Hora
+	relatorio.itens.vendidos.hora.title =  Report - Sold Items By Hour 
+	
+#Tela de Relatório de Itens Vendidos
+	relatorio.itens.vendidos.title = Sold Items Report 
+	relatorio.itens.vendidos.atention.cancellation.included.on.total = ATENTION : Cancellation included on the total.
+	
+#Tela de Relatório de Vendas/Fornecedor
+	relatorio.vendas.fornecedor.title = Sales' Report - Sales/Provider
+
+#Tela de Relatório de Venda e Transações Comparáveis
+	relatorio.venda.transacoes.comparaveis.title = Report - Sale and Comparable Transactions
+	starting.period.greater.than.or.equal.to.period = Starting period 2 greater than or equal to period 1
+
+#Tela de Relatório de Tipo Venda
+	relatorio.tipo.venda.title = Report - Sale Type
+	relatorio.tipo.venda.title.analytical = Report - Sale Type (Analytical)
+	relatorio.tipo.venda.title.synthetic = Report - Sale Type (Synthetic)
+	relatorio.tipo.venda.title.finisher = Report - Sale Type (Finisher)
+
+#Tela de Relatório de Vendas por Operador
+	relatorio.vendas.por.operador.title = Sales' Report By Operator
+
+#Tela de Relatório de Tipo Venda
+	relatorio.cuponagem.title = Report - Couponing
+	
+#Tela de Relatório de Vasilhame
+	relatorio.vasilhame.title = Report - Cask
+	
+#Tela de Relatório de Movimentação de Vasilhame
+	relatorio.vasilhame.movimentacao.title = Report - Cask Movement
+	
+#Tela de Relatório de Itens Vendidos
+	relatorio.itens.vendidos.title = Report - Items Sold
+
+#Tela de Estatística de Vendas
+	estatistica.de.venda.title = Sales' Statistics
+	estatistica.de.venda.select.filter.to.inclusion = Select a filter to inclusion
+	estatistica.de.venda.statistic.exclusion.msg = Do you confirm statistic exclusion ?
+	estatistica.de.venda.wait.store.sales = Wait Store Sales...
+	estatistica.de.venda.wait.product.sales = Wait Product Sales...
+	estatistica.de.venda.updated.successfully = Statistic updated successfully...
+	estatistica.de.venda.date.filter.required = Date filter is required to the search
+	estatistica.de.venda.show.totals = Show totals
+	estatistica.de.venda.show.big.totals = Show Big totals
+	estatistica.de.venda.do.not.show.big.totals = Do not show big totals
+	
+#Tela de Estatística de PDV´s / Hora
+	estatistica.pdv.hora.title = Statistic -  Pos / Hour 
+	
+#Tela de Estatística de Operadores
+	estatistica.de.operadores.title = Operators' Statistic
+
+#Tela de Estatística de Finalizadoras
+	estatistica.de.finalizadora.title = Finishers' Statistic
+	
+#Tela de Estatística de Vendedores
+	estatistica.de.vendedores.title = Salesperson's Statistic
+
+#Tela de Acompanhamento de Vendas (Dia Mês Ano)
+	acompanhemnto.de.vendas.dias.mes.ano.title = Sales' Monitoring (Day Moth Year)
+	acompanhemnto.de.vendas.dias.mes.ano.no.sale.for.the.day = There is no sale fo the day
+
+#Tela de Pesquisa Previsão de Venda
+	pesquisa.previsao.vendas.title = Sales' Forecast Search
+	
+#Tela de Cadastro Previsão de Venda
+	cadastro.previsao.venda.title = Sales' Forecast Register
+	cadastro.previsao.venda.updating.forecast = Updating forecast. Wait...
+	cadastro.previsao.venda.updating.moth.forecast = Updating moth's forecast
+	cadastro.previsao.venda.tab.value.different = <br /> Tab Value \"Day\" is different from the forecast.
+	cadastro.previsao.venda.lucro.mercadologico = Logicalmarkets profit different from the forecast.
+	cadastro.previsao.venda.valor.mercadologico = Logicalmarkets value different from the forecast. <br />
+	cadastro.previsao.venda.erro.carregando.valor.lucro = Erro loading value and profit.
+
+#Tela de Relatório Comparativo de Vendas
+	relatorio.comparativo.de.vendas = Sales' Comparative Report
+	
+#Tela de  Pesquisa Previsão de Venda por Loja
+	pesquisa.previsao.venda.loja.title = Sales' Forecast by Store - Search 
+
+#Tela de Cadastro Previsão de Venda por Loja
+	cadastro.previsao.venda.loja.title = Sales' Forecast by Store - Register
+
+#Tela de Estatísticas Cadastradas
+	cadastro.estatisticas.title = Registered Statistics
+	
+# Tela de Tipo Prazo
+	cadastro.tipo.deadline.title = Deadline type
+	cadastro.tipo.deadline.field.day.qty = Quantity days
+
+#Tela de Geração de Carga 
+	visualprocess.step.validateStoreDate = Validating store date
+	visualprocess.step.validateStorePermission = Validating operator permission
+	visualprocess.step.mkStoreDirStruct = Creating store directory structure
+	visualprocess.step.stepDeleteVmx = Deleting file .vmx
+	visualprocess.step.stepStoreReader = Searching store
+	visualprocess.step.stepParamsBackup = Starting backup of the param folder
+	visualprocess.step.stepMakeFullCopyBackup = Generating param folder backup
+	visualprocess.step.stepMakeFullCopyBackupDefault = Skipping backup routine of the param folder
+	visualprocess.step.stepParamsBackup2 = Starting backup of the param2 folder
+	visualprocess.step.stepMakeFullCopyBackupx = Generating param2 folder backup
+	visualprocess.step.stepMakeFullCopyBackupxDefault = Skipping backup routine of the param2 folder
+	visualprocess.step.stepDeleteParamFlg = Deleting file param.flg
+	visualprocess.step.stepValidateStoreDir = Validating store directories
+	visualprocess.step.stepDeleteParamDatabase = Deleting param.db
+	visualprocess.step.stepOpenParamDatabase = Creating param.db
+	visualprocess.step.stepCreateParamFlg = Creating param.flg
+	visualprocess.step.stepCarryGeneralTablesConfig = Setting up general tables
+	visualprocess.step.stepCarryGeneralTablesWriter = Exporting general tables
+	visualprocess.step.stepPosReaderGeneral = Getting general pos parameters
+	visualprocess.step.stepPosProcessorGeneral = Processing general pos parameters
+	visualprocess.step.stepPosReaderStore = Getting store pos parameters
+	visualprocess.step.stepPosProcessorStore = Processing store pos parameters
+	visualprocess.step.stepPosWriter = Exporting pos parameters
+	visualprocess.step.stepPosAddCsc = Adding CSC to POS Parameters
+	visualprocess.step.stepPosAddNfceSefazUrl = Adding nfce sefaz url to the pos parameters
+	visualprocess.step.stepBspGeneralReader = Getting general bsp parameters
+	visualprocess.step.stepBspStoreReader = Getting bsp store parameters
+	visualprocess.step.stepBspWriter = Exporting bsp parameters 
+	visualprocess.step.stepTotemGeneralReader = Getting general totem parameters
+	visualprocess.step.stepTotemStoreReader = Getting totem parameters from the store
+	visualprocess.step.stepTotemWriter = Exporting totem parameters
+	visualprocess.step.stepNFGeneralReader = Getting general fiscal note parameters
+	visualprocess.step.stepNFStoreReader = Getting fiscal note parameters from the store
+	visualprocess.step.stepNFWriter = Exporting fiscal note parameters
+	visualprocess.step.stepDiggerGeneralReader = Getting general digger parameters
+	visualprocess.step.stepDiggerStoreReader = Getting digger parameters from the store
+	visualprocess.step.stepDiggerWriter = Exporting digger parameters
+	visualprocess.step.stepKillDonkeyGeneralReader = Getting general kill donkey parameters
+	visualprocess.step.stepKillDonkeyStoreReader = Getting kill donkey parameters from the store
+	visualprocess.step.stepKillDonkeyWriter = Exporting kill donkey parameters
+	visualprocess.step.stepOperatorReader = Getting access operators from the store and group
+	visualprocess.step.stepOperatorProcessor = Processing access operators
+	visualprocess.step.stepOperatorWriter = Exporting access operators
+	visualprocess.step.stepOperatorStoreReader = Getting access operators store from the store and group
+	visualprocess.step.stepOperatorStoreProcessor = Processing access operators store
+	visualprocess.step.stepOperatorStoreWriter = Exporting access operators store
+	visualprocess.step.stepPermissionGeneralReader = Getting permissions
+	visualprocess.step.stepPermissionProcessor = Processing permissions
+	visualprocess.step.stepPermissionWriter = Exporting permissions
+	visualprocess.step.stepPlansStoreConfig = Starting export of plans
+	visualprocess.step.stepXReaderPlans = Getting plans
+	visualprocess.step.stepXProcessorPlans = Processing plans
+	visualprocess.step.stepXWriterPlans = Exporting plans 
+	visualprocess.step.stepPlansLayoutConfig = Starting export of layout plans
+	visualprocess.step.stepXReaderPlansLayout = Getting layout plans
+	visualprocess.step.stepXProcessorPlansLayout = Processing layout plans
+	visualprocess.step.stepXWriterPlansLayout = Exporting layout plans 
+	visualprocess.step.stepPlansParcelConfig = Starting export of parcel plans
+	visualprocess.step.stepXReaderPlansParcel = Getting parcel plans
+	visualprocess.step.stepXProcessorPlansParcel = Processing parcel plans
+	visualprocess.step.stepXWriterPlansParcel = Exporting parcel plans 
+	visualprocess.step.stepPlansTEFConfig = Starting export of TEF plans
+	visualprocess.step.stepXReaderPlansTEF = Getting TEF plans
+	visualprocess.step.stepXProcessorPlansTEF = Processing TEF plans
+	visualprocess.step.stepXWriterPlansTEF = Exporting TEF plans
+	visualprocess.step.stepPlansLogicalMarketConfig = Starting export of logical market plan
+	visualprocess.step.stepXReaderPlansLogicalMarket = Getting logical market plan
+	visualprocess.step.stepXProcessorPlansLogicalMarket = Processing logical market plan
+	visualprocess.step.stepXWriterPlansLogicalMarket = Exporting logical market plan 
+	visualprocess.step.stepPlansPaymentMethodConfig = Starting export of payment method plan
+	visualprocess.step.stepXReaderPlansPaymentMethod = Getting payment method plan
+	visualprocess.step.stepXProcessorPlansPaymentMethod = Processing payment method plan
+	visualprocess.step.stepXWriterPlansPaymentMethod = Exporting payment method plan 
+	visualprocess.step.stepStoreConfig = Starting export of store
+	visualprocess.step.stepXReaderStore = Getting store
+	visualprocess.step.stepXProcessorStore = Processing store
+	visualprocess.step.stepXWriterStore = Exporting store
+	visualprocess.step.stepTEFOptionsConfig = Starting export of TEF options
+	visualprocess.step.stepXReaderTEFOptions = Getting TEF options
+	visualprocess.step.stepXProcessorTEFOptions = Processing TEF options
+	visualprocess.step.stepXWriterTEFOptions = Exporting TEF options
+	visualprocess.step.stepOperatorsScriptConfig = Starting export of script operators
+	visualprocess.step.stepXReaderOperatorsScript = Getting script operators
+	visualprocess.step.stepXProcessorOperatorsScript = Processing script operators
+	visualprocess.step.stepXWriterOperatorsScript = Exporting script operators
+	visualprocess.step.stepTEFCabConfig = Starting export of TEF CAB
+	visualprocess.step.stepXReaderTEFCab = Getting TEF CAB
+	visualprocess.step.stepXProcessorTEFCab = Processing TEF CAB
+	visualprocess.step.stepXWriterTEFCab = Exporting TEF CAB
+	visualprocess.step.stepRoulleteConfig = Starting export of roullete
+	visualprocess.step.stepXReaderRoullete = Getting roullete
+	visualprocess.step.stepXProcessorRoullete = Processing roullete
+	visualprocess.step.stepXWriterRoullete = Exporting roullete
+	visualprocess.step.stepPaymentMethodReaderParamBSP194 = Searching bsp parameter 194
+	visualprocess.step.stepPaymentMethodReader = Getting payment methods
+	visualprocess.step.stepPaymentMethodProcessor = Processing payment methods
+	visualprocess.step.stepPaymentMethodWriter = Exporting payment methods
+	visualprocess.step.stepDescPaymentMethodConfig = Starting export of payment method discount 
+	visualprocess.step.stepXReaderDescPaymentMethod = Getting payment method discount
+	visualprocess.step.stepXProcessorDescPaymentMethod = Processing payment method discount
+	visualprocess.step.stepXWriterDescPaymentMethod = Exporting payment method discount
+	visualprocess.step.stepDescPaymentMethodXConfig = Starting export of payment method discount helper
+	visualprocess.step.stepXReaderDescPaymentMethodX = Getting payment method discount helper
+	visualprocess.step.stepXProcessorDescPaymentMethodX = Processing payment method discount helper
+	visualprocess.step.stepXWriterDescPaymentMethodX = Exporting payment method discount helper
+	visualprocess.step.stepCasadinhaReader = Getting virtual packing promotions
+	visualprocess.step.stepCasadinhaProcessor = Processing virtual packing promotions
+	visualprocess.step.stepCasadinhaWriter = Exporting virtual packing promotions
+	visualprocess.step.stepMkDirInputStoreReader = Getting components
+	visualprocess.step.stepMkDirInputProcessor = Creating directories for components
+	visualprocess.step.stepCouponDiscountCampaignConfig = Starting export of campaign discount coupon 
+	visualprocess.step.stepXReaderCouponDiscountCampaign = Getting campaign discount coupon
+	visualprocess.step.stepXProcessorCouponDiscountCampaign = Processing campaign discount coupon
+	visualprocess.step.stepXWriterCouponDiscountCampaign = Exporting campaign discount coupon
+	visualprocess.step.stepCouponDiscountLineConfig = Starting export of line discount coupon 
+	visualprocess.step.stepXReaderCouponDiscountLine = Getting line discount coupon
+	visualprocess.step.stepXProcessorCouponDiscountLine = Processing line discount coupon
+	visualprocess.step.stepXWriterCouponDiscountLine = Exporting line discount coupon
+	visualprocess.step.stepCliSitefConfig = Starting export of clisitef parameters 
+	visualprocess.step.stepXReaderCliSitefParameters = Getting clisitef parameters
+	visualprocess.step.stepXProcessorCliSitefParameters = Processing clisitef parameters
+	visualprocess.step.stepXWriterCliSitefParameters = Exporting clisitef parameters
+	visualprocess.step.stepDigitalConfig = Starting export of digital 
+	visualprocess.step.stepXReaderDigital = Getting digital
+	visualprocess.step.stepXProcessorDigital = Processing digital
+	visualprocess.step.stepXWriterDigital = Exporting digital
+	visualprocess.step.stepPbmInsertDefaultValues = Entering default values for the table PBM 
+	visualprocess.step.stepRedexCoverConfig = Starting export of redex cover 
+	visualprocess.step.stepXReaderRedexCover = Getting redex cover
+	visualprocess.step.stepXProcessorRedexCover = Processing redex cover
+	visualprocess.step.stepXWriterRedexCover = Exporting redex cover
+	visualprocess.step.stepRedexStripConfig = Starting export of redex strip 
+	visualprocess.step.stepXReaderRedexStrip = Getting redex strip
+	visualprocess.step.stepXProcessorRedexStrip = Processing redex strip
+	visualprocess.step.stepXWriterRedexStrip = Exporting redex strip
+	visualprocess.step.stepRedexNetworkConfig = Starting export of redex network 
+	visualprocess.step.stepXReaderRedexNetwork = Getting redex network
+	visualprocess.step.stepXProcessorRedexNetwork = Processing redex network
+	visualprocess.step.stepXWriterRedexNetwork = Exporting redex network
+	visualprocess.step.stepDeliveryRateConfig = Starting export of delivery rate 
+	visualprocess.step.stepXReaderDeliveryRate = Getting delivery rate
+	visualprocess.step.stepXProcessorDeliveryRate = Processing delivery rate
+	visualprocess.step.stepXWriterDeliveryRate = Exporting delivery rate
+	visualprocess.step.stepListProdReader = Getting type list
+	visualprocess.step.stepListProdProcessor = Processing type list
+	visualprocess.step.stepListProdWriter = Exporting type list
+	visualprocess.step.stepXReaderInstCampLoja = Getting institution field store
+	visualprocess.step.stepXProcessorInstCampLoja = Processing institution field store
+	visualprocess.step.stepXWriterInstCampLoja = Exporting institution field store
+	visualprocess.step.stepDefaultFlowRedirIPSAT = Skipping export routine of SAT IP Redirect
+	visualprocess.step.stepRedirectionSatIpConfig = Starting export of SAT IP Redirect 
+	visualprocess.step.stepXReaderRedirectionSatIp = Getting SAT IP Redirect
+	visualprocess.step.stepXProcessorRedirectionSatIp = Processing SAT IP Redirect
+	visualprocess.step.stepXWriterRedirectionSatIp = Exporting SAT IP Redirect
+	visualprocess.step.stepAccessProfileOperConfig = Starting export of access profile operators 
+	visualprocess.step.stepXReaderAccessProfileOper = Getting access profile operators
+	visualprocess.step.stepXProcessorAccessProfileOper = Processing access profile operators
+	visualprocess.step.stepXWriterAccessProfileOper = Exporting access profile operators
+	visualprocess.step.stepHeaderNotesConfig = Starting export of header notes 
+	visualprocess.step.stepXReaderHeaderNote = Getting header notes
+	visualprocess.step.stepXProcessorHeaderNote = Processing header notes
+	visualprocess.step.stepXWriterHeaderNote = Exporting header notes
+	visualprocess.step.stepCreditTypeReader = Getting credit type
+	visualprocess.step.stepCreditTypeProcessor = Processing credit type
+	visualprocess.step.stepCreditTypeWriter = Exporting credit type
+	visualprocess.step.stepComponentConfig = Starting export of components 
+	visualprocess.step.stepXReaderComponent = Getting components
+	visualprocess.step.stepXProcessorComponent = Processing components
+	visualprocess.step.stepXWriterComponent = Exporting components
+	visualprocess.step.stepDeleteSignMD5 = Deleting assina.md5
+	visualprocess.step.stepGenerationTypeConfig = Setting up linux generation type
+	visualprocess.step.stepRecreatePartTmp = Starting configuration for recreating partmp directory
+	visualprocess.step.stepRecreateDirPartmp = recreating partmp directory
+	visualprocess.step.stepGenerationTypeX = Generating parameters in the linux directory according to the linux generation type 
+	visualprocess.step.stepRecreateParamX = Starting configuration for rebuilding param directory according to linux generation type
+	visualprocess.step.stepRecreateDirParamX = rebuilding param directory according to linux generation type
+	visualprocess.step.stepCopyParamDB = Copy param db to temporary partmp directory 
+	visualprocess.step.stepCopyParamX = Moving partmp temp directory to param directory according to linux generation type
+	visualprocess.step.stepCreateSignMD5 = Creating assina.md5
+	visualprocess.step.stepPackagePublisher = Publishing load
+	visualprocess.step.stepCreateVmx = Creating file .vmx
+	
+	visualprocess.step.productBatchModification = Starting products change tracking
+	visualprocess.step.updateTefPlans = Updating TEF plans 
+	visualprocess.step.updatePromotionList = Updating promotion list 
+	visualprocess.step.updateClubList = Updating club list
+	visualprocess.step.stepDatabaseCreation = Creating temporary database
+	visualprocess.step.putPosTypeInJob = Setting up pos products type
+	visualprocess.step.deletePosProductsStep =  Deleting pos products
+	visualprocess.step.insertPosProductsStep = Exporting pos products
+	visualprocess.step.deletePosNotValidClubPromotionsStep = Updating invalid club price for pos products 
+	visualprocess.step.deletePosNotValidPromotionsStep = Updating invalid promotion price for pos products 
+	visualprocess.step.deletePosProductsWholeSaleStep = Deleting wholesale pos products
+	visualprocess.step.insertPosProductsWholeSaleStep = Exporting wholesale pos products
+	visualprocess.step.stepProductsReader = Getting products
+	visualprocess.step.stepProductsProcessor = Processing products
+	visualprocess.step.stepCfopRegister = Updating CFOP of the products
+	visualprocess.step.stepCfopRegisterDefault = Disregarding Products CFOP Update
+	visualprocess.step.stepNationalSimple = Updating simple national taxes
+	visualprocess.step.stepNationalSimpleDefault = Disregarding update of national simple taxes
+	visualprocess.step.stepProductsStoreWriter = Saving products in temporary database
+	visualprocess.step.stepLightningPromotionReader = Getting Lightning Promotions List 
+	visualprocess.step.stepLightningPromotionProcessor = Processing Lightning Promotions List 
+	visualprocess.step.stepLightningPromotionWriter = Saving Lightning Promotions List
+	visualprocess.step.stepConditionalPromotionReader = Getting list of conditional promotions 
+	visualprocess.step.stepConditionalPromotionProcessor = Processing list of conditional promotions 
+	visualprocess.step.stepConditionalPromotionWriter = Saving list of conditional promotions
+	visualprocess.step.stepSpecialPriceReader = Getting Special Price List
+	visualprocess.step.stepSpecialPriceProcessor = Processing Special Price List 
+	visualprocess.step.stepSpecialPriceWriter = Saving Special Price List
+	visualprocess.step.stepWholeSaleGenerationReader = Getting packing list wholesale
+	visualprocess.step.stepParBloqPartirDePromocao = Blocking promotions from
+	visualprocess.step.stepParBloqPartirDePromocaoDefault = Disregarding blocking promotions from 
+	visualprocess.step.stepWholeSaleGenerationProcessor = Processing packing list wholesale 
+	visualprocess.step.stepWholeSaleGenerationWriter = Saving packing list wholesale
+	visualprocess.step.stepMercadDescricaoReader = Getting descriptions' list from logical market
+	visualprocess.step.stepMercadDescricaoProcessor = Processing descriptions' list from logical market
+	visualprocess.step.stepMercadDescricaoWriter = Saving descriptions' list from logical market
+	visualprocess.step.stepMercadologicoReader = Getting list of logical markets
+	visualprocess.step.stepMercadologicoProcessor = Processing list of logical markets
+	visualprocess.step.stepMercadologicoWriter = Saving list of logical markets
+	visualprocess.step.stepKitItensReader = Getting kit list items
+	visualprocess.step.stepKitItensProcessor = Processing kit list items
+	visualprocess.step.stepKitItensWriter = Saving kit list items
+	visualprocess.step.stepBalanceReader = Getting list of deadline types
+	visualprocess.step.stepBalanceProcessor = Processing list of deadline types
+	visualprocess.step.stepBalanceWriter = Saving list of deadline types
+	visualprocess.step.stepAlterationControl = Logging product changes
+	visualprocess.step.createGenerateCasadinhaStep = Updating virtual packing promotion products
+	visualprocess.step.createGenerateCasadinhaStepDefault = Disregarding update of virtual packing promotion products
+	visualprocess.step.stepHandleBoxWeight = Updating variable weight of products case handles box weight
+	visualprocess.step.stepHandleBoxWeightDefault = Disregarding variable weight update case handles box weight
+	visualprocess.step.stepExportSupplierToPOS = Sending suppliers to pos
+	visualprocess.step.stepExportSupplierToPOSDefault = Disregarding sending suppliers to pos
+	visualprocess.step.stepExportIngredients = Exporting ingredients' store
+	visualprocess.step.stepExportPromotions = Exporting promotions' store
+	visualprocess.step.stepUpdateIdentification = Updating identification
+	visualprocess.step.stepExportProductsRecall = Recalling parameter-defined products
+	visualprocess.step.stepExportProductsRecallDefault = Disregarding recall of parameter-defined products
+	visualprocess.step.stepExportGroupedKit = Exporting grouped kit
+	visualprocess.step.stepExportProductsRecallDefault = Desconsiderando export of grouped kit
+	visualprocess.step.stepTerminateDatabase = Closing temporary product database
+	visualprocess.step.stepRenameDatabase = Replaces product database with temporary
+	visualprocess.step.stepReleaseStoreStartDate = Updating load posting start data for a store
+	visualprocess.step.stepComponentReader = Getting comp files
+	visualprocess.step.stepSetProductsFlag = Setting up products' flag
+	visualprocess.step.stepComponentWriter = Writing comp files
+	visualprocess.step.cleanPosProducts = Clean pos products
+	visualprocess.step.updateTagEmissionNextDay = Updating tag emission next day
+	visualprocess.step.stepSetTransfer = Updating transfer field of products with true
+	visualprocess.step.stepUpdateTransferDatabase = Updating transfer field of products with false 
+	visualprocess.step.stepSpecialPriceSetChanged = Updating flag changed
+	visualprocess.step.stepChangeToTrueWholeSale = Updating wholesale packaging flag changed
+	visualprocess.step.stepSetChangedWholeSale = Updating wholesale packaging flag changed
+	visualprocess.step.stepSetDatabaseKitQuantityZero = Updating amount of kit items with zero
+	visualprocess.step.stepDeleteKitQuantityZero = Deleting kit items with amount equal to zero
+	
+		
+	visualprocess.step.changesTasklet = Updating changed flag of packaging, tax and promotions tables  
+	visualprocess.step.clientLinuxTasklet = Exporting general customers   
+	visualprocess.step.backupProducts = Generating backup of products folder
+	visualprocess.step.productsMDBClean = Deleting products.alt and proddia.db
+	visualprocess.step.productsMDBMoveDia = Generating copy of prodnovo.db to proddia.db
+	visualprocess.step.productsMDBMoveProd = Generating copy of prodnovo.db for produtos.db
+	visualprocess.step.productsVMXMoveProd = Generating copy of prodnovo.vmx for products.vmx
+	visualprocess.step.productsControlTasklet = Initiating product change tracking 
+	visualprocess.step.linuxTempClean = Clearing prodtemp temporary folder 
+	visualprocess.step.linuxTempMove = Copying new product folder to temporary product folder  
+	visualprocess.step.linuxProductsClean = Cleaning up products folder
+	visualprocess.step.balanceCleanTask = Cleaning scales folder
+	visualprocess.step.balanceMoveTask = Copying new scales folder to scales folder
+	visualprocess.step.chunkRoullete = Recreating ctrrol file for each roulette
+	visualprocess.step.taskNivelRoullete = Upgrading possibilities and maximum amount for roulette levels   
+	visualprocess.step.pluTasklet = Generating upl file
+	visualprocess.step.uplTasklet = Generating 250 upl files
+	visualprocess.step.chunkPlu = Generating comp_upt and comp files for each component found  
+	visualprocess.step.noveChequeTasklet = Copying cheques.mdb to current day checks folder      
+	visualprocess.step.refreshChequeTasklet = Updating TXCLE.998 file with current date     
+	visualprocess.step.packagesTasklet = Deleting PCT files
+	visualprocess.step.dayLogTasklet = Generating log in day log table
+	visualprocess.step.historyMDBClean = Clearing History Folder
+	visualprocess.step.storeFlagTasklet = Updating flag beginning of day
+
+	visualprocess.step.cleanPictures = Clearing images folder
+	visualprocess.step.movePictures = Exporting general images
+	visualprocess.step.writeVmxPictures = Generating pictures.vmx file in dataisp
+	visualprocess.step.moveVmxPictures = Copying pictures.vmx file to images folder 
+	visualprocess.step.chunkPluPictures = Updating image flag from comp files
+	
+	#LINKSALE KEY DENTRO DO VISUALSTORE
+	 linksale.step.io.error = Linksale Service IO Error: {0}
+	 linksale.step.service.not.available = Linksale Service not available: {0}
+	 
+	 #LINKSALE API
+	 
+	 linksale.step.lvlf.not.found = POS Conversion File {0} Date {1} not found 
+	 
+	 #Pooling API 
+	 
+	 visualpooling.step.init.conversion.visualstore = Log Conversion Store {0} POS {1} Date {2}
+	 visualpooling.step.pooling.failed.communication = Log Conversion Communication Error with Selling Pool Service: {0}
+	 visualpooling.step.json.parse.error = Json Parse Error: {0}
+	 visualpooling.step.json.mapping.error = Json Mapping Error: {0}
+	 visualpooling.step.io.excetion = Selling Pool IO Error: {0}
+	 
+	 visualpooling.step.converting.sale.running = Log Converting Store {0} POS {1} Date {2, date}
+	 visualpooling.step.converting.sale.init = Starting Log Conversion Store {0} POS {1} Date {2, date}
+	 visualpooling.step.converting.sale.finished = Log Conversion Finished Store {0} POS {1} Date {2, date}
+	 visualpooling.step.converting.sale.cleaning.database = Cleaning Tables Store {0} POS {1} Date {2, date} 
+	 visualpooling.step.converting.sale.reading.log.file = Reading File {0}
+	 visualpooling.step.converting.sale.validating.sale = Validating File {0}
+	 visualpooling.step.converting.sale.saving = Persisting File {0}
+	 visualpooling.step.converting.sale.finished.saving = File {0} Persisted with Success
+	 visualpooling.step.converting.sale.converting.sale.store.lvlf.doesnt.match = Invalid Store. The File {0} is from Store {1}, however the Store to convert is {2}  
+	 visualpooling.step.converting.sale.lvlf.date.invalid = The informed date {0, date} is different from the file {1} which is {2, date}
+	 visualpooling.step.converting.sale.pos.invalid = The POS informed {0} is different from file {2} which is {1} 
+	 visualpooling.step.converting.sale.day.already.consisted = Day already consisted
+	 
+#Tela de Relatório Produtos Alterados
+	relatorio.produtos.alterados.title = Changed Products Report
+
+#Tela de Relatório Produtos Alterados
+	cadastro.embalagem.loja.title = Register Packaging Store
+	
+#Tela de cadastro mercadologico pesquisa
+	cadastro.atacado.merc.pesq.title = Search - Logical Market wholesale
+	cadastro.atacado.merc.title = Register - Wholesale Logical Market
+
+#Tela de Cadastro de lista Promoção
+	cadastro.listas.preco.lista.promocao.title = Cadastro listas preco promoção
+	
+#Tela de devolucao cupom
+	devolucao.cadastro.devol.cupom.title = Search Coupon Items
+	
+#Tela de finalizadoras - Tipos de Lançamentos
+	search.title.launch.type = Search - Launch Type
+	title.launch.type = Launch Type
+
+#Tela de cadastro parâmetro - 
+	search.title.footer.coupon = Pesquisa - Rodapé Cupom Fiscal
+	title.footer.coupon = Rodapé Cupom Fiscal
+
+#Tela de Cadastro Níveis de Operadores Vendedores
+	title.footer.coupon = Levels of Selling Operators	
+
+#Tela de Cadastro de Marca
+	pesquisa.marca.title = Pesquisa de Marca
+	cadastro.marca.title = Cadastro de Marca
+
+#Tela de Relatório de Vendas Kits
+	relatorio.vendas.kits.title = Relatório - Vendas Kits
+	
+#Tela de Cadastro de Intermediadores
+	cadastro.intermediadores.pesq.title = Pesquisa de Intermediadores
+	cadastro.intermediadores.title = Cadastro de Intermediadores
+	type.ticket.number = Type the ticket number
+	
+#Tela Relatório de Log de Embalagem Loja
+	relatorio.log.embalagem.loja = Report - Log Store/Packaging
+
+#Tela de Pesquisa de Termo de Entrega
+   pesquisa.parametro.termo.title = Delivery Term Search
+  
+#Tela de Cadastro de Termo de Entrega
+   cadastro.termo.title = Registration - Delivery Term
+   
+#Tela de Cadastro de Niveis de Dominio
+   	search.finisher.level.domain.title = Tela de Cadastro
+   	register.finisher.level.domain.title = Register in Finisher Levels Domain
+   
+	

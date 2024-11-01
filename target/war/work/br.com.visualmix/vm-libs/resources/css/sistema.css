@@ -1,0 +1,64 @@
+html, body { height: 100%; margin: 0; padding: 0; }
+
+.header {  position : absolute; left:5px; top:3px; height: 65px; background: #32597A; width:99%;
+           box-shadow: 0px 3px 3px #888888;
+		   border: 1px #bbbbbb solid;
+		   background-image: url(../../resources/images/header.png); background-repeat: no-repeat;
+	       xfilter: progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=145,strength=3);
+
+        }
+.menu {   position : absolute; left:5px; top:75px;background: #7197b0; width:115px; height:85%; 
+          box-shadow: 3px 3px 3px #888888; 
+ 	      border: 1px #bbbbbb solid;
+          xfilter: progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=145,strength=3);
+}
+
+.framedesktop {
+  position : absolute;
+  left: 127px; 
+  top: 75px;
+  border: 1px #bbbbbb solid;
+  box-shadow: 3px 3px 3px #888888;
+  xfilter: progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=145,strength=3);
+}
+
+.framemodal {
+  border: 1px #bbbbbb solid;
+  box-shadow: 3px 3px 3px #888888;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#aaaaaa,direction=145,strength=3);
+}
+
+.transparent {
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; */
+	width: 100%; 
+		
+	/* Theoretically for IE 8 & 9 (more valid) */	
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=20);
+	
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.2;
+	
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.2;
+	
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.2;
+}
+
+.framework {   position : absolute; left:12px; top:600px; 
+               FONT-SIZE: 10px; COLOR: white; 
+}
+
+.shadow {
+   position : absolute;
+   background-color:#dddddd;
+}

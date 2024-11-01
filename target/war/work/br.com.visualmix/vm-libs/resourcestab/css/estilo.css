@@ -1,0 +1,632 @@
+
+UNKNOWN {
+	FONT-SIZE: 12px
+}
+
+BODY {
+	FONT-SIZE: 12px; COLOR: #191970; FONT-FAMILY: arial,verdana,sans-serif; BACKGROUND-COLOR: #FFFFFF;
+}
+A {
+	COLOR: black; TEXT-DECORATION: none
+}
+TABLE {
+	FONT-SIZE: 12px; FONT-FAMILY: arial,verdana,sans-serif
+}
+
+div.div_mensagem {
+    font-family:arial,verdana,sans-serif;
+    border:0;
+    background-color:#32597A;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
+    font-size:12px;
+	text-align:center;
+	font-weight:bold;
+    color:#FFFF66;
+}
+TABLE.Rodape {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 12px; BORDER-LEFT: 0px; WIDTH: 100%; BORDER-BOTTOM: #b5b5b8 2px solid; FONT-FAMILY: arial,verdana,sans-serif; HEIGHT: 1px; BACKGROUND-COLOR: #FFFFFF
+}
+   Table.Principal {font-family:arial,verdana,sans-serif;
+                    border:0;
+                    background-color:#4682B4;
+		            background-color:#32597A;
+                    border-right: 1px solid #000000;
+                    border-bottom: 1px solid #000000;
+                    border-left: 1px solid #FFFFFF;
+                    border-top: 1px solid #FFFFFF;
+                    font-size:12px;
+                    width:100%;
+			   -moz-border-radius: 6px;
+			   -webkit-border-radius: 6px;
+			   -khtml-border-radius: 6px;
+			   border-radius: 6px;
+					}
+
+
+   td.PrincipalCab {font-size:12px;
+					text-align:center;
+					font-weight:bold;
+                    color:#FFFF66;
+                    background-color:#4682B4;
+					background-color:#32597A;
+                    width:100%}
+
+   td.PrincipalMenu {font-size:12px;
+                     text-align:left;
+                     border: 0px;
+                     color:white;
+                     height:25px;}
+
+   a.PrincipalMenu:hover {
+                     border: 1px solid #000000;
+                     background-color: #7197B0;
+					 text-decoration:none;
+                      }
+
+   a.PrincipalMenu  {color:white;
+                     border: 1px solid #32597A;
+					 padding-left: 1px;
+					 padding-right: 1px;
+ 					 background-color:#32597A;
+                     text-decoration:none;}
+
+   Table.Menu2     {font-family:arial,verdana,sans-serif;
+                    border:0;
+                    background-color:#E0EEEE;
+                    font-size:12px;
+                    width:100%}
+ 
+   td.Menu2         {font-size:12px;
+                     text-align:left;
+                     color:Black;
+                     height:20;
+                     width:100%}
+
+   td.Menu2Cab      {font-size:12px;
+                     text-align:center;
+                     color:Black;
+                     height:20;
+                     width:100%}
+
+   a.Menu2  {color:Black;
+             text-decoration:none}
+
+
+TABLE.TabControl1 {
+    BORDER-TOP: #FFFFFF 3px solid;
+}
+
+TD.TabControlMenuInicio1 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 12px; BORDER-LEFT: 0px; BORDER-BOTTOM: #b5b5b8 1px solid; HEIGHT: 25px; 
+	TEXT-ALIGN: left;background-color:#FFFFFF;
+}
+
+TD.TabControlMenuFim1 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 12px; BORDER-LEFT: #b5b5b8 0px solid; BORDER-BOTTOM: #b5b5b8 1px solid;
+	 HEIGHT: 25px; TEXT-ALIGN: left;background-color:#FFFFFF;
+}
+
+TABLE.TabControl {
+    BORDER-TOP: #f2f2f2 3px solid;
+}
+
+TD.TabControlMenuInicio {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 12px; BORDER-LEFT: 0px; BORDER-BOTTOM: #b5b5b8 1px solid; HEIGHT: 25px; 
+	TEXT-ALIGN: left;background-color:#F2F2F2;
+}
+
+TD.TabControlMenuFim {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 12px; BORDER-LEFT: #b5b5b8 0px solid; 
+	BORDER-BOTTOM: #b5b5b8 1px solid; HEIGHT: 25px; TEXT-ALIGN: left;background-color:#F2F2F2;
+}
+TD.TabControlMenu {
+	BORDER-RIGHT:  #b5b5b8 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #b5b5b8 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px;
+	BORDER-LEFT: #b5b5b8 1px solid; COLOR: white; BORDER-BOTTOM: #b5b5b8 1px solid; 
+	HEIGHT: 25px; TEXT-ALIGN: left; background-color:#F2F2F2;
+    margin: 5px	;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-khtml-border-radius-topright: 6px;
+	-khtml-border-radius-topleft: 6px;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	}
+A.TabControlMenu {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.TabControlMenu:hover {
+	COLOR: black; TEXT-DECORATION: none
+}
+
+TD.TabControlMenuOn {
+    BORDER-RIGHT: #b5b5b8 1px solid; BORDER-TOP: #b5b5b8 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #b5b5b8 1px solid; COLOR: white; BORDER-BOTTOM: 0px; 
+	HEIGHT: 25px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-khtml-border-radius-topright: 6px;
+	-khtml-border-radius-topleft: 6px;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+
+	}
+A.TabControlMenuOn {
+	COLOR: #191970; TEXT-DECORATION: none
+}
+
+A.TabControlMenuOn:hover {
+	COLOR: #191970; TEXT-DECORATION: none
+}
+
+TD.TabControlMenuOff {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 2px; BORDER-TOP: #b5b5b8 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; BORDER-LEFT: #b5b5b8 1px solid; COLOR: white; 
+	BORDER-BOTTOM: #b5b5b8 1px solid; HEIGHT: 25px; TEXT-ALIGN: left; background-color:#F2F2F2;
+}
+A.TabControlMenuOff {
+	COLOR: gray; TEXT-DECORATION: none
+}
+A.TabControlMenuOff:hover {
+	COLOR: gray; TEXT-DECORATION: none
+}
+
+
+   Div.ListaFundo {font-family:arial,verdana,sans-serif;
+                   border:0;
+                   background-color:#F2F2F2;
+                  }
+
+   Table.Lista {font-family:arial,verdana,sans-serif;
+                border:0;
+                background-color:#F2F2F2;
+                font-size:12px;
+                align:center;
+                text-align:center}
+
+   td.listacab {color:white;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   -khtml-border-radius: 4px;
+   border-radius: 4px;
+                height:25px;
+                border:none;
+                border-right: 1px solid #000000;
+                border-bottom: 1px solid #000000;
+                border-left: 1px solid #cccccc;
+                border-top: 1px solid #cccccc;
+                background-color:#3F6788;}
+
+   a.listacab  {color:white;
+                border: 1px solid #3F6788;
+                text-decoration:none}
+
+   a.listacab:hover {
+                     border: 1px solid #000000;
+                     background-color: #7197B0;
+					 text-decoration:none;
+                      }
+   a.link {      
+		 padding:0px;
+		 padding-left: 2px;
+		 padding-right: 2px;
+		 height:24px;
+		 border:0px;
+		 max-height:19px;
+		 color:#191970;
+		 text-align:right;
+		 font-family:arial,verdana,sans-serif;  
+		 display:-moz-inline-box; /* Gecko proprietary */
+		 display:inline-block; /* supported by Opera and ? */
+		 vertical-align:middle;  /*Gecko needs this */
+		 font-size:12px;
+   }
+   td.listaOrdem1 {color:black;
+                   text-align:center;
+                   background-color:#F2F2F2}
+
+   a.listaOrdem1  {color:black;
+                   border: 1px solid #F2F2F2;
+                   text-decoration:none}
+
+   a.listaOrdem2  {color:black;
+                   border: 1px solid #F0F0F5;
+                   text-decoration:none}
+
+   a.listaOrdem1:hover {
+                     border: 1px solid #000000;
+                     background-color: #7197B0;
+					 text-decoration:none;
+                      }
+
+   a.listaOrdem2:hover {
+                     border: 1px solid #000000;
+                     background-color: #7197B0;
+					 text-decoration:none;
+                      }
+
+   td.listaOrdem2 {color:black;
+                   text-align:center;
+                   background-color:#E5E5E8}
+
+
+   td.listaLinha1 {color:black;
+                   height:25px;
+                   background-color:#F2F2F2}
+
+   td.listaLinha2 {color:black;
+                   height:25px;
+                   background-color:#E5E5E8}
+
+   td.listaLinha3 {color:black;
+                   height:25px;
+                   background-color:#FFFFFF}
+
+   span.listaNav  {color:black;     
+                   font-family:arial,verdana,sans-serif;  
+                   font-size:12px;  
+                   width:100%;         
+                   text-align:center}
+
+   a.listaNav     {color:black;     
+                   text-decoration:none}
+   span.texto {
+               padding:0px;
+               font-family:arial,verdana,sans-serif;
+               color:black;
+               background-color:#7197B0;
+               background-color:#E5E5E8;
+               border:1px solid #B5B5B8;
+			   padding-left: 2px;
+			   padding-right: 2px;
+			   padding-top: 4px;
+               display:-moz-inline-box; /* Gecko proprietary */
+               display:inline-block; /* supported by Opera and ? */
+               /*height:1.35em; /* width and height required */
+			   height:19px;
+			   max-height:19px;
+               vertical-align:middle;  /*Gecko needs this */
+               font-size:12px
+			   -moz-border-radius: 6px;
+			   -webkit-border-radius: 6px;
+			   -khtml-border-radius: 6px;
+			   border-radius: 6px;
+			   
+			   }
+
+
+span.botao {
+   vertical-align:middle;  /*Gecko needs this */
+   color:white;
+   border-right: 1px solid #000000;
+   border-bottom: 1px solid #000000;
+   border-left: 1px solid #cccccc;
+   border-top: 1px solid #cccccc;
+   background-color:#32597A;
+   text-align:center;
+	font-family:arial,verdana,sans-serif;  
+	display:-moz-inline-box; /* Gecko proprietary */
+	display:inline-block; /* supported by Opera and ? */
+	vertical-align:middle;  /*Gecko needs this */
+	font-size:12px;
+   -moz-border-radius: 6px;
+   -webkit-border-radius: 6px;
+   -khtml-border-radius: 6px;
+   border-radius: 6px;
+	
+	}
+  
+   span.rotulo {
+                padding:0px;
+ 			    padding-left: 2px;
+			    padding-right: 2px;
+ 			    height:19px;
+                border:0px;
+			    max-height:19px;
+                color:#191970;
+                text-align:right;
+                font-family:arial,verdana,sans-serif;  
+                display:-moz-inline-box; /* Gecko proprietary */
+                display:inline-block; /* supported by Opera and ? */
+                /* height:1.35em;  width and height required */
+                vertical-align:middle;  /*Gecko needs this */
+                font-size:12px;
+			   -moz-border-radius: 6px;
+			   -webkit-border-radius: 6px;
+			   -khtml-border-radius: 6px;
+			   border-radius: 6px;
+			   padding-top: 4px;
+			   
+				}
+
+   td.rotulo   {
+                padding:0px;
+                padding-right:2px;
+                color:#191970;
+				width:110px;
+				height:25px;
+                text-align:right;
+                font-family:arial,verdana,sans-serif;  
+                font-size:12px;}
+
+   td.chave    {
+                padding:0px;
+                padding-right:2px;
+                font-weight:bold;
+				width:110px;
+				height:15px;
+                Color:#191970;
+                text-align:right;
+                font-family:arial,verdana,sans-serif;  
+                font-size:12px;}
+
+   td.texto    {
+                text-align:middle;
+                vertical-align:middle;  Gecko needs this */
+                padding:0px;}
+
+
+   div.botao {Color:#191970;
+              text-align:center;
+              width:100%}
+
+   span.Ajuda {
+			   height:19px;
+               width:25px;
+ 			   background-color:#3F6788;
+			   padding:0px;
+               border-right: 1px solid #000000;
+               border-bottom: 1px solid #000000;
+               border-left: 1px solid #FFFFFF;
+               border-top: 1px solid #FFFFFF;
+               font-family:arial,verdana,sans-serif;
+               display:-moz-inline-box; /* Gecko proprietary */
+               display:inline-block; /* supported by Opera and ? */
+               vertical-align:middle; /* Gecko needs this */
+			   }
+
+   a.Ajuda    {color:white;
+               padding-right:5px;
+               padding-left:5px;
+			   height:25px;
+               text-align:center;
+               width:20px;
+               background-color:#4682B4;
+ 			   background-color:#32597A;
+               text-decoration:none;
+               border-right: 1px solid #000000;
+               border-bottom: 1px solid #000000;
+               border-left: 1px solid #FFFFFF;
+               border-top: 1px solid #FFFFFF;
+               vertical-align:top;  /*Gecko needs this */
+               vertical-align:middle;  /*Gecko needs this */
+               font-size:12px}
+
+   a.Ajuda:hover {color:white;
+			   height:25px;
+               padding-right:5px;
+               padding-left:5px;
+               text-align:center;
+               width:20px;
+               background-color: #7197B0;
+               border-right: 1px solid #000000;
+               border-bottom: 1px solid #000000;
+               border-left: 1px solid #FFFFFF;
+               border-top: 1px solid #FFFFFF;
+               text-decoration:none;
+               vertical-align:middle;  /*Gecko needs this */
+               font-size:12px}
+
+   a:hover   {text-decoration:underline}
+
+input {
+   vertical-align:middle;  /*Gecko needs this */
+   -moz-border-radius: 6px;
+   -webkit-border-radius: 6px;
+   -khtml-border-radius: 6px;
+   border-radius: 6px;
+   height:25px;
+
+}
+select {
+   vertical-align:middle;  /*Gecko needs this */
+   border:1px solid #B5B5B8;
+   -moz-border-radius: 6px;
+   -webkit-border-radius: 6px;
+   -khtml-border-radius: 6px;
+   border-radius: 6px;
+   height:25px;
+   
+}
+
+input.desabilitado{
+   background-color: #E5E5E8;
+   padding-left: 2px;
+   padding-right: 2px;
+   vertical-align:middle;  /*Gecko needs this */
+   border:1px solid #b5b5b8 ;
+}
+
+input.texto {
+   padding-left: 2px;
+   padding-right: 2px;
+   vertical-align:middle;  /*Gecko needs this */
+   border:1px solid #b5b5b8 ;
+
+}
+
+input.leitura {
+   padding-left: 2px;
+   padding-right: 2px;
+   vertical-align:middle;  /*Gecko needs this */
+   border:1px solid #b5b5b8 ;
+
+}
+
+textarea.texto {
+	padding-left: 2px;
+	padding-right: 2px;
+	vertical-align: middle; /*Gecko needs this */
+	border: 1px solid #b5b5b8;
+	font-family: arial, verdana, sans-serif;
+	font-size: 12px;
+   -moz-border-radius: 6px;
+   -webkit-border-radius: 6px;
+   -khtml-border-radius: 6px;
+   border-radius: 6px;
+	
+}
+
+textarea.leitura {
+	padding-left: 2px;
+	padding-right: 2px;
+	vertical-align: middle; /*Gecko needs this */
+	border: 1px solid #b5b5b8;
+	font-family: arial, verdana, sans-serif;
+	font-size: 12px;
+   -moz-border-radius: 6px;
+   -webkit-border-radius: 6px;
+   -khtml-border-radius: 6px;
+   border-radius: 6px;
+	
+}
+
+textarea.desabilitado {
+	background-color: #E5E5E8;
+	color: black;
+	padding-left: 2px;
+	padding-right: 2px;
+	vertical-align: middle; /*Gecko needs this */
+	border: 1px solid #b5b5b8;
+	font-family: arial, verdana, sans-serif;
+	font-size: 12px;
+   -moz-border-radius: 6px;
+   -webkit-border-radius: 6px;
+   -khtml-border-radius: 6px;
+   border-radius: 6px;
+	
+}
+
+select.combo {
+   vertical-align:middle;  /*Gecko needs this */
+   border:1px solid #B5B5B8;
+}
+
+div.panel {
+   border:1px solid #B5B5B8;
+   vertical-align:middle;  Gecko needs this */
+   -moz-border-radius: 6px;
+   -webkit-border-radius: 6px;
+   -khtml-border-radius: 6px;
+   border-radius: 6px;   
+}
+
+
+input.botao {
+   /*background: url('imagens/fundobotao.gif') ;*/
+   color:#000000; /* a cor das letras Enviar*/
+   vertical-align:middle;  /*Gecko needs this */
+   border-right: 1px solid #607496;
+   border-bottom: 1px solid #607496;
+   border-left: 1px solid #607496;
+   border-top: 1px solid #607496;
+   
+   color:white;
+   border-right: 1px solid #000000;
+   border-bottom: 1px solid #000000;
+   border-left: 1px solid #cccccc;
+   border-top: 1px solid #cccccc;
+   background-color:#32597A;
+}
+
+input.botao:hover {
+   background-color: #7197B0;
+}
+
+INPUT.botaodisabled {
+	BORDER-TOP: #ffffff 1px solid; BACKGROUND: #f0f0f0; VERTICAL-ALIGN: middle; BORDER-LEFT: #ffffff 1px solid; COLOR: #111111; BORDER-BOTTOM: #000000 1px solid; Gecko: 1px solid #000000
+}
+
+IMG.image {
+	cursor:hand;
+	cursor:pointer;
+}	
+
+#topo {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	height: 73px;
+	background-image: url("../images/header.png");
+	text-align: center;
+}
+
+#topo span {
+	position: absolute;
+	top: 30px;
+	font-size: 15pt;
+	color: #FFF;
+	
+}
+
+/*FIM DO código comum nos CSS'S*/
+
+/*CSS do Componente MultiSelect*/
+table.multiselect {
+	border-collapse:collapse;
+	padding:0px;
+}
+table.multiselect tr {
+	padding:0px;
+	height:25px;
+	border:0px solid black;
+}
+table.multiselect td {
+	padding:1px;
+	border:1px solid #ededed;
+	text-align: center;
+	vertical-align: bottom;
+}
+.multiselect_item_on {
+	display: block;
+	background-color: #32597a;
+	cursor:hand;
+}
+.multiselect_item_on:hover {
+	text-decoration: none;
+}
+.multiselect_item_off {
+	display: block;
+	background-color: #efefef;
+	cursor:hand;
+}
+.multiselect_item_on_disabled {
+	display: block;
+	background-color: #6c6c6c;
+	cursor:default;
+}
+.multiselect_item_off_disabled {
+	display: block;
+	background-color: #dedede;
+	cursor:default;
+}
+.multiselect_item_off:hover {
+	text-decoration: none;
+}
+.multiselect_label {
+	cursor:default;
+}
+
+input:focus, select:focus, textarea:focus {
+  background-color:#FFFFF0;
+  }
+input.botao:focus {
+  background-color:#FFFFF0;
+  color:black;
+  }
+
+/*Fim do Css do MultiSelect*/

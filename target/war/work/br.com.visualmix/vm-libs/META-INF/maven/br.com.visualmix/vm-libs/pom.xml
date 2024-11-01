@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>br.com.visualmix</groupId>
+	<artifactId>vm-libs</artifactId>
+	<version>3.6.13</version>
+	<packaging>war</packaging>
+
+	<name>vm-libs</name>
+
+	<properties>
+		<java.version>1.6</java.version>
+		<project.encoding>Cp1252</project.encoding>
+	</properties>
+
+	<distributionManagement>
+		<repository>
+			<id>maven.repository.release</id>
+			<url>${maven.repository.release.url}</url>
+		</repository>
+		<snapshotRepository>
+			<id>maven.repository.snapshot</id>
+			<url>${maven.repository.snapshot.url}</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<build>
+		<finalName>vm_libs</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<encoding>${project.encoding}</encoding>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-war-plugin</artifactId>
+		       	<version>2.2</version>
+		       	<configuration>
+		       		<failOnMissingWebXml>false</failOnMissingWebXml>
+		       		<webResources>
+		       			<resource>
+		       				<directory>WebRoot</directory>
+		       				<excludes>
+		       					<exclude>**/*.jar</exclude>
+		       					<exclude>tabletmenu.jsp</exclude>
+		       					<exclude>tabletcall.htm</exclude>
+		       					<exclude>tablet.jsp</exclude>
+		       				</excludes>
+		       			</resource>
+		       		</webResources>
+		       	</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

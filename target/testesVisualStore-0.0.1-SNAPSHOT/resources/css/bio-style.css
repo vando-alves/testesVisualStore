@@ -1,0 +1,15 @@
+button {
+    display: inline-block;
+    height: 44px;
+    vertical-align: top;
+    width: 44px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    cursor: pointer;
+}
+
+#btnAtivarSensor {
+    background-image: url('../images/biometria/cadeado.svg');
+    background-repeat: no-repeat;
+    background-size: 44px 44px;
+}
