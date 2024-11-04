@@ -36,6 +36,7 @@ public class Regressao {
 	String usuario = "visualmix";
 	String senha = "1";
 	private RegressaoDAL data = new RegressaoDAL();
+	public boolean resultadoTeste;
 
 
 	// TESTE DE LOGIN
@@ -336,11 +337,22 @@ public class Regressao {
 		driver.switchTo().alert().accept();
 		String reposta =driver.findElement(By.xpath("/html/body/div/table[2]/tbody/tr/td/form/table/tbody/tr[2]/td")).getText();
 		Assert.assertEquals(reposta, "Os dados foram salvos com sucesso");
-		driver.findElement(By.name("cmdOK")).click();
-		Thread.sleep(2500);
-		Assert.assertEquals(fornecedor,String.valueOf(data.getUltimoId("FORNECEDORES")));
-		driver.close();
+		 try {
+			    Assert.assertEquals(reposta, "Os dados foram salvos com sucesso");
+	        	driver.findElement(By.name("cmdOK")).click();
+	    		Thread.sleep(2500);
+	    		Assert.assertEquals(fornecedor,String.valueOf(data.getUltimoId("FORNECEDORES")));
+	            resultadoTeste = true; // O teste passou
+	        } catch (AssertionError e) {
+	        	resultadoTeste = false; // O teste falhou
+	            throw e; // Lança novamente a exceção para que o JUnit registre a falha
+	        } finally {
+	            driver.close(); // Sempre feche o driver, mesmo que ocorra uma exceção
+	        }
+		
 	}
+	
+	
 
 	// TESTE DE CADASTRO MERCADOLÃ“GICO
 	@Test
