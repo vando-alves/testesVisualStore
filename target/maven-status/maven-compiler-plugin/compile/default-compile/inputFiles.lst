@@ -1,5 +1,9 @@
+D:\PROJETOS\testesVisualStore\src\main\java\tests\perfil\TestCadastroPerfil.java
 D:\PROJETOS\testesVisualStore\src\main\java\dao\DatabspDao.java
-D:\PROJETOS\testesVisualStore\src\main\java\testeregressao\Regressao.java
+D:\PROJETOS\testesVisualStore\src\main\java\tests\RegressaoDAL.java
+D:\PROJETOS\testesVisualStore\src\main\java\tests\BaseTest.java
+D:\PROJETOS\testesVisualStore\src\main\java\tests\Regressao.java
+D:\PROJETOS\testesVisualStore\src\main\java\tests\BaseTestLogin.java
 D:\PROJETOS\testesVisualStore\src\main\java\controller\LoginServlet.java
-D:\PROJETOS\testesVisualStore\src\main\java\testeregressao\RegressaoDAL.java
+D:\PROJETOS\testesVisualStore\src\main\java\tests\fornecedor\TestCadastroFornecedor.java
 D:\PROJETOS\testesVisualStore\src\main\java\controller\TestesServlet.java

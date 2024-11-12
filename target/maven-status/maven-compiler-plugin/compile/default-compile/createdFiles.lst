@@ -1,5 +1,9 @@
 dao\DatabspDao.class
+tests\perfil\TestCadastroPerfil.class
 controller\LoginServlet.class
 controller\TestesServlet.class
-testeregressao\RegressaoDAL.class
-testeregressao\Regressao.class
+tests\RegressaoDAL.class
+tests\Regressao.class
+tests\BaseTestLogin.class
+tests\BaseTest.class
+tests\fornecedor\TestCadastroFornecedor.class

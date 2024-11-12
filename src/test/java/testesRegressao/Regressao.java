@@ -6,6 +6,7 @@ import java.text.DecimalFormat;
 import java.time.Duration;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.NoSuchElementException;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -309,7 +310,7 @@ public class Regressao {
 
 	// TESTE DE CADASTRO FORNECEDOR
 	@Test
-	public void testCadastroFornecedor() throws InterruptedException {
+	public void testCadastroFornecedorCerto() throws InterruptedException {
 		
 		String fornecedor = String.valueOf(data.getUltimoId("FORNECEDORES") +1);
 		
@@ -342,6 +343,60 @@ public class Regressao {
 		driver.close();
 	}
 
+	// TESTE DE CADASTRO FORNECEDOR
+	@Test
+	public void testCadastroFornecedor() throws InterruptedException {
+		
+		String fornecedor = String.valueOf(data.getUltimoId("FORNECEDORES") +1);
+		
+		WebDriver driver = LoginVisualStore();
+		 try {
+		driver.findElement(By.id("e0_5i")).click();
+	    driver.findElement(By.id("e0_6i")).click();
+	    driver.findElement(By.id("e0_8i")).click();
+		driver.switchTo().frame(0).findElement(By.linkText("Incluir")).click();
+		driver.findElement(By.name("txtCodigo")).sendKeys(fornecedor);
+		driver.findElement(By.name("txtRazaoSoc")).sendKeys("AMBEV SELENIUN");
+		driver.findElement(By.name("txtNomeFant")).sendKeys("AMBEV SELENIUN");
+		driver.findElement(By.name("txtEndereco")).sendKeys("R GETULIO VARGAS");
+		driver.findElement(By.name("txtEstado")).sendKeys("SP");
+		driver.findElement(By.name("txtCidade")).sendKeys("BARUERI");
+		driver.findElement(By.name("txtBairro")).sendKeys("JARDIM BELVAL");
+		driver.findElement(By.name("txtcep")).sendKeys("06420-190");
+		driver.findElement(By.name("txtCxaPostal")).clear();
+		driver.findElement(By.name("txtCxaPostal")).sendKeys("0");
+		driver.findElement(By.name("txtFone")).sendKeys("11968315270");
+		driver.findElement(By.name("cmbFrete")).click();
+		new Select(driver.findElement(By.name("cmbFrete"))).selectByVisibleText("C - CIF");
+		driver.findElement(By.name("btnSalvar")).click();
+		driver.switchTo().alert().accept();
+		String reposta =driver.findElement(By.xpath("/html/body/div/table[2]/tbody/tr/td/form/table/tbody/tr[2]/td")).getText();
+	
+			    Assert.assertEquals(reposta, "Os dados foram salvos com sucesso");
+	        	driver.findElement(By.name("cmdOK")).click();
+	    		Thread.sleep(2500);
+	    		Assert.assertEquals(fornecedor,String.valueOf(data.getUltimoId("FORNECEDORES")));
+	            //resultadoTeste = true; // O teste passou
+	        } catch (NoSuchElementException e) {
+	            System.out.println("Erro: Elemento não encontrado.");
+	           /// resultadoTeste = false; // Define o teste como falho
+	            throw e; // Relança a exceção para que o JUnit registre a falha
+	        } catch (AssertionError e) {
+	            ///resultadoTeste = false; // O teste falhou em uma asserção
+	            System.out.println("O teste falhou em uma asserção: " + e.getMessage());
+	            throw e; // Relança a exceção para que o JUnit registre a falha
+	        } catch (Exception e) {
+	            System.out.println("Erro inesperado: " + e.getMessage());
+	           /// resultadoTeste = false; // O teste falhou em uma asserção
+	            throw e; // Relança a exceção para que o JUnit registre a falha
+	        } finally {
+	            driver.close(); // Fecha o driver, independentemente do resultado
+	        }
+	}
+	
+	
+	
+	
 	// TESTE DE CADASTRO MERCADOLÃ“GICO
 	@Test
 	public void testCadastroMercadologico() throws InterruptedException {
@@ -961,7 +1016,7 @@ public class Regressao {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-		driver.get("http://" + ip + ":8091/vm_visualstore_adm/");
+		driver.get("http://" + ip + ":8090/vm_visualstore_adm/");
 		driver.findElement(By.id("usuarios")).sendKeys(usuario);
 		driver.findElement(By.id("senha")).clear();
 		driver.findElement(By.id("senha")).sendKeys(senha);

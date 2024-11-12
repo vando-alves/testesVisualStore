@@ -17,13 +17,13 @@
 		    var btn = document.getElementById("btnfornecedor");
                 btn.textContent = "Iniciar Teste";
                 btn.disabled = false;
-           var statusCelula = document.getElementById("statusFornecedor");
+           var statusCelula = document.getElementById("statusfornecedor");
             break;
         case "testecadastroperfil":
              var btn = document.getElementById("btnperfil");
                 btn.textContent = "Iniciar Teste";
                 btn.disabled = false;
-           var statusCelula = document.getElementById("statusPerfil");
+           var statusCelula = document.getElementById("statusperfil");
             
             break;
         case "testcadastrousuario":
@@ -37,9 +37,15 @@
             break;
     }
 			
-            
+			if(xhr.responseText === "Sucesso!"){
+				 statusCelula.innerHTML = '<img  class="status-img" src="imagens/sucesso.png" alt="Processando">  Sucesso!';
+			}
+           
+           if(xhr.responseText === "Falha!"){
+				 statusCelula.innerHTML = '<img class="status-img" src="imagens/falha.png" alt="Processando" >  Falha!';
+			}
             // Atualiza o conteúdo da célula com a resposta do servidor
-            statusCelula.textContent = xhr.responseText; // Ou JSON.parse(xhr.responseText).status, dependendo da sua resposta
+            //statusCelula.textContent = xhr.responseText; // Ou JSON.parse(xhr.responseText).status, dependendo da sua resposta
             
         }
     };
@@ -55,21 +61,21 @@ function alterarStatus(acao) {
                     var btn = document.getElementById("btnfornecedor");
                     btn.textContent = "Teste Iniciado";
                     btn.disabled = true;
-                    var coluna = document.getElementById("statusFornecedor");
+                    var coluna = document.getElementById("statusfornecedor");
                     coluna.innerHTML = '<img src="imagens/processing.gif" alt="Processando"> Realizando teste ...';
                     break;
                 case "testecadastroperfil":
                     var btn = document.getElementById("btnperfil");
                     btn.textContent = "Teste Iniciado";
                     btn.disabled = true;
-                    var coluna = document.getElementById("statusPerfil");
+                    var coluna = document.getElementById("statusperfil");
                     coluna.innerHTML = '<img src="imagens/processing.gif" alt="Processando"> Realizando teste ...';
                     break;
                 case "testcadastrousuario":
                     var btn = document.getElementById("btnusuario");
                     btn.textContent = "Teste Iniciado";
                     btn.disabled = true;
-                    var coluna = document.getElementById("statusUsuario");
+                    var coluna = document.getElementById("statususuario");
                     coluna.innerHTML = '<img src="imagens/processing.gif" alt="Processando"> Realizando teste ...';
                     break;
                 case "erro":
@@ -82,18 +88,9 @@ function alterarStatus(acao) {
         }
         
         
-        // Função para clicar em todos os botões com a classe 'classe-botao'
-        document.getElementById("btntodos").onclick = function() {
-            // Seleciona todos os elementos com a classe 'classe-botao'
-            var botoes = document.querySelectorAll(".acao-coluna");
-
-            // Itera sobre cada botão e simula um clique
-            botoes.forEach(function(botao) {
-                botao.click();
-            });
-        };
-
- // Adiciona o evento ao botão após o DOM estar pronto
+       
+        
+        // Adiciona o evento ao botão após o DOM estar pronto
         document.getElementById("btnfornecedor").onclick = function() {
             enviarRequisicao('testecadastrofornecedor');
         };
@@ -107,3 +104,39 @@ function alterarStatus(acao) {
         document.getElementById("btnusuario").onclick = function() {
             enviarRequisicao('testcadastrousuario');
         };
+        
+  
+// Função principal para iniciar os testes sequencialmente
+async function clicarTodos() {
+	
+	 var coluna = document.getElementById("statustodos");
+	 coluna.textContent = "Inicializado Aguarde ...";
+    const botoes = document.querySelectorAll('.acao-coluna');
+
+    for (let i = 0; i < botoes.length; i++) {
+        const botao = botoes[i];
+        botao.click(); // Inicia o teste
+
+        const idTeste = botao.dataset.id.replace("btn", "status"); // Ajusta o id para o status correspondente
+        console.log(`Iniciou verificação de status para: ${idTeste}`); // Log de depuração
+
+        // Aguarda até que o status seja "Sucesso!" ou "Falha!"
+        await verificarStatusTeste(idTeste); 
+    }
+    coluna.textContent = "Finalizado";
+}
+
+// Função para verificar o status do teste periodicamente
+function verificarStatusTeste(idTeste) {
+    return new Promise((resolve) => {
+        const intervalo = setInterval(() => {
+            const status = document.getElementById(idTeste);
+            if (status && (status.textContent.includes("Sucesso!") || status.textContent.includes("Falha!"))) {
+                clearInterval(intervalo); // Para a verificação
+                resolve(); // Continua para o próximo teste
+            }
+        }, 5000); // Verifica a cada 1 segundo
+    });
+}
+
+       

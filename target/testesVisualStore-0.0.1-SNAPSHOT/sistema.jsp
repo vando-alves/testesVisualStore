@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Exemplo Servlet</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    <script src="js/script.js" ></script>
 </head>
 <body>
 
@@ -40,40 +40,33 @@
     </thead>
     <tbody>
        <tr>
-            <td>1</td>
+            <td>0</td>
             <td>Todos os testes </td>
-			<td> <button id="btntodos" > Iniciar Teste </button></td>
-            <td id="statustodos"> Não Inicializado</td>
+			<td> <button id="btntodos" class="acao-coluna-todos" onclick="clicarTodos()"> Iniciar Teste </button></td>
+            <td id="statustodos" class="status-img"> Não Inicializado</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Teste cadastro de Fornecedor</td>
+			<td> <button id="btnfornecedor" onclick="enviarRequisicao('testecadastrofornecedor')"   class="acao-coluna" data-id="btnfornecedor"> Iniciar Teste </button></td>
+            <td id="statusfornecedor" > Não Inicializado</td>
         </tr>
         <tr>
             <td>2</td>
-            <td>Teste cadastro de Fornecedor</td>
-			<td> <button id="btnfornecedor" onclick="enviarRequisicao('testecadastrofornecedor')"   class="acao-coluna"> Iniciar Teste </button></td>
-            <td id="statusFornecedor"> Não Inicializado</td>
+            <td>Teste cadastro de Perfil</td>
+			<td> <button id="btnperfil" onclick="enviarRequisicao('testecadastroperfil')" class="acao-coluna" data-id="btnperfil"> Iniciar Teste </button></td>
+            <td id="statusperfil" >Não Inicializado</td>
         </tr>
         <tr>
             <td>3</td>
-            <td>Teste cadastro de Perfil</td>
-			<td> <button id="btnperfil" onclick="enviarRequisicao('testecadastroperfil')" class="acao-coluna"> Iniciar Teste </button></td>
-            <td id="statusPerfil">Não Inicializado</td>
-        </tr>
-        <tr>
-            <td>4</td>
             <td>Teste cadastro de Usuario</td>
-		<td> <button id="btnusuario" onclick="enviarRequisicao('testcadastrousuario')" class="acao-coluna"> Iniciar Teste </button></td>
-            <td id="statusUsuario">Não Inicializado</td>
-        </tr>
-		  <tr>
-            <td>5</td>
-            <td>Teste de logout</td>
-		<td> <button onclick="enviarRequisicao('iniciarLogout')" class="acao-coluna"> Iniciar Teste </button></td>
-            <td>Pendente</td>
+		<td> <button id="btnusuario" onclick="enviarRequisicao('testcadastrousuario')" class="acao-coluna-teste" data-id="btnusuario"> Iniciar Teste </button></td>
+            <td id="statususuario" >Não Inicializado</td>
         </tr>
     </tbody>
 </table>
 
 </section>	
-
 
 </body>
 </html>

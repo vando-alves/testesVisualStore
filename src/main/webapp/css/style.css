@@ -177,16 +177,24 @@ body {
 			
         }
         
-         #statusFornecedor img {
-            width: 32px; /* Ajuste o tamanho conforme necessário */
-            height: 32px;
-            vertical-align: middle;
+        .acao-coluna-todos {
+            cursor: pointer;
+        }
+       
+        /* Estilo para a coluna "Realizar Teste" */
+         .acao-coluna-todos {
+            width: 200px; /* Defina a largura desejada */
+			
         }
         
-         #statusPerfil img {
-            width: 32px; /* Ajuste o tamanho conforme necessário */
-            height: 32px;
-            vertical-align: middle;
-        }
+         .status-img {
+    width: 32px; /* Ajuste o tamanho conforme necessário */
+    height: 32px;
+    vertical-align: middle;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
         
 }	

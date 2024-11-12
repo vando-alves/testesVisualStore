@@ -1,0 +1,22 @@
+Estrutura do Projeto
+
+src
+└── test
+    ├── BaseTest.java
+    ├─
+    │   
+    └── tests
+        ├── loja
+        │   └── CadastroLojaTest.java
+        └── perfil
+            └── CadastroPerfilTest.java
+
+
+1. BaseTest.java - Classe Base de Teste
+A classe base configura o WebDriver e define as pré-condições e pós-condições comuns a todos os testes.
+
+
+Explicação
+BaseTest: Contém a configuração e finalização do WebDriver, que é herdada pelas classes de teste.
+
+CadastroLojaTest e CadastroPerfilTest: Contêm os métodos de teste organizados por funcionalidade. Cada teste é um método @Test que verifica uma ação específica.
