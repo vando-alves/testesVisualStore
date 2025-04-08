@@ -1,200 +1,229 @@
-@charset "UTF-8";
-
 body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #FFFFFF; /* Cor de fundo suave */
-			 align-items: center;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-           
-		    background-color: #f5f5f5; /* Cor de fundo suave */
-            padding: 10px 50px;
-        }
-
-        .logo {
-            margin-right: auto; /* Mant?o logo ?squerda */
-        }
-		
-		        /* TÃ­tulo do formulÃ¡rio */
-        h2 {
-            text-align: center;
-            color: #333;
-        }
-
-
-        .logo img {
-            height: 60px; /* Ajuste a altura do logo conforme necess?o */
-        }
-
-         .menu a {
-            text-decoration: none;
-            color: white;
-            font-weight: bold;
-            background-color: #444; /* Fundo cinza escuro para os itens do menu */
-            padding: 10px 15px; /* Espa?ento interno nos links */
-            border-radius: 8px; /* Bordas arredondadas */
-            transition: background-color 0.3s, transform 0.3s; /* Suaviza as transi?s */
-        }
-
-        .menu a:hover {
-            background-color: #add8e6; /* Cor azul clara ao passar o mouse */
-            color: black; /* Cor do texto ao passar o mouse */
-            transform: scale(1.05); /* Leve aumento ao passar o mouse */
-        }
-
-		.hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url('banner.jpg') no-repeat center center/cover;
-    height: 150px; /* Reduz a altura da seÃ§Ã£o */
-    color: white;
-    text-align: center;
-    position: relative;
-				}
-        .hero h1 {
-            font-size: 48px;
-			margin-top: 10px;
-			color: white; /* Altera a cor do texto para branco */
-			 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adiciona uma sombra ao texto para melhorar a legibilidade */
-        }
-		
-		 .hero h2 {
-		margin-top: 10px;
-        }
-
-        .cta {
-            margin-top: 20px;
-			text-align: center;
-        }
-        .cta a {
-            background-color: #007BFF;
-            color: white;
-            padding: 10px 25px;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-        .cta a:hover {
-            background-color: #0056b3;
-        }
-
-        footer {
-            background-color: #0d0d0d;
-            padding: 30px;
-            color: white;
-            text-align: center;
-        }
-        footer p {
-            margin: 0;
-        }
-
-
-			
-		html {
-    scroll-behavior: smooth;
-	
-	
-.tabela {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
-	
-	 table {
-            width: 80%;
-            border-collapse: separate;
-            border-spacing: 0;
-            margin-top: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-        }
-        th, td {
-            padding: 12px 15px;
-            text-align: left;
-        }
-        th {
-            background-color: #4CAF50;
-            color: white;
-            font-weight: bold;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        }
-        tr {
-            background-color: #ffffff;
-            transition: background-color 0.3s ease;
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        tr:hover {
-            background-color: #d1e7dd;
-        }
-        td {
-            color: #333;
-        }
-        td:first-child {
-            border-bottom-left-radius: 10px;
-        }
-        td:last-child {
-            border-bottom-right-radius: 10px;
-        }
-		
-		
-		  /* Estilos dos botÃµes na tabela */
-        table button {
-            background-color: #007BFF;
-            color: white;
-            padding: 8px 16px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s, transform 0.3s;
-            font-weight: bold;
-        }
-
-        table button:hover {
-            background-color: #0056b3;
-            transform: scale(1.05);
-        }
-
-        table button:active {
-            background-color: #004494;
-            transform: scale(0.98);
-        }
-        
-        .acao-coluna {
-            cursor: pointer;
-        }
-       
-        /* Estilo para a coluna "Realizar Teste" */
-        .acao-coluna {
-            width: 200px; /* Defina a largura desejada */
-			
-        }
-        
-        .acao-coluna-todos {
-            cursor: pointer;
-        }
-       
-        /* Estilo para a coluna "Realizar Teste" */
-         .acao-coluna-todos {
-            width: 200px; /* Defina a largura desejada */
-			
-        }
-        
-         .status-img {
-    width: 32px; /* Ajuste o tamanho conforme necessÃ¡rio */
-    height: 32px;
-    vertical-align: middle;
-    background-color: transparent;
-    margin: 0;
-    padding: 0;
-    border: none;
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF; /* Cor de fundo suave */
+	align-items: center;
 }
-        
-}	
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f5f5f5; /* Cor de fundo suave */
+	padding: 10px 50px;
+}
+
+.logo {
+	margin-right: auto; /* Mant?o logo ?squerda */
+}
+
+/* Título do formulário */
+h2 {
+	text-align: center;
+	color: #333;
+}
+
+.logo img {
+	height: 60px; /* Ajuste a altura do logo conforme necess?o */
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background-color: #444; /* Fundo cinza escuro para os itens do menu */
+	padding: 10px 15px; /* Espa?ento interno nos links */
+	border-radius: 8px; /* Bordas arredondadas */
+	transition: background-color 0.3s, transform 0.3s;
+	/* Suaviza as transi?s */
+}
+
+.menu a:hover {
+	background-color: #add8e6; /* Cor azul clara ao passar o mouse */
+	color: black; /* Cor do texto ao passar o mouse */
+	transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+
+.hero {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url('banner.jpg') no-repeat center center/cover;
+	height: 150px; /* Reduz a altura da seção */
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.hero h1 {
+	font-size: 48px;
+	margin-top: 10px;
+	color: white; /* Altera a cor do texto para branco */
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+	/* Adiciona uma sombra ao texto para melhorar a legibilidade */
+}
+
+.hero h2 {
+	margin-top: 10px;
+}
+
+.cta {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.cta a {
+	background-color: #007BFF;
+	color: white;
+	padding: 10px 25px;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+}
+
+.cta a:hover {
+	background-color: #0056b3;
+}
+
+footer {
+	background-color: #0d0d0d;
+	padding: 30px;
+	color: white;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth; .tabela { display : flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+table {
+	width: 80%;
+	border-collapse: separate;
+	border-spacing: 0;
+	margin-top: 20px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+th, td {
+	padding: 12px 15px;
+	text-align: left;
+}
+
+th {
+	background-color: #4CAF50;
+	color: white;
+	font-weight: bold;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+tr {
+	background-color: #ffffff;
+	transition: background-color 0.3s ease;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+tr:hover {
+	background-color: #d1e7dd;
+}
+
+td {
+	color: #333;
+}
+
+td:first-child {
+	border-bottom-left-radius: 10px;
+}
+
+td:last-child {
+	border-bottom-right-radius: 10px;
+}
+
+/* Estilos dos botões na tabela */
+table button {
+	background-color: #007BFF;
+	color: white;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.3s;
+	font-weight: bold;
+}
+
+table button:hover {
+	background-color: #0056b3;
+	transform: scale(1.05);
+}
+
+table button:active {
+	background-color: #004494;
+	transform: scale(0.98);
+}
+
+.acao-coluna {
+	cursor: pointer;
+}
+
+/* Estilo para a coluna "Realizar Teste" */
+.acao-coluna {
+	width: 200px; /* Defina a largura desejada */
+}
+
+.acao-coluna-todos {
+	cursor: pointer;
+}
+
+/* Estilo para a coluna "Realizar Teste" */
+.acao-coluna-todos {
+	width: 200px; /* Defina a largura desejada */
+}
+
+.status-img {
+	width: 32px; /* Ajuste o tamanho conforme necessário */
+	height: 32px;
+	vertical-align: middle;
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: red; /* Para destacar o "falhou" */
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 200px; /* Largura do tooltip */
+    background-color: #333; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    bottom: 150%; /* Ajuste a posição acima do texto */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; /* Para garantir que o tooltip fique por cima */
+    opacity: 0; /* Invisível por padrão */
+    transition: opacity 0.3s; /* Efeito de transição */
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1; /* Aparece ao passar o mouse */
+}
+}

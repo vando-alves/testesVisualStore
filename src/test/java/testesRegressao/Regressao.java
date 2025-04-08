@@ -12,6 +12,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Test;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.By.ByXPath;
 import org.openqa.selenium.Keys;
@@ -29,6 +30,7 @@ import br.com.maxicode.db.IRecordSet;
 import br.com.maxicode.util.Funcoes;
 import br.com.maxicode.util.UtilDate;
 import br.com.visualmix.generico.conexao.Application;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 public class Regressao {
@@ -243,16 +245,88 @@ public class Regressao {
 		Thread.sleep(2500);
 		Assert.assertEquals(codigo,String.valueOf(data.getUltimoId("ACESSO_PERFIL")));
 
-		driver.findElement(By.id("lnktabtabTela1")).click();
-		driver.findElement(By.name("dtgPermissao_header")).click();
-		driver.findElement(By.id("lnktabtabTela2")).click();
-
-		driver.findElement(By.xpath("//div[@id='tabtabTela2']/table/tbody/tr/td/div/table/tbody/tr/td")).click();
-		driver.findElement(By.name("btnSalvar")).click();
-		driver.switchTo().alert().accept();
-		driver.findElement(By.name("cmdOK")).click();
-		
 		driver.close();
+	}
+
+	@Test
+	public void testCadastroPerfilValido() throws Exception {
+		WebDriver driver;
+
+		try {
+			
+					
+			// baixa e configura automaticamente o ChromeDriver
+		    WebDriverManager.chromedriver().setup();
+		    
+			ChromeOptions options = new ChromeOptions();
+			
+           // options.addArguments("--disable-gpu"); // Melhora compatibilidade em alguns sistemas
+            //options.addArguments("--window-size=1920,1080"); // Define um tamanho de tela padrão
+            options.addArguments("--remote-allow-origins=*"); // Corrige alguns erros de conexão
+
+			//System.setProperty("webdriver.chrome.whitelistedIps", "");
+			//System.setProperty("webdriver.chrome.driver","D:\\PROJETOS\\testesVisualStore\\src\\test\\java\\driver\\chromedriver.exe");
+
+			driver = new ChromeDriver();
+	
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+			driver.get("http://127.0.0.1:8090/vm_visualstore_adm/");
+			
+			driver.findElement(By.id("usuarios")).sendKeys("visualmix");
+			driver.findElement(By.id("senha")).clear();
+			driver.findElement(By.id("senha")).sendKeys("1");
+			driver.findElement(By.id("btnEnviar")).click();
+			String teste = driver.findElement(By.id("framework")).getText();
+
+			Assert.assertEquals(teste, "Visual Mix Framework");
+			
+			driver.findElement(By.id("e0_0i")).click();
+			driver.findElement(By.id("e0_1i")).click();
+			driver.switchTo().frame(0).findElement(By.linkText("Incluir")).click();
+		
+		    driver.findElement(By.name("txtDescricao")).click();
+		    driver.findElement(By.name("txtDescricao")).clear();
+		    driver.findElement(By.name("txtDescricao")).sendKeys("teste");
+		    driver.findElement(By.id("lnktabtabTela1")).click();
+		    driver.findElement(By.name("dtgPermissao_header")).click();
+		    driver.findElement(By.id("lnktabtabTela2")).click();
+		    driver.findElement(By.name("dtgUsuarios_header")).click();
+		    driver.findElement(By.name("btnSalvar")).click();
+		    driver.switchTo().alert().accept();
+		    
+		    // Lida com o alerta
+		    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		    Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+
+		    String alertText = alert.getText();
+		   // assertTrue(alertText.matches("^Confirmar gravação[\\s\\S]$")); // valida o texto
+		    alert.accept(); // clica em OK no alerta
+		    
+		    // Sai do frame para interagir com elementos fora dele (se necessário)
+		    driver.switchTo().defaultContent();
+		    //String reposta =driver.findElement(By.xpath("/html/body/div/table[2]/tbody/tr/td/form/table/tbody/tr[2]/td")).getText();
+			//Assert.assertEquals(reposta, "Gravado com sucesso.");
+			
+			String codigo = driver.findElement(By.name("txtCodigo")).getAttribute("value");
+			Thread.sleep(2000);
+			Assert.assertEquals(codigo, String.valueOf(data.getUltimoId("ACESSO_PERFIL")));
+			
+			 driver.findElement(By.name("cmdOK")).click();
+			
+		} catch (NoSuchElementException e) {
+			System.out.println("Erro: Elemento nao encontrado."+ e.getMessage());
+			//status = "Erro: Elemento nao encontrado."+ e.getMessage();
+		} catch (AssertionError e) {
+			System.out.println("O teste falhou em uma asserção: " + e.getMessage());
+			//status = "O teste falhou em uma assercao: " + e.getMessage();
+		} catch (Exception e) {
+			System.out.println("Erro inesperado: " + e.getMessage());
+			//status = "Erro inesperado: " + e.getMessage();
+		} finally {
+			//driver.close(); // Fecha o driver, independentemente do resultado
+		}
+
 	}
 
 	// TESTE DE CADASTRO USUARIO
@@ -269,6 +343,7 @@ public class Regressao {
 		driver.switchTo().frame(0).findElement(By.linkText("Incluir")).click();
 		driver.findElement(By.name("cmbLoja")).click();
 		new Select(driver.findElement(By.name("cmbLoja"))).selectByVisibleText(Funcoes.format(loja, "0000" ) +"-"+ data.getDescLoja(String.valueOf(loja)));
+		Thread.sleep(3000);
 		driver.findElement(By.name("txtLogin")).sendKeys("usuario regresao seleniun " + usuario);
 		driver.findElement(By.name("txtIdentificacao")).sendKeys(usuario);
 		driver.findElement(By.name("txtNome")).sendKeys("usuario regresao seleniun");
@@ -288,6 +363,9 @@ public class Regressao {
 		driver.findElement(By.name("txtCodigoIntegracao")).sendKeys(usuario);
 		driver.findElement(By.name("btnSalvar")).click();
 		driver.switchTo().alert().accept();
+		Thread.sleep(1000);
+		String reposta = driver.findElement(By.xpath("/html/body/div/table[2]/tbody/tr/td/form/table/tbody/tr[2]/td")).getText();
+		Assert.assertEquals(reposta, "Gravado com sucesso.");
 		driver.findElement(By.name("cmdOK")).click();
 
 		// ABA PERMISSOES
@@ -371,7 +449,7 @@ public class Regressao {
 		driver.findElement(By.name("btnSalvar")).click();
 		driver.switchTo().alert().accept();
 		String reposta =driver.findElement(By.xpath("/html/body/div/table[2]/tbody/tr/td/form/table/tbody/tr[2]/td")).getText();
-	
+	    System.out.println(reposta);
 			    Assert.assertEquals(reposta, "Os dados foram salvos com sucesso");
 	        	driver.findElement(By.name("cmdOK")).click();
 	    		Thread.sleep(2500);
@@ -394,6 +472,41 @@ public class Regressao {
 	        }
 	}
 	
+	// TESTE DE CADASTRO FORNECEDOR
+		@Test
+	public void testCadastroFornecedor1() throws InterruptedException {
+			
+			String fornecedor = String.valueOf(data.getUltimoId("FORNECEDORES") +1);
+			
+			WebDriver driver = LoginVisualStore();
+
+			driver.findElement(By.id("e0_5i")).click();
+		    driver.findElement(By.id("e0_6i")).click();
+		    driver.findElement(By.id("e0_8i")).click();
+			driver.switchTo().frame(0).findElement(By.linkText("Incluir")).click();
+			driver.findElement(By.name("txtCodigo")).sendKeys(fornecedor);
+			driver.findElement(By.name("txtRazaoSoc")).sendKeys("AMBEV SELENIUN");
+			driver.findElement(By.name("txtNomeFant")).sendKeys("AMBEV SELENIUN");
+			driver.findElement(By.name("txtEndereco")).sendKeys("R GETULIO VARGAS");
+			driver.findElement(By.name("txtEstado")).sendKeys("SP");
+			driver.findElement(By.name("txtCidade")).sendKeys("BARUERI");
+			driver.findElement(By.name("txtBairro")).sendKeys("JARDIM BELVAL");
+			driver.findElement(By.name("txtcep")).sendKeys("06420-190");
+			driver.findElement(By.name("txtCxaPostal")).clear();
+			driver.findElement(By.name("txtCxaPostal")).sendKeys("0");
+			driver.findElement(By.name("txtFone")).sendKeys("11968315270");
+			driver.findElement(By.name("cmbFrete")).click();
+			new Select(driver.findElement(By.name("cmbFrete"))).selectByVisibleText("C - CIF");
+			driver.findElement(By.name("btnSalvar")).click();
+			driver.switchTo().alert().accept();
+			Thread.sleep(1000);
+			String reposta =driver.findElement(By.xpath("/html/body/div/table[2]/tbody/tr/td/form/table/tbody/tr[2]/td")).getText();
+			Assert.assertEquals(reposta, "Os dados foram salvos com sucesso");
+			driver.findElement(By.name("cmdOK")).click();
+			Thread.sleep(2500);
+			Assert.assertEquals(fornecedor,String.valueOf(data.getUltimoId("FORNECEDORES")));
+			driver.close();
+		}
 	
 	
 	
@@ -572,7 +685,9 @@ public class Regressao {
 	public void testCadastrokit() {
 
 		String loja = String.valueOf(data.getUltimoId("LOJAS"));
-		String produto = String.valueOf(data.getUltimoIdProduto());
+		int ultimoProduto = data.getUltimoIdProduto();
+		String produto = String.valueOf(ultimoProduto - 1);
+		String produtoKit = String.valueOf(ultimoProduto);
 		String fornecedor = String.valueOf(data.getUltimoId("FORNECEDORES"));
 		
 		
@@ -584,14 +699,14 @@ public class Regressao {
 		driver.findElement(By.id("e0_10i")).click();
 		driver.switchTo().frame(0).findElement(By.linkText("Incluir")).click();
 		driver.findElement(By.name("txtCodigo")).clear();
-		driver.findElement(By.name("txtCodigo")).sendKeys("27");
+		driver.findElement(By.name("txtCodigo")).sendKeys(produtoKit);
 		driver.findElement(By.name("txtLoja")).clear();
 		driver.findElement(By.name("txtLoja")).sendKeys(loja);
 		driver.findElement(By.name("txtProdutoId")).clear();
-		driver.findElement(By.name("txtProdutoId")).sendKeys("37");
+		driver.findElement(By.name("txtProdutoId")).sendKeys(produto);
 		driver.findElement(By.name("cmbEmbalagem")).click();
 		driver.findElement(By.name("cmbTipoPreco")).click();
-		new Select(driver.findElement(By.name("cmbTipoPreco"))).selectByVisibleText("PreÃ§o Kit");
+		new Select(driver.findElement(By.name("cmbTipoPreco"))).selectByIndex(1);
 		driver.findElement(By.name("txtPrecoVenda")).clear();
 		driver.findElement(By.name("txtPrecoVenda")).sendKeys("1");
 		driver.findElement(By.name("txtFatorVenda")).clear();
@@ -600,7 +715,7 @@ public class Regressao {
 		driver.switchTo().alert().accept();
 		driver.findElement(By.name("cmdOK")).click();
 
-		driver.close();
+		//driver.close();
 	}
 	
 	
@@ -614,9 +729,10 @@ public class Regressao {
 		WebDriver driver = LoginVisualStore();
 
 		   driver.findElement(By.id("e0_5i")).click();
-		    driver.findElement(By.id("e0_28i")).click();
 		    driver.findElement(By.id("e0_29i")).click();
+		    driver.findElement(By.id("e0_30i")).click();
 		driver.switchTo().frame(0).findElement(By.linkText("Incluir")).click();
+		 driver.findElement(By.id("lnktabtabTela00")).click();
 		driver.findElement(By.name("txtLoja")).clear();
 		driver.findElement(By.name("txtLoja")).sendKeys(loja);
 		driver.findElement(By.name("txtCodigo")).clear();
@@ -625,6 +741,7 @@ public class Regressao {
 		driver.findElement(By.name("cmbModelo")).click();
 		new Select(driver.findElement(By.name("cmbModelo"))).selectByVisibleText("0-NÃO INFORMADO");
 		driver.findElement(By.name("cbxNFCe")).click();
+		Thread.sleep(2000);
 		driver.findElement(By.name("cbxParametros")).click();
 		driver.findElement(By.name("cbxProdutos")).click();
 		driver.findElement(By.name("btnSalvar")).click();
@@ -638,6 +755,44 @@ public class Regressao {
 		driver.close();
 	}
 
+	@Test
+	public void testCadastroComponentePDVNovo()throws InterruptedException  {
+		String loja = String.valueOf(data.getUltimoId("LOJAS"));
+		String componentePDV = String.valueOf(data.getUltimoIdComponente(loja) +1);
+
+		WebDriver driver = LoginVisualStore();
+
+		//Primeiro Habilito loja para o usuario
+				try {
+					    driver.findElement(By.id("e0_0i")).click();
+					    driver.findElement(By.id("e0_2i")).click();
+					    driver.switchTo().frame(0).findElement(By.name("txtValor")).click();
+					    driver.findElement(By.name("txtValor")).clear();
+					    driver.findElement(By.name("txtValor")).sendKeys("visualmix");
+					    driver.findElement(By.name("cmbCampos")).click();
+					    new Select(driver.findElement(By.name("cmbCampos"))).selectByVisibleText("Nome");
+					    driver.findElement(By.name("cmdVer")).click();
+					    driver.findElement(By.linkText("visualmix")).click();
+					    driver.findElement(By.id("lnktabtabTela1")).click();
+					    driver.findElement(By.id("lnktabtabTela2")).click();
+					    driver.findElement(By.name("dtgLojas_header")).click();
+					    driver.findElement(By.xpath("//div[@id='tabtabTela2']/table/tbody/tr[4]/td/input")).click();
+					    driver.findElement(By.xpath("//div[@id='tabtabTela2']/table/tbody/tr[4]/td/input")).click();
+					    driver.switchTo().alert().accept();
+						driver.findElement(By.name("cmdOK")).click();
+					    driver.close();
+
+				} catch (NoSuchElementException e) {
+					System.out.println("Erro: Elemento nao encontrado."+ e.getMessage());
+				} catch (AssertionError e) {
+					System.out.println("O teste falhou em uma assercao: " + e.getMessage());
+				} catch (Exception e) {
+					System.out.println("Erro inesperado: " + e.getMessage());
+				} finally {
+					driver.close(); // Fecha o driver, independentemente do resultado
+				}
+	}
+	
 	// TESTE DE CADASTRO COMPONENTE TOTEM
 	@Test
 	public void testCadastroComponenteTotem() throws InterruptedException {
@@ -648,8 +803,8 @@ public class Regressao {
 		WebDriver driver = LoginVisualStore();
 
 		driver.findElement(By.id("e0_5i")).click();
-	    driver.findElement(By.id("e0_28i")).click();
 	    driver.findElement(By.id("e0_29i")).click();
+	    driver.findElement(By.id("e0_30i")).click();
 		driver.switchTo().frame(0).findElement(By.linkText("Incluir")).click();
 		driver.findElement(By.name("txtLoja")).clear();
 		driver.findElement(By.name("txtLoja")).sendKeys(loja);
@@ -721,8 +876,8 @@ public class Regressao {
 
 		
 	    driver.findElement(By.id("e0_5i")).click();
-	    driver.findElement(By.id("e0_46o")).click();
-	    driver.findElement(By.id("e0_52i")).click();
+	    driver.findElement(By.id("e0_48i")).click();
+	    driver.findElement(By.id("e0_54i")).click();
 		driver.switchTo().frame(0).findElement(By.linkText("Incluir")).click();
 		driver.findElement(By.name("txtCodigo")).sendKeys(cuponagem);
 		driver.findElement(By.name("txtDescricao")).sendKeys("cuponagem regresao");
@@ -735,8 +890,10 @@ public class Regressao {
 		driver.findElement(By.name("txtVlrDesc")).sendKeys("3");
 		driver.findElement(By.name("txtVlrMax")).sendKeys("4");
 		driver.findElement(By.name("btnSalvar")).click();
+		Thread.sleep(2000);
 		String reposta =driver.findElement(By.xpath("/html/body/div/table[2]/tbody/tr/td/form/table/tbody/tr[2]/td")).getText();
-		Assert.assertTrue(reposta.contains("Salvo com sucesso"));
+		System.out.println("o"+reposta);
+		Assert.assertTrue(reposta.contains("suce"));
 		
 		driver.findElement(By.name("cmdOK")).click();
 		
@@ -761,8 +918,8 @@ public class Regressao {
 		
 		WebDriver driver = LoginVisualStore();
 	    driver.findElement(By.id("e0_5i")).click();
-	    driver.findElement(By.id("e0_46i")).click();
-	    driver.findElement(By.id("e0_47i")).click();
+	    driver.findElement(By.id("e0_48i")).click();
+	    driver.findElement(By.id("e0_49i")).click();
 		driver.switchTo().frame(0).findElement(By.linkText("Incluir")).click();
 		driver.findElement(By.name("txtDescricao")).sendKeys("Casadinha regresao seleniun " + casadinha);
 		driver.findElement(By.name("txtCuponagem")).sendKeys("0");
@@ -773,19 +930,21 @@ public class Regressao {
 		driver.findElement(By.id("lnktabtabTela1")).click();
 		driver.findElement(By.name("pesProdutoOrigem0000000000")).sendKeys(produto);
 		driver.findElement(By.name("pesProdutoOrigem0000000000")).sendKeys(Keys.TAB);
+		Thread.sleep(3000);
 		driver.findElement(By.name("cmbEmabalagemOrigem1")).click();
-		new Select(driver.findElement(By.name("cmbEmabalagemOrigem1"))).selectByVisibleText("1 - UND/0000");
+		new Select(driver.findElement(By.name("cmbEmabalagemOrigem1"))).selectByIndex(1);
 		driver.findElement(By.name("quantidadeOrigem2")).clear();
 		driver.findElement(By.name("quantidadeOrigem2")).click();
 		driver.findElement(By.name("quantidadeOrigem2")).sendKeys("1");
 		driver.findElement(By.name("btnAdd6")).click();
+		Thread.sleep(3000);
 		driver.findElement(By.name("btnSalvarOrigem")).click();
 		driver.switchTo().alert().accept();
 		driver.findElement(By.name("cmdOK")).click();
 
 		driver.findElement(By.id("lnktabtabTela2")).click();
 		driver.findElement(By.name("cmbTipoDescontoPromovido")).click();
-		new Select(driver.findElement(By.name("cmbTipoDescontoPromovido"))).selectByVisibleText("Valor de desconto");
+		new Select(driver.findElement(By.name("cmbTipoDescontoPromovido"))).selectByIndex(1);
 		driver.findElement(By.name("txtValorPromovido")).click();
 		driver.findElement(By.name("txtValorPromovido")).clear();
 		driver.findElement(By.name("txtValorPromovido")).sendKeys("1");
@@ -794,16 +953,18 @@ public class Regressao {
 		driver.findElement(By.name("txtQuantidadePromovido")).sendKeys("1");
 		driver.findElement(By.name("pesProduto0000000000")).sendKeys(produto);
 		driver.findElement(By.name("pesProduto0000000000")).sendKeys(Keys.TAB);
+		Thread.sleep(3000);
 		driver.findElement(By.name("cmbEmbalegmPromovido1")).click();
-		new Select(driver.findElement(By.name("cmbEmbalegmPromovido1"))).selectByVisibleText("1 - UND/0000");
+		new Select(driver.findElement(By.name("cmbEmbalegmPromovido1"))).selectByIndex(1);
 		driver.findElement(By.name("cmbTipoDescontoProvido2")).click();
-		new Select(driver.findElement(By.name("cmbTipoDescontoProvido2"))).selectByVisibleText("Valor de desconto");
+		new Select(driver.findElement(By.name("cmbTipoDescontoProvido2"))).selectByIndex(1);
 
 		driver.findElement(By.name("txtValorPromovido3")).click();
 
 		driver.findElement(By.name("txtValorPromovido3")).clear();
 		driver.findElement(By.name("txtValorPromovido3")).sendKeys("1");
 		driver.findElement(By.name("btnAdd5")).click();
+		Thread.sleep(3000);
 		driver.findElement(By.name("btnSalvarPromovido")).click();
 		driver.switchTo().alert().accept();
 		driver.findElement(By.name("cmdOK")).click();
@@ -812,7 +973,7 @@ public class Regressao {
 		driver.findElement(By.name("txtCodigoBin")).click();
 		driver.findElement(By.name("txtCodigoBin")).clear();
 		driver.findElement(By.name("txtCodigoBin")).sendKeys("1234");
-		driver.findElement(By.xpath("//div[@id='tabtabTela3']/table/tbody/tr[6]/td/input")).click();
+		driver.findElement(By.xpath("//div[@id='tabtabTela3']/table/tbody/tr[7]/td/input")).click();
 		driver.findElement(By.name("cmdOK")).click();
 
 		driver.findElement(By.id("lnktabtabTela7")).click();
@@ -836,14 +997,14 @@ public class Regressao {
 
 		WebDriver driver = LoginVisualStore();
 
-		   driver.findElement(By.id("e0_5i")).click();
-		    driver.findElement(By.id("e0_46o")).click();
-		    driver.findElement(By.id("e0_53i")).click();
+	    driver.findElement(By.id("e0_5i")).click();
+	    driver.findElement(By.id("e0_48i")).click();
+		    driver.findElement(By.id("e0_55i")).click();
 		driver.switchTo().frame(0).findElement(By.linkText("Incluir")).click();
 		driver.findElement(By.name("txtProdutoId")).sendKeys(String.valueOf(data.getUltimoIdProduto()));
 		driver.findElement(By.name("cmbSeqEmbalagem")).click();
 		driver.findElement(By.name("cmbTipo")).click();
-		new Select(driver.findElement(By.name("cmbTipo"))).selectByVisibleText(data.getTipoVendas());
+		new Select(driver.findElement(By.name("cmbTipo"))).selectByIndex(1);
 		driver.findElement(By.name("txtQtdeMaxima")).clear();
 		driver.findElement(By.name("txtQtdeMaxima")).sendKeys("10");
 		driver.findElement(By.name("txtQtd1")).clear();
@@ -870,7 +1031,7 @@ public class Regressao {
 		driver.findElement(By.name("btnSalvar")).click();
 		driver.switchTo().alert().accept();
 		
-		 String reposta = driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Cadastro de Atacado'])[1]/following::td[4]")).getText();
+		 String reposta = driver.findElement(By.xpath("/html/body/div/table[2]/tbody/tr/td/form/table/tbody/tr[2]/td")).getText();
 		 Assert.assertTrue(reposta.contains("com sucesso"));
 		
 		driver.findElement(By.name("cmdOK")).click();

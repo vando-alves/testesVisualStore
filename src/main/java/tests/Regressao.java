@@ -377,7 +377,6 @@ public class Regressao {
 	        }
 	}
 	
-	
 	// TESTE DE CADASTRO MERCADOLÓGICO
 	@Test
 	public void testCadastroMercadologico() throws InterruptedException {

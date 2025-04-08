@@ -45,14 +45,14 @@ public class TestCadastroPerfil extends BaseTestLogin {
 			driver.findElement(By.name("cmdOK")).click();
 			status = "Sucesso!";
 		} catch (NoSuchElementException e) {
-			System.out.println("Erro: Elemento não encontrado.");
-			status = "Falha!";
+			System.out.println("Erro: Elemento nao encontrado."+ e.getMessage());
+			status = "Erro: Elemento nao encontrado."+ e.getMessage();
 		} catch (AssertionError e) {
 			System.out.println("O teste falhou em uma asserção: " + e.getMessage());
-			status = "Falha!";
+			status = "O teste falhou em uma assercao: " + e.getMessage();
 		} catch (Exception e) {
 			System.out.println("Erro inesperado: " + e.getMessage());
-			status = "Falha!";
+			status = "Erro inesperado: " + e.getMessage();
 		} finally {
 			driver.close(); // Fecha o driver, independentemente do resultado
 		}

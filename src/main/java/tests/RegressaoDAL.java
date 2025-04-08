@@ -78,6 +78,24 @@ public class RegressaoDAL {
 		    
 		return idMercadologico;
 	}
+	
+	
+	public int getCodUltimoIdMercadologico() {
+
+		if (conn == null) {
+			System.out.println("Não ha conexão");
+		}
+
+		int Cod = 0 ;
+		String strsql = "select mercadologico1,descricao from MERCADOLOGICOS where mercadologico1 = (select MAX(mercadologico1) from MERCADOLOGICOS where NIVEL =1)";
+		IRecordSet rst = conn.getRecordSet(strsql);
+
+		if (rst.next())
+			
+			Cod =rst.getInt("MERCADOLOGICO1");
+
+		return Cod;
+	}
 
 	public int getUltimoIdProduto() {
 

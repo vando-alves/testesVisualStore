@@ -39,8 +39,8 @@ public class TestCadastroFornecedor extends BaseTestLogin {
 			new Select(driver.findElement(By.name("cmbFrete"))).selectByVisibleText("C - CIF");
 			driver.findElement(By.name("btnSalvar")).click();
 			driver.switchTo().alert().accept();
-			String reposta = driver
-					.findElement(By.xpath("/html/body/div/table[2]/tbody/tr/td/form/table/tbody/tr[2]/td")).getText();
+			Thread.sleep(1000);
+			String reposta = driver.findElement(By.xpath("/html/body/div/table[2]/tbody/tr/td/form/table/tbody/tr[2]/td")).getText();
 			Assert.assertEquals(reposta, "Os dados foram salvos com sucesso");
 			driver.findElement(By.name("cmdOK")).click();
 			Thread.sleep(2500);
@@ -48,13 +48,13 @@ public class TestCadastroFornecedor extends BaseTestLogin {
 			status = "Sucesso!";
 		} catch (NoSuchElementException e) {
 			System.out.println("Erro: Elemento não encontrado.");
-			status = "Falha!";
+			status = "Erro: Elemento não encontrado." + e.getMessage();
 		} catch (AssertionError e) {
 			System.out.println("O teste falhou em uma asserção: " + e.getMessage());
-			status = "Falha!";
+			status = "O teste falhou em uma asserção: " + e.getMessage();
 		} catch (Exception e) {
 			System.out.println("Erro inesperado: " + e.getMessage());
-			status = "Falha!";
+			status = "Erro inesperado: " + e.getMessage();
 		} finally {
 			driver.close(); // Fecha o driver, independentemente do resultado
 		}

@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import dao.DatabspDao;
+import dao.UserDao;
 
 /**
  * Servlet implementation class LoginServlet
@@ -22,7 +22,7 @@ public class LoginServlet extends HttpServlet {
 	        String username = request.getParameter("username");
 	        String password = request.getParameter("password");
 	        
-	        DatabspDao userDAO = new DatabspDao();
+	        UserDao userDAO = new UserDao();
 
 	        if (userDAO.ValidateUser(username, password)) {
 	            request.getRequestDispatcher("sistema.jsp").forward(request, response);
