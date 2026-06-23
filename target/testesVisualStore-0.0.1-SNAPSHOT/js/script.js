@@ -96,9 +96,9 @@ function alterarStatusFinaliza(acao,resposta) {
                     
                     break;
                     
-                    case "testecadastroatacado":
-                    var btn = document.getElementById("btnatacado");
-                    var coluna = document.getElementById("statusatacado");
+                    case "testecadastroapartirde":
+                    var btn = document.getElementById("btnapartirde");
+                    var coluna = document.getElementById("statusapartirde");
                     
                     break;
                     
@@ -200,10 +200,10 @@ function alterarStatusProcesando(acao) {
                     var coluna = document.getElementById("statuscasadinha");
                     
                     break;
-                    
-                     case "testecadastroatacado":
-                    var btn = document.getElementById("btnatacado");
-                    var coluna = document.getElementById("statusatacado");
+
+                   case "testecadastroapartirde":
+                    var btn = document.getElementById("btnapartirde");
+                    var coluna = document.getElementById("statusapartirde");
                     
                     break;
                     
@@ -220,78 +220,7 @@ function alterarStatusProcesando(acao) {
              btn.textContent = "Teste Iniciado";
              coluna.innerHTML = '<img src="imagens/processing.gif" alt="Processando" class="status-img" > Realizando teste ...';
         }
-        
-        
-       
-         // Adiciona o evento ao botão após o DOM estar pronto
-        document.getElementById("btnloja").onclick = function() {
-            enviarRequisicao('testecadastroloja');
-        };
-       
-        
-        // Adiciona o evento ao botão após o DOM estar pronto
-        document.getElementById("btnperfil").onclick = function() {
-            enviarRequisicao('testecadastroperfil');
-        };
-        
-         // Adiciona o evento ao botão após o DOM estar pronto
-        document.getElementById("btnusuario").onclick = function() {
-            enviarRequisicao('testcadastrousuario');
-        };
-        
-        // Adiciona o evento ao botão após o DOM estar pronto
-        document.getElementById("btnfornecedor").onclick = function() {
-            enviarRequisicao('testecadastrofornecedor');
-        };
-        
-         // Adiciona o evento ao botão após o DOM estar pronto
-        document.getElementById("btnmercadologico").onclick = function() {
-            enviarRequisicao('testecadastromercadologico');
-        };
-        
-         // Adiciona o evento ao botão após o DOM estar pronto
-        document.getElementById("btnproduto").onclick = function() {
-            enviarRequisicao('testecadastroproduto');
-        };
-        
-        
-           // Adiciona o evento ao botão após o DOM estar pronto
-        document.getElementById("btnkit").onclick = function() {
-            enviarRequisicao('testecadastrokit');
-        };
-        
-        
-           // Adiciona o evento ao botão após o DOM estar pronto
-        document.getElementById("btncomponentepdv").onclick = function() {
-            enviarRequisicao('testecadastrocomponentepdv');
-        };
-        
-        
-           // Adiciona o evento ao botão após o DOM estar pronto
-        document.getElementById("btncomponentetotem").onclick = function() {
-            enviarRequisicao('testecadastrocomponentetotem');
-        };
-        
-          // Adiciona o evento ao botão após o DOM estar pronto
-        document.getElementById("btncomponentegateway").onclick = function() {
-            enviarRequisicao('testecadastrocomponentegateway');
-        };
-        
-          // Adiciona o evento ao botão após o DOM estar pronto
-        document.getElementById("btncuponagem").onclick = function() {
-            enviarRequisicao('testecadastrocuponagem');
-        };
-        
-          // Adiciona o evento ao botão após o DOM estar pronto
-        document.getElementById("btncasadinha").onclick = function() {
-            enviarRequisicao('testecadastrocasadinha');
-        };
-        
-  // Adiciona o evento ao botão após o DOM estar pronto
-        document.getElementById("btnatacado").onclick = function() {
-            enviarRequisicao('testecadastroatacado');
-        };
-  
+
   async function clicarTodos() {
 	
 	 var coluna = document.getElementById("statustodos");

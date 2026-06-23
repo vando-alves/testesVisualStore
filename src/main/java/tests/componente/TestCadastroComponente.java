@@ -15,43 +15,6 @@ public String status;
 	@Test
 	public void testCadastroComponentePdvValido() throws Exception {
 
-		
-		//Primeiro Habilito loja para o usuario
-		try {
-
-			setUp();
-			LoginVisualStore();
-
-			    driver.findElement(By.id("e0_0i")).click();
-			    driver.findElement(By.id("e0_2i")).click();
-			    driver.switchTo().frame(0).findElement(By.name("txtValor")).click();
-			    driver.findElement(By.name("txtValor")).clear();
-			    driver.findElement(By.name("txtValor")).sendKeys("visualmix");
-			    driver.findElement(By.name("cmbCampos")).click();
-			    new Select(driver.findElement(By.name("cmbCampos"))).selectByVisibleText("Nome");
-			    driver.findElement(By.name("cmdVer")).click();
-			    driver.findElement(By.linkText("visualmix")).click();
-			    driver.findElement(By.id("lnktabtabTela1")).click();
-			    driver.findElement(By.id("lnktabtabTela2")).click();
-			    driver.findElement(By.name("dtgLojas_header")).click();
-			    driver.findElement(By.xpath("//div[@id='tabtabTela2']/table/tbody/tr[4]/td/input")).click();
-			    driver.findElement(By.xpath("//div[@id='tabtabTela2']/table/tbody/tr[4]/td/input")).click();
-			    driver.switchTo().alert().accept();
-				driver.findElement(By.name("cmdOK")).click();
-			    driver.close();
-
-		} catch (NoSuchElementException e) {
-			System.out.println("Erro: Elemento nao encontrado."+ e.getMessage());
-		} catch (AssertionError e) {
-			System.out.println("O teste falhou em uma assercao: " + e.getMessage());
-		} catch (Exception e) {
-			System.out.println("Erro inesperado: " + e.getMessage());
-		} finally {
-			driver.close(); // Fecha o driver, independentemente do resultado
-		}
-		
-
-
 		String loja = String.valueOf(data.getUltimoId("LOJAS"));
 		String componentePDV = String.valueOf(data.getUltimoIdComponente(loja) +1);
 

@@ -212,7 +212,7 @@ public class TestesServlet extends HttpServlet {
 			
 			break;	
 			
-		case "testecadastroatacado":
+		case "testecadastroapartirde":
 
 			TestCadastroAtacado testCadastroAtacado = new TestCadastroAtacado();
 

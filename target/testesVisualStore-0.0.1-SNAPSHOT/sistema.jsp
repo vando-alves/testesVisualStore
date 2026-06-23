@@ -129,10 +129,10 @@
          <tr>
             <td>13</td>
             <td>Teste cadastro de Atacado</td>
-			<td> <button id="btnatacado" onclick="enviarRequisicao('testecadastroatacado')"   class="acao-coluna" data-id="btnatacado"> Iniciar Teste </button></td>
-            <td id="statusatacado"  > Não Inicializado</td>
+			<td> <button id="btnapartirde" onclick="enviarRequisicao('testecadastroapartirde')"   class="acao-coluna" data-id="btnapartirde"> Iniciar Teste </button></td>
+            <td id="statusapartirde"  > Não Inicializado</td>
         </tr>
-
+        
     </tbody>
 </table>
 

@@ -185,6 +185,7 @@ public class Regressao {
 		driver.findElement(By.id("e0_20i")).click();
 		driver.findElement(By.id("e0_21i")).click();
 		driver.switchTo().frame(0).findElement(By.linkText("Incluir")).click();
+		Thread.sleep(2500);
 		driver.findElement(By.name("txtCodigo")).sendKeys(loja);
 		driver.findElement(By.name("txtRazaoSoc")).sendKeys("regresao seleniun");
 		driver.findElement(By.name("txtDescricao")).sendKeys("regresao seleniun");
@@ -215,7 +216,7 @@ public class Regressao {
 		driver.findElement(By.name("usaNFCE")).click();
 		driver.findElement(By.name("btnSalvar")).click();
         driver.switchTo().alert().accept();
-   
+        Thread.sleep(2500);
 		String reposta =driver.findElement(By.xpath("/html/body/div/table[2]/tbody/tr/td/form/table/tbody/tr[2]/td")).getText();
 		Assert.assertEquals(reposta, "Os dados foram salvos com sucesso");
 
@@ -428,7 +429,7 @@ public class Regressao {
 		String fornecedor = String.valueOf(data.getUltimoId("FORNECEDORES") +1);
 		
 		WebDriver driver = LoginVisualStore();
-		 try {
+		try {
 		driver.findElement(By.id("e0_5i")).click();
 	    driver.findElement(By.id("e0_6i")).click();
 	    driver.findElement(By.id("e0_8i")).click();
@@ -449,27 +450,27 @@ public class Regressao {
 		driver.findElement(By.name("btnSalvar")).click();
 		driver.switchTo().alert().accept();
 		String reposta =driver.findElement(By.xpath("/html/body/div/table[2]/tbody/tr/td/form/table/tbody/tr[2]/td")).getText();
-	    System.out.println(reposta);
-			    Assert.assertEquals(reposta, "Os dados foram salvos com sucesso");
-	        	driver.findElement(By.name("cmdOK")).click();
-	    		Thread.sleep(2500);
-	    		Assert.assertEquals(fornecedor,String.valueOf(data.getUltimoId("FORNECEDORES")));
-	            //resultadoTeste = true; // O teste passou
-	        } catch (NoSuchElementException e) {
-	            System.out.println("Erro: Elemento não encontrado.");
-	           /// resultadoTeste = false; // Define o teste como falho
-	            throw e; // Relança a exceção para que o JUnit registre a falha
-	        } catch (AssertionError e) {
-	            ///resultadoTeste = false; // O teste falhou em uma asserção
-	            System.out.println("O teste falhou em uma asserção: " + e.getMessage());
-	            throw e; // Relança a exceção para que o JUnit registre a falha
-	        } catch (Exception e) {
-	            System.out.println("Erro inesperado: " + e.getMessage());
-	           /// resultadoTeste = false; // O teste falhou em uma asserção
-	            throw e; // Relança a exceção para que o JUnit registre a falha
-	        } finally {
-	            driver.close(); // Fecha o driver, independentemente do resultado
-	        }
+		Assert.assertEquals(reposta, "Os dados foram salvos com sucesso");
+	    driver.findElement(By.name("cmdOK")).click();
+	    Thread.sleep(2500);
+	    Assert.assertEquals(fornecedor,String.valueOf(data.getUltimoId("FORNECEDORES")));
+	    //resultadoTeste = true; // O teste passou
+	    
+	    } catch (NoSuchElementException e) {
+	       System.out.println("Erro: Elemento não encontrado.");
+	     /// resultadoTeste = false; // Define o teste como falho
+	     throw e; // Relança a exceção para que o JUnit registre a falha
+	     } catch (AssertionError e) {
+	      ///resultadoTeste = false; // O teste falhou em uma asserção
+	    System.out.println("O teste falhou em uma asserção: " + e.getMessage());
+	    throw e; // Relança a exceção para que o JUnit registre a falha
+	    } catch (Exception e) {
+	       System.out.println("Erro inesperado: " + e.getMessage());
+	       /// resultadoTeste = false; // O teste falhou em uma asserção
+	       throw e; // Relança a exceção para que o JUnit registre a falha
+	    } finally {
+	       driver.close(); // Fecha o driver, independentemente do resultado
+	    }
 	}
 	
 	// TESTE DE CADASTRO FORNECEDOR
@@ -507,9 +508,7 @@ public class Regressao {
 			Assert.assertEquals(fornecedor,String.valueOf(data.getUltimoId("FORNECEDORES")));
 			driver.close();
 		}
-	
-	
-	
+
 	// TESTE DE CADASTRO MERCADOLÃ“GICO
 	@Test
 	public void testCadastroMercadologico() throws InterruptedException {
@@ -718,7 +717,6 @@ public class Regressao {
 		//driver.close();
 	}
 	
-	
 	// TESTE DE CADASTRO COMPONENTE PDV
 	@Test
 	public void testCadastroComponentePDV() throws InterruptedException {
@@ -859,7 +857,6 @@ public class Regressao {
 
 		driver.close();
 	}
-
 
 	// ***************************************
 	// CADASTROS PROMOÃ‡OES4zew3a
@@ -1040,10 +1037,7 @@ public class Regressao {
 		driver.close();
 	}
 
-	
-	
-	
-	
+
 	// TESTE DE ALTERAR SENHA
 	@Test
 	public void testAlterarSenha() {

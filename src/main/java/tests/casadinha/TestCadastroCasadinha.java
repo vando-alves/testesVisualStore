@@ -86,6 +86,7 @@ public String status;
 				driver.findElement(By.name("cmdOK")).click();
 
 				driver.findElement(By.id("lnktabtabTela7")).click();
+				Thread.sleep(2000);
 				driver.findElement(By.name("dtgLojas_header")).click();
 				driver.findElement(By.xpath("//div[@id='tabtabTela7']/table/tbody/tr[4]/td/input")).click();
 				driver.switchTo().alert().accept();
